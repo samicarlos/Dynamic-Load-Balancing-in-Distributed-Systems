@@ -1,0 +1,48 @@
+services:
+
+  worker-1:
+    build:
+      context: .
+      dockerfile: docker/Dockerfile.worker
+    environment:
+      - WORKER_ID=worker-1
+      - MIN_DELAY=0.1
+      - MAX_DELAY=0.3
+    ports:
+      - "8001:8000"
+
+  worker-2:
+    build:
+      context: .
+      dockerfile: docker/Dockerfile.worker
+    environment:
+      - WORKER_ID=worker-2
+      - MIN_DELAY=0.5   # slow worker — makes the experiment interesting
+      - MAX_DELAY=1.0
+    ports:
+      - "8002:8000"
+
+  worker-3:
+    build:
+      context: .
+      dockerfile: docker/Dockerfile.worker
+    environment:
+      - WORKER_ID=worker-3
+      - MIN_DELAY=0.1
+      - MAX_DELAY=0.3
+    ports:
+      - "8003:8000"
+
+  balancer:
+    build:
+      context: .
+      dockerfile: docker/Dockerfile.balancer
+    environment:
+      # Use Docker internal hostnames, not localhost
+      - WORKERS=http://worker-1:8000,http://worker-2:8000,http://worker-3:8000
+    ports:
+      - "9000:9000"
+    depends_on:
+      - worker-1
+      - worker-2
+      - worker-3
