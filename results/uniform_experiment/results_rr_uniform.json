@@ -1,0 +1,8002 @@
+[
+  {
+    "ok": true,
+    "latency": 0.32066000000031636,
+    "worker_id": "worker-2",
+    "processing_time": 0.1123,
+    "routed_to": "http://worker-2:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.39401760000009745,
+    "worker_id": "worker-2",
+    "processing_time": 0.2004,
+    "routed_to": "http://worker-2:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.5319773000001078,
+    "worker_id": "worker-2",
+    "processing_time": 0.2846,
+    "routed_to": "http://worker-2:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.49015240000017,
+    "worker_id": "worker-3",
+    "processing_time": 0.2804,
+    "routed_to": "http://worker-3:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.31424479999986943,
+    "worker_id": "worker-1",
+    "processing_time": 0.1272,
+    "routed_to": "http://worker-1:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.37969569999995656,
+    "worker_id": "worker-1",
+    "processing_time": 0.1954,
+    "routed_to": "http://worker-1:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.49076119999972434,
+    "worker_id": "worker-2",
+    "processing_time": 0.2574,
+    "routed_to": "http://worker-2:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.4855471999999281,
+    "worker_id": "worker-2",
+    "processing_time": 0.2244,
+    "routed_to": "http://worker-2:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.49022629999990386,
+    "worker_id": "worker-3",
+    "processing_time": 0.2416,
+    "routed_to": "http://worker-3:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.4012465999999222,
+    "worker_id": "worker-2",
+    "processing_time": 0.1826,
+    "routed_to": "http://worker-2:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.2979347999998936,
+    "worker_id": "worker-1",
+    "processing_time": 0.1012,
+    "routed_to": "http://worker-1:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.36488109999982044,
+    "worker_id": "worker-3",
+    "processing_time": 0.1591,
+    "routed_to": "http://worker-3:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.4881495000004179,
+    "worker_id": "worker-2",
+    "processing_time": 0.2617,
+    "routed_to": "http://worker-2:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.49761369999987437,
+    "worker_id": "worker-3",
+    "processing_time": 0.2862,
+    "routed_to": "http://worker-3:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.4927016999999978,
+    "worker_id": "worker-3",
+    "processing_time": 0.2916,
+    "routed_to": "http://worker-3:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.3120481999999356,
+    "worker_id": "worker-2",
+    "processing_time": 0.1438,
+    "routed_to": "http://worker-2:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.37341890000016065,
+    "worker_id": "worker-1",
+    "processing_time": 0.2013,
+    "routed_to": "http://worker-1:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.46355629999970915,
+    "worker_id": "worker-3",
+    "processing_time": 0.2398,
+    "routed_to": "http://worker-3:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.4819422000000486,
+    "worker_id": "worker-2",
+    "processing_time": 0.2277,
+    "routed_to": "http://worker-2:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.41272269999990385,
+    "worker_id": "worker-3",
+    "processing_time": 0.2057,
+    "routed_to": "http://worker-3:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.4842183999999179,
+    "worker_id": "worker-2",
+    "processing_time": 0.2184,
+    "routed_to": "http://worker-2:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.29011880000007295,
+    "worker_id": "worker-3",
+    "processing_time": 0.103,
+    "routed_to": "http://worker-3:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.5515957000002345,
+    "worker_id": "worker-1",
+    "processing_time": 0.2813,
+    "routed_to": "http://worker-1:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.39750250000042797,
+    "worker_id": "worker-3",
+    "processing_time": 0.1897,
+    "routed_to": "http://worker-3:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.2617723999996997,
+    "worker_id": "worker-1",
+    "processing_time": 0.1068,
+    "routed_to": "http://worker-1:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.4767572000000655,
+    "worker_id": "worker-2",
+    "processing_time": 0.2813,
+    "routed_to": "http://worker-2:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.4767880999997942,
+    "worker_id": "worker-3",
+    "processing_time": 0.2696,
+    "routed_to": "http://worker-3:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.2687079999996058,
+    "worker_id": "worker-2",
+    "processing_time": 0.1106,
+    "routed_to": "http://worker-2:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.32384929999989254,
+    "worker_id": "worker-1",
+    "processing_time": 0.1513,
+    "routed_to": "http://worker-1:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.3186702999996669,
+    "worker_id": "worker-3",
+    "processing_time": 0.1498,
+    "routed_to": "http://worker-3:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.3356524000000718,
+    "worker_id": "worker-2",
+    "processing_time": 0.1755,
+    "routed_to": "http://worker-2:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.35836260000041875,
+    "worker_id": "worker-1",
+    "processing_time": 0.1701,
+    "routed_to": "http://worker-1:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.4760431999998218,
+    "worker_id": "worker-3",
+    "processing_time": 0.2516,
+    "routed_to": "http://worker-3:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.41949979999981224,
+    "worker_id": "worker-1",
+    "processing_time": 0.2167,
+    "routed_to": "http://worker-1:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.29924220000020796,
+    "worker_id": "worker-2",
+    "processing_time": 0.1115,
+    "routed_to": "http://worker-2:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.41277709999985746,
+    "worker_id": "worker-1",
+    "processing_time": 0.216,
+    "routed_to": "http://worker-1:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.2938512999999148,
+    "worker_id": "worker-1",
+    "processing_time": 0.1058,
+    "routed_to": "http://worker-1:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.3313932000000932,
+    "worker_id": "worker-3",
+    "processing_time": 0.1456,
+    "routed_to": "http://worker-3:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.3997375000003558,
+    "worker_id": "worker-1",
+    "processing_time": 0.2079,
+    "routed_to": "http://worker-1:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.27269959999966886,
+    "worker_id": "worker-1",
+    "processing_time": 0.1259,
+    "routed_to": "http://worker-1:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.38772649999964415,
+    "worker_id": "worker-1",
+    "processing_time": 0.2225,
+    "routed_to": "http://worker-1:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.382054799999878,
+    "worker_id": "worker-2",
+    "processing_time": 0.2133,
+    "routed_to": "http://worker-2:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.3477665000000343,
+    "worker_id": "worker-1",
+    "processing_time": 0.1894,
+    "routed_to": "http://worker-1:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.46917900000016743,
+    "worker_id": "worker-3",
+    "processing_time": 0.2831,
+    "routed_to": "http://worker-3:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.2696476999999504,
+    "worker_id": "worker-3",
+    "processing_time": 0.1173,
+    "routed_to": "http://worker-3:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.4214156000002731,
+    "worker_id": "worker-1",
+    "processing_time": 0.2202,
+    "routed_to": "http://worker-1:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.34586250000029395,
+    "worker_id": "worker-3",
+    "processing_time": 0.1676,
+    "routed_to": "http://worker-3:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.31478910000032556,
+    "worker_id": "worker-1",
+    "processing_time": 0.1338,
+    "routed_to": "http://worker-1:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.32516190000023926,
+    "worker_id": "worker-2",
+    "processing_time": 0.1438,
+    "routed_to": "http://worker-2:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.3878521000001456,
+    "worker_id": "worker-3",
+    "processing_time": 0.2004,
+    "routed_to": "http://worker-3:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.22061349999967206,
+    "worker_id": "worker-2",
+    "processing_time": 0.1476,
+    "routed_to": "http://worker-2:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.29046770000013566,
+    "worker_id": "worker-3",
+    "processing_time": 0.2344,
+    "routed_to": "http://worker-3:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.21093100000007325,
+    "worker_id": "worker-1",
+    "processing_time": 0.1291,
+    "routed_to": "http://worker-1:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.2811962000000676,
+    "worker_id": "worker-2",
+    "processing_time": 0.2203,
+    "routed_to": "http://worker-2:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.1986348000000362,
+    "worker_id": "worker-3",
+    "processing_time": 0.1208,
+    "routed_to": "http://worker-3:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.2302205999999387,
+    "worker_id": "worker-1",
+    "processing_time": 0.1283,
+    "routed_to": "http://worker-1:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.22229459999971368,
+    "worker_id": "worker-2",
+    "processing_time": 0.1154,
+    "routed_to": "http://worker-2:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.24315949999981967,
+    "worker_id": "worker-3",
+    "processing_time": 0.1156,
+    "routed_to": "http://worker-3:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.2527221999998801,
+    "worker_id": "worker-2",
+    "processing_time": 0.1394,
+    "routed_to": "http://worker-2:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.3506981000000451,
+    "worker_id": "worker-3",
+    "processing_time": 0.293,
+    "routed_to": "http://worker-3:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.30231019999973796,
+    "worker_id": "worker-1",
+    "processing_time": 0.2473,
+    "routed_to": "http://worker-1:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.2415456999997332,
+    "worker_id": "worker-1",
+    "processing_time": 0.1754,
+    "routed_to": "http://worker-1:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.3092854999999872,
+    "worker_id": "worker-3",
+    "processing_time": 0.2697,
+    "routed_to": "http://worker-3:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.23671969999986686,
+    "worker_id": "worker-2",
+    "processing_time": 0.1681,
+    "routed_to": "http://worker-2:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.32080560000031255,
+    "worker_id": "worker-1",
+    "processing_time": 0.2632,
+    "routed_to": "http://worker-1:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.2833224999999402,
+    "worker_id": "worker-3",
+    "processing_time": 0.2265,
+    "routed_to": "http://worker-3:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.2797292000000198,
+    "worker_id": "worker-2",
+    "processing_time": 0.2184,
+    "routed_to": "http://worker-2:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.2854330000000118,
+    "worker_id": "worker-1",
+    "processing_time": 0.2181,
+    "routed_to": "http://worker-1:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.2193702999998095,
+    "worker_id": "worker-2",
+    "processing_time": 0.1162,
+    "routed_to": "http://worker-2:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.275590999999622,
+    "worker_id": "worker-3",
+    "processing_time": 0.1788,
+    "routed_to": "http://worker-3:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.23954129999992801,
+    "worker_id": "worker-1",
+    "processing_time": 0.1409,
+    "routed_to": "http://worker-1:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.36288729999978386,
+    "worker_id": "worker-2",
+    "processing_time": 0.2669,
+    "routed_to": "http://worker-2:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.2722256000001835,
+    "worker_id": "worker-3",
+    "processing_time": 0.179,
+    "routed_to": "http://worker-3:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.3096730000002026,
+    "worker_id": "worker-1",
+    "processing_time": 0.2109,
+    "routed_to": "http://worker-1:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.3613322999999582,
+    "worker_id": "worker-2",
+    "processing_time": 0.2618,
+    "routed_to": "http://worker-2:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.3379202000000987,
+    "worker_id": "worker-3",
+    "processing_time": 0.1901,
+    "routed_to": "http://worker-3:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.44381280000015977,
+    "worker_id": "worker-1",
+    "processing_time": 0.2861,
+    "routed_to": "http://worker-1:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.26187030000028244,
+    "worker_id": "worker-2",
+    "processing_time": 0.1078,
+    "routed_to": "http://worker-2:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.38529279999966093,
+    "worker_id": "worker-3",
+    "processing_time": 0.2336,
+    "routed_to": "http://worker-3:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.4544837000003099,
+    "worker_id": "worker-2",
+    "processing_time": 0.2696,
+    "routed_to": "http://worker-2:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.39565300000003845,
+    "worker_id": "worker-1",
+    "processing_time": 0.2492,
+    "routed_to": "http://worker-1:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.32211169999982303,
+    "worker_id": "worker-3",
+    "processing_time": 0.1579,
+    "routed_to": "http://worker-3:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.3512399999999616,
+    "worker_id": "worker-1",
+    "processing_time": 0.1855,
+    "routed_to": "http://worker-1:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.30313200000000506,
+    "worker_id": "worker-2",
+    "processing_time": 0.1554,
+    "routed_to": "http://worker-2:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.30279739999969024,
+    "worker_id": "worker-3",
+    "processing_time": 0.1514,
+    "routed_to": "http://worker-3:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.3637133000001995,
+    "worker_id": "worker-3",
+    "processing_time": 0.2242,
+    "routed_to": "http://worker-3:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.22174219999988054,
+    "worker_id": "worker-1",
+    "processing_time": 0.1013,
+    "routed_to": "http://worker-1:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.44814550000000963,
+    "worker_id": "worker-1",
+    "processing_time": 0.2902,
+    "routed_to": "http://worker-1:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.45913340000015523,
+    "worker_id": "worker-2",
+    "processing_time": 0.2988,
+    "routed_to": "http://worker-2:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.3631508999997095,
+    "worker_id": "worker-2",
+    "processing_time": 0.2195,
+    "routed_to": "http://worker-2:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.23727659999985917,
+    "worker_id": "worker-3",
+    "processing_time": 0.1166,
+    "routed_to": "http://worker-3:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.36753730000009455,
+    "worker_id": "worker-1",
+    "processing_time": 0.2311,
+    "routed_to": "http://worker-1:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.4060589999999138,
+    "worker_id": "worker-2",
+    "processing_time": 0.2694,
+    "routed_to": "http://worker-2:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.39892650000001595,
+    "worker_id": "worker-3",
+    "processing_time": 0.2559,
+    "routed_to": "http://worker-3:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.23876500000005763,
+    "worker_id": "worker-1",
+    "processing_time": 0.121,
+    "routed_to": "http://worker-1:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.3251695000003565,
+    "worker_id": "worker-2",
+    "processing_time": 0.2073,
+    "routed_to": "http://worker-2:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.3076344999999492,
+    "worker_id": "worker-3",
+    "processing_time": 0.191,
+    "routed_to": "http://worker-3:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.2664796000003662,
+    "worker_id": "worker-1",
+    "processing_time": 0.1413,
+    "routed_to": "http://worker-1:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.37542940000003,
+    "worker_id": "worker-1",
+    "processing_time": 0.239,
+    "routed_to": "http://worker-1:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.43835040000021763,
+    "worker_id": "worker-2",
+    "processing_time": 0.2879,
+    "routed_to": "http://worker-2:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.221575699999903,
+    "worker_id": "worker-3",
+    "processing_time": 0.1134,
+    "routed_to": "http://worker-3:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.3649619000002531,
+    "worker_id": "worker-2",
+    "processing_time": 0.2467,
+    "routed_to": "http://worker-2:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.34843880000016725,
+    "worker_id": "worker-3",
+    "processing_time": 0.2395,
+    "routed_to": "http://worker-3:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.29023570000026666,
+    "worker_id": "worker-1",
+    "processing_time": 0.1983,
+    "routed_to": "http://worker-1:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.3821591000000808,
+    "worker_id": "worker-2",
+    "processing_time": 0.2801,
+    "routed_to": "http://worker-2:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.1970808000000943,
+    "worker_id": "worker-3",
+    "processing_time": 0.1222,
+    "routed_to": "http://worker-3:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.3677652000001217,
+    "worker_id": "worker-1",
+    "processing_time": 0.2669,
+    "routed_to": "http://worker-1:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.36758030000009967,
+    "worker_id": "worker-3",
+    "processing_time": 0.2727,
+    "routed_to": "http://worker-3:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.2095500999998876,
+    "worker_id": "worker-2",
+    "processing_time": 0.1377,
+    "routed_to": "http://worker-2:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.32453490000034435,
+    "worker_id": "worker-2",
+    "processing_time": 0.255,
+    "routed_to": "http://worker-2:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.3648858999999902,
+    "worker_id": "worker-1",
+    "processing_time": 0.27,
+    "routed_to": "http://worker-1:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.17891539999982342,
+    "worker_id": "worker-3",
+    "processing_time": 0.1175,
+    "routed_to": "http://worker-3:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.21489119999978357,
+    "worker_id": "worker-1",
+    "processing_time": 0.1834,
+    "routed_to": "http://worker-1:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.35535499999969034,
+    "worker_id": "worker-2",
+    "processing_time": 0.2897,
+    "routed_to": "http://worker-2:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.1718415999998797,
+    "worker_id": "worker-3",
+    "processing_time": 0.1456,
+    "routed_to": "http://worker-3:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.2765388999996503,
+    "worker_id": "worker-1",
+    "processing_time": 0.236,
+    "routed_to": "http://worker-1:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.21069029999989652,
+    "worker_id": "worker-3",
+    "processing_time": 0.177,
+    "routed_to": "http://worker-3:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.2936370000002171,
+    "worker_id": "worker-2",
+    "processing_time": 0.2512,
+    "routed_to": "http://worker-2:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.25213080000003174,
+    "worker_id": "worker-1",
+    "processing_time": 0.2003,
+    "routed_to": "http://worker-1:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.34520000000020445,
+    "worker_id": "worker-2",
+    "processing_time": 0.2803,
+    "routed_to": "http://worker-2:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.29240459999982704,
+    "worker_id": "worker-3",
+    "processing_time": 0.2341,
+    "routed_to": "http://worker-3:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.3467725000000428,
+    "worker_id": "worker-2",
+    "processing_time": 0.2867,
+    "routed_to": "http://worker-2:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.17418540000016947,
+    "worker_id": "worker-1",
+    "processing_time": 0.1448,
+    "routed_to": "http://worker-1:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.24855739999975413,
+    "worker_id": "worker-3",
+    "processing_time": 0.1986,
+    "routed_to": "http://worker-3:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.14278050000029907,
+    "worker_id": "worker-1",
+    "processing_time": 0.1214,
+    "routed_to": "http://worker-1:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.27360399999997753,
+    "worker_id": "worker-2",
+    "processing_time": 0.2248,
+    "routed_to": "http://worker-2:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.33050490000005084,
+    "worker_id": "worker-3",
+    "processing_time": 0.291,
+    "routed_to": "http://worker-3:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.2823233999997683,
+    "worker_id": "worker-1",
+    "processing_time": 0.2234,
+    "routed_to": "http://worker-1:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.23275020000028235,
+    "worker_id": "worker-2",
+    "processing_time": 0.186,
+    "routed_to": "http://worker-2:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.3078157999998439,
+    "worker_id": "worker-3",
+    "processing_time": 0.2553,
+    "routed_to": "http://worker-3:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.34157029999960287,
+    "worker_id": "worker-1",
+    "processing_time": 0.2793,
+    "routed_to": "http://worker-1:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.3365513000003375,
+    "worker_id": "worker-2",
+    "processing_time": 0.2667,
+    "routed_to": "http://worker-2:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.35090960000025007,
+    "worker_id": "worker-3",
+    "processing_time": 0.2983,
+    "routed_to": "http://worker-3:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.2671157999998286,
+    "worker_id": "worker-1",
+    "processing_time": 0.1939,
+    "routed_to": "http://worker-1:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.2085505000000012,
+    "worker_id": "worker-2",
+    "processing_time": 0.1352,
+    "routed_to": "http://worker-2:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.3340345999999954,
+    "worker_id": "worker-3",
+    "processing_time": 0.2828,
+    "routed_to": "http://worker-3:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.16759350000029372,
+    "worker_id": "worker-1",
+    "processing_time": 0.1026,
+    "routed_to": "http://worker-1:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.29458059999979014,
+    "worker_id": "worker-2",
+    "processing_time": 0.2532,
+    "routed_to": "http://worker-2:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.2924380999997993,
+    "worker_id": "worker-3",
+    "processing_time": 0.2505,
+    "routed_to": "http://worker-3:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.20947530000012193,
+    "worker_id": "worker-1",
+    "processing_time": 0.1482,
+    "routed_to": "http://worker-1:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.2091387999998915,
+    "worker_id": "worker-2",
+    "processing_time": 0.1594,
+    "routed_to": "http://worker-2:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.15477979999968738,
+    "worker_id": "worker-3",
+    "processing_time": 0.1016,
+    "routed_to": "http://worker-3:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.23943430000008448,
+    "worker_id": "worker-1",
+    "processing_time": 0.1883,
+    "routed_to": "http://worker-1:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.3042732000003525,
+    "worker_id": "worker-2",
+    "processing_time": 0.2903,
+    "routed_to": "http://worker-2:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.19087149999995745,
+    "worker_id": "worker-3",
+    "processing_time": 0.1071,
+    "routed_to": "http://worker-3:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.31559740000011516,
+    "worker_id": "worker-1",
+    "processing_time": 0.2493,
+    "routed_to": "http://worker-1:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.19596260000025723,
+    "worker_id": "worker-2",
+    "processing_time": 0.1155,
+    "routed_to": "http://worker-2:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.23480659999995623,
+    "worker_id": "worker-1",
+    "processing_time": 0.1677,
+    "routed_to": "http://worker-1:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.25567259999979797,
+    "worker_id": "worker-3",
+    "processing_time": 0.1963,
+    "routed_to": "http://worker-3:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.27409209999996165,
+    "worker_id": "worker-3",
+    "processing_time": 0.2286,
+    "routed_to": "http://worker-3:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.20507129999987228,
+    "worker_id": "worker-2",
+    "processing_time": 0.1342,
+    "routed_to": "http://worker-2:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.3516015000000152,
+    "worker_id": "worker-1",
+    "processing_time": 0.2068,
+    "routed_to": "http://worker-1:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.18130329999985406,
+    "worker_id": "worker-2",
+    "processing_time": 0.1006,
+    "routed_to": "http://worker-2:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.29763950000005934,
+    "worker_id": "worker-3",
+    "processing_time": 0.2604,
+    "routed_to": "http://worker-3:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.3364190000002054,
+    "worker_id": "worker-3",
+    "processing_time": 0.1647,
+    "routed_to": "http://worker-3:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.37073629999986224,
+    "worker_id": "worker-2",
+    "processing_time": 0.2252,
+    "routed_to": "http://worker-2:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.2516230999999607,
+    "worker_id": "worker-1",
+    "processing_time": 0.1322,
+    "routed_to": "http://worker-1:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.4120720999999321,
+    "worker_id": "worker-1",
+    "processing_time": 0.2765,
+    "routed_to": "http://worker-1:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.35286980000000767,
+    "worker_id": "worker-1",
+    "processing_time": 0.1937,
+    "routed_to": "http://worker-1:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.40753240000003643,
+    "worker_id": "worker-2",
+    "processing_time": 0.2491,
+    "routed_to": "http://worker-2:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.40063270000018747,
+    "worker_id": "worker-2",
+    "processing_time": 0.2646,
+    "routed_to": "http://worker-2:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.43998670000019047,
+    "worker_id": "worker-3",
+    "processing_time": 0.2923,
+    "routed_to": "http://worker-3:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.31574529999988954,
+    "worker_id": "worker-3",
+    "processing_time": 0.2028,
+    "routed_to": "http://worker-3:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.23376239999970494,
+    "worker_id": "worker-1",
+    "processing_time": 0.1241,
+    "routed_to": "http://worker-1:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.2899449999999888,
+    "worker_id": "worker-2",
+    "processing_time": 0.169,
+    "routed_to": "http://worker-2:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.28877669999974387,
+    "worker_id": "worker-3",
+    "processing_time": 0.1728,
+    "routed_to": "http://worker-3:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.26010509999969145,
+    "worker_id": "worker-1",
+    "processing_time": 0.1308,
+    "routed_to": "http://worker-1:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.37587810000013633,
+    "worker_id": "worker-2",
+    "processing_time": 0.2537,
+    "routed_to": "http://worker-2:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.2586281999997482,
+    "worker_id": "worker-3",
+    "processing_time": 0.1452,
+    "routed_to": "http://worker-3:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.22512500000038926,
+    "worker_id": "worker-1",
+    "processing_time": 0.1172,
+    "routed_to": "http://worker-1:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.4047107000001233,
+    "worker_id": "worker-2",
+    "processing_time": 0.2847,
+    "routed_to": "http://worker-2:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.2787615000002006,
+    "worker_id": "worker-3",
+    "processing_time": 0.1705,
+    "routed_to": "http://worker-3:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.3511349999998856,
+    "worker_id": "worker-1",
+    "processing_time": 0.2207,
+    "routed_to": "http://worker-1:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.37485689999994065,
+    "worker_id": "worker-2",
+    "processing_time": 0.2535,
+    "routed_to": "http://worker-2:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.23188089999985095,
+    "worker_id": "worker-3",
+    "processing_time": 0.1026,
+    "routed_to": "http://worker-3:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.39963699999998425,
+    "worker_id": "worker-1",
+    "processing_time": 0.269,
+    "routed_to": "http://worker-1:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.32784799999990355,
+    "worker_id": "worker-2",
+    "processing_time": 0.1885,
+    "routed_to": "http://worker-2:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.4000731999999516,
+    "worker_id": "worker-1",
+    "processing_time": 0.2729,
+    "routed_to": "http://worker-1:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.3752779000001283,
+    "worker_id": "worker-3",
+    "processing_time": 0.266,
+    "routed_to": "http://worker-3:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.38800569999966683,
+    "worker_id": "worker-3",
+    "processing_time": 0.2671,
+    "routed_to": "http://worker-3:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.2919681000003038,
+    "worker_id": "worker-2",
+    "processing_time": 0.1935,
+    "routed_to": "http://worker-2:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.30366090000006807,
+    "worker_id": "worker-1",
+    "processing_time": 0.1971,
+    "routed_to": "http://worker-1:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.27410690000033355,
+    "worker_id": "worker-3",
+    "processing_time": 0.1767,
+    "routed_to": "http://worker-3:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.23409540000011475,
+    "worker_id": "worker-2",
+    "processing_time": 0.14,
+    "routed_to": "http://worker-2:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.1971773000000212,
+    "worker_id": "worker-1",
+    "processing_time": 0.1151,
+    "routed_to": "http://worker-1:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.29916400000001886,
+    "worker_id": "worker-2",
+    "processing_time": 0.2029,
+    "routed_to": "http://worker-2:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.31864889999997104,
+    "worker_id": "worker-3",
+    "processing_time": 0.2069,
+    "routed_to": "http://worker-3:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.3272950000000492,
+    "worker_id": "worker-1",
+    "processing_time": 0.2429,
+    "routed_to": "http://worker-1:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.2573477000000821,
+    "worker_id": "worker-2",
+    "processing_time": 0.172,
+    "routed_to": "http://worker-2:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.3102641999998923,
+    "worker_id": "worker-3",
+    "processing_time": 0.2342,
+    "routed_to": "http://worker-3:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.2943771000000197,
+    "worker_id": "worker-1",
+    "processing_time": 0.2156,
+    "routed_to": "http://worker-1:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.2288112999999612,
+    "worker_id": "worker-2",
+    "processing_time": 0.1523,
+    "routed_to": "http://worker-2:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.2011848000001919,
+    "worker_id": "worker-3",
+    "processing_time": 0.1455,
+    "routed_to": "http://worker-3:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.3440593999998782,
+    "worker_id": "worker-1",
+    "processing_time": 0.2685,
+    "routed_to": "http://worker-1:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.37050330000010945,
+    "worker_id": "worker-3",
+    "processing_time": 0.2792,
+    "routed_to": "http://worker-3:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.2398627000002307,
+    "worker_id": "worker-2",
+    "processing_time": 0.1751,
+    "routed_to": "http://worker-2:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.22664129999975557,
+    "worker_id": "worker-1",
+    "processing_time": 0.1741,
+    "routed_to": "http://worker-1:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.29047780000018975,
+    "worker_id": "worker-3",
+    "processing_time": 0.219,
+    "routed_to": "http://worker-3:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.19798390000005384,
+    "worker_id": "worker-2",
+    "processing_time": 0.1437,
+    "routed_to": "http://worker-2:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.21491869999999835,
+    "worker_id": "worker-2",
+    "processing_time": 0.1613,
+    "routed_to": "http://worker-2:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.2273459999996703,
+    "worker_id": "worker-1",
+    "processing_time": 0.1845,
+    "routed_to": "http://worker-1:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.3044289000004028,
+    "worker_id": "worker-1",
+    "processing_time": 0.2155,
+    "routed_to": "http://worker-1:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.2922822000000451,
+    "worker_id": "worker-3",
+    "processing_time": 0.1734,
+    "routed_to": "http://worker-3:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.3501792000001842,
+    "worker_id": "worker-2",
+    "processing_time": 0.2542,
+    "routed_to": "http://worker-2:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.24774359999992157,
+    "worker_id": "worker-3",
+    "processing_time": 0.1654,
+    "routed_to": "http://worker-3:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.24412329999995563,
+    "worker_id": "worker-1",
+    "processing_time": 0.1645,
+    "routed_to": "http://worker-1:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.23376189999999042,
+    "worker_id": "worker-2",
+    "processing_time": 0.1351,
+    "routed_to": "http://worker-2:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.23246360000030108,
+    "worker_id": "worker-1",
+    "processing_time": 0.1387,
+    "routed_to": "http://worker-1:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.3334144999998898,
+    "worker_id": "worker-2",
+    "processing_time": 0.2572,
+    "routed_to": "http://worker-2:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.18583480000006602,
+    "worker_id": "worker-3",
+    "processing_time": 0.1134,
+    "routed_to": "http://worker-3:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.365030200000092,
+    "worker_id": "worker-3",
+    "processing_time": 0.266,
+    "routed_to": "http://worker-3:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.2406485999999859,
+    "worker_id": "worker-1",
+    "processing_time": 0.1378,
+    "routed_to": "http://worker-1:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.25637090000009266,
+    "worker_id": "worker-3",
+    "processing_time": 0.1626,
+    "routed_to": "http://worker-3:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.2592177999999876,
+    "worker_id": "worker-1",
+    "processing_time": 0.1653,
+    "routed_to": "http://worker-1:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.24230530000022554,
+    "worker_id": "worker-2",
+    "processing_time": 0.1489,
+    "routed_to": "http://worker-2:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.28546129999995173,
+    "worker_id": "worker-2",
+    "processing_time": 0.2173,
+    "routed_to": "http://worker-2:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.25287959999968734,
+    "worker_id": "worker-1",
+    "processing_time": 0.1738,
+    "routed_to": "http://worker-1:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.3953633000000991,
+    "worker_id": "worker-2",
+    "processing_time": 0.2767,
+    "routed_to": "http://worker-2:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.19974460000003091,
+    "worker_id": "worker-3",
+    "processing_time": 0.1347,
+    "routed_to": "http://worker-3:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.2651774999999361,
+    "worker_id": "worker-3",
+    "processing_time": 0.1623,
+    "routed_to": "http://worker-3:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.38485439999976734,
+    "worker_id": "worker-1",
+    "processing_time": 0.2922,
+    "routed_to": "http://worker-1:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.31181370000012976,
+    "worker_id": "worker-1",
+    "processing_time": 0.1428,
+    "routed_to": "http://worker-1:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.39572739999994155,
+    "worker_id": "worker-2",
+    "processing_time": 0.283,
+    "routed_to": "http://worker-2:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.4435469000000012,
+    "worker_id": "worker-1",
+    "processing_time": 0.2896,
+    "routed_to": "http://worker-1:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.3305743999999322,
+    "worker_id": "worker-2",
+    "processing_time": 0.2147,
+    "routed_to": "http://worker-2:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.35036070000023756,
+    "worker_id": "worker-3",
+    "processing_time": 0.2459,
+    "routed_to": "http://worker-3:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.24096340000005512,
+    "worker_id": "worker-3",
+    "processing_time": 0.1059,
+    "routed_to": "http://worker-3:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.3652796000001217,
+    "worker_id": "worker-3",
+    "processing_time": 0.271,
+    "routed_to": "http://worker-3:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.2224765999999363,
+    "worker_id": "worker-1",
+    "processing_time": 0.1,
+    "routed_to": "http://worker-1:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.29734000000007654,
+    "worker_id": "worker-2",
+    "processing_time": 0.1896,
+    "routed_to": "http://worker-2:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.4156170999999631,
+    "worker_id": "worker-3",
+    "processing_time": 0.2994,
+    "routed_to": "http://worker-3:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.278731500000049,
+    "worker_id": "worker-2",
+    "processing_time": 0.137,
+    "routed_to": "http://worker-2:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.3045520000000579,
+    "worker_id": "worker-2",
+    "processing_time": 0.1836,
+    "routed_to": "http://worker-2:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.22800349999988612,
+    "worker_id": "worker-1",
+    "processing_time": 0.1142,
+    "routed_to": "http://worker-1:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.3749413000000459,
+    "worker_id": "worker-3",
+    "processing_time": 0.248,
+    "routed_to": "http://worker-3:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.36343810000016674,
+    "worker_id": "worker-1",
+    "processing_time": 0.2484,
+    "routed_to": "http://worker-1:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.3345641999999316,
+    "worker_id": "worker-2",
+    "processing_time": 0.2251,
+    "routed_to": "http://worker-2:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.26437570000007327,
+    "worker_id": "worker-3",
+    "processing_time": 0.1327,
+    "routed_to": "http://worker-3:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.28463650000003327,
+    "worker_id": "worker-1",
+    "processing_time": 0.1565,
+    "routed_to": "http://worker-1:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.2603401000001213,
+    "worker_id": "worker-2",
+    "processing_time": 0.1258,
+    "routed_to": "http://worker-2:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.37756260000014663,
+    "worker_id": "worker-3",
+    "processing_time": 0.2458,
+    "routed_to": "http://worker-3:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.28931269999975484,
+    "worker_id": "worker-1",
+    "processing_time": 0.159,
+    "routed_to": "http://worker-1:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.4267844999999397,
+    "worker_id": "worker-2",
+    "processing_time": 0.2714,
+    "routed_to": "http://worker-2:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.2575796999999511,
+    "worker_id": "worker-3",
+    "processing_time": 0.1191,
+    "routed_to": "http://worker-3:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.3722592999997687,
+    "worker_id": "worker-1",
+    "processing_time": 0.2054,
+    "routed_to": "http://worker-1:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.42060399999991205,
+    "worker_id": "worker-2",
+    "processing_time": 0.2556,
+    "routed_to": "http://worker-2:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.2850105000002259,
+    "worker_id": "worker-3",
+    "processing_time": 0.1553,
+    "routed_to": "http://worker-3:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.3532900999998674,
+    "worker_id": "worker-1",
+    "processing_time": 0.1907,
+    "routed_to": "http://worker-1:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.32416809999995166,
+    "worker_id": "worker-3",
+    "processing_time": 0.1813,
+    "routed_to": "http://worker-3:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.3672372999999425,
+    "worker_id": "worker-2",
+    "processing_time": 0.201,
+    "routed_to": "http://worker-2:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.37694550000014715,
+    "worker_id": "worker-1",
+    "processing_time": 0.2039,
+    "routed_to": "http://worker-1:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.3736090999996122,
+    "worker_id": "worker-2",
+    "processing_time": 0.2022,
+    "routed_to": "http://worker-2:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.2672168999997666,
+    "worker_id": "worker-3",
+    "processing_time": 0.147,
+    "routed_to": "http://worker-3:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.33675810000022466,
+    "worker_id": "worker-1",
+    "processing_time": 0.1907,
+    "routed_to": "http://worker-1:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.3354071999997359,
+    "worker_id": "worker-3",
+    "processing_time": 0.1654,
+    "routed_to": "http://worker-3:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.2517721999997775,
+    "worker_id": "worker-2",
+    "processing_time": 0.126,
+    "routed_to": "http://worker-2:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.3042406999998093,
+    "worker_id": "worker-1",
+    "processing_time": 0.1459,
+    "routed_to": "http://worker-1:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.2247733999997763,
+    "worker_id": "worker-2",
+    "processing_time": 0.1021,
+    "routed_to": "http://worker-2:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.3550561000001835,
+    "worker_id": "worker-3",
+    "processing_time": 0.2125,
+    "routed_to": "http://worker-3:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.29472900000018853,
+    "worker_id": "worker-1",
+    "processing_time": 0.1416,
+    "routed_to": "http://worker-1:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.43797399999994013,
+    "worker_id": "worker-2",
+    "processing_time": 0.2632,
+    "routed_to": "http://worker-2:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.4293979999997646,
+    "worker_id": "worker-3",
+    "processing_time": 0.2405,
+    "routed_to": "http://worker-3:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.3627833999998984,
+    "worker_id": "worker-1",
+    "processing_time": 0.1819,
+    "routed_to": "http://worker-1:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.3692087999997966,
+    "worker_id": "worker-2",
+    "processing_time": 0.2223,
+    "routed_to": "http://worker-2:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.2793539999997847,
+    "worker_id": "worker-3",
+    "processing_time": 0.1474,
+    "routed_to": "http://worker-3:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.33444250000002285,
+    "worker_id": "worker-1",
+    "processing_time": 0.2095,
+    "routed_to": "http://worker-1:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.3799367000001439,
+    "worker_id": "worker-2",
+    "processing_time": 0.2474,
+    "routed_to": "http://worker-2:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.2494000000001506,
+    "worker_id": "worker-3",
+    "processing_time": 0.1287,
+    "routed_to": "http://worker-3:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.3637800999999854,
+    "worker_id": "worker-1",
+    "processing_time": 0.2435,
+    "routed_to": "http://worker-1:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.26379590000033204,
+    "worker_id": "worker-2",
+    "processing_time": 0.1149,
+    "routed_to": "http://worker-2:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.40933689999974376,
+    "worker_id": "worker-3",
+    "processing_time": 0.2665,
+    "routed_to": "http://worker-3:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.33784830000013244,
+    "worker_id": "worker-1",
+    "processing_time": 0.198,
+    "routed_to": "http://worker-1:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.3685126999998829,
+    "worker_id": "worker-3",
+    "processing_time": 0.231,
+    "routed_to": "http://worker-3:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.25612020000016855,
+    "worker_id": "worker-2",
+    "processing_time": 0.153,
+    "routed_to": "http://worker-2:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.36674189999985174,
+    "worker_id": "worker-3",
+    "processing_time": 0.2831,
+    "routed_to": "http://worker-3:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.28947580000021844,
+    "worker_id": "worker-2",
+    "processing_time": 0.1984,
+    "routed_to": "http://worker-2:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.19692239999994854,
+    "worker_id": "worker-1",
+    "processing_time": 0.1112,
+    "routed_to": "http://worker-1:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.28262869999980467,
+    "worker_id": "worker-1",
+    "processing_time": 0.1921,
+    "routed_to": "http://worker-1:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.27379900000005364,
+    "worker_id": "worker-2",
+    "processing_time": 0.2204,
+    "routed_to": "http://worker-2:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.21567049999976007,
+    "worker_id": "worker-3",
+    "processing_time": 0.1233,
+    "routed_to": "http://worker-3:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.27096009999968373,
+    "worker_id": "worker-1",
+    "processing_time": 0.1997,
+    "routed_to": "http://worker-1:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.3694385999997394,
+    "worker_id": "worker-2",
+    "processing_time": 0.2968,
+    "routed_to": "http://worker-2:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.2672477000000981,
+    "worker_id": "worker-3",
+    "processing_time": 0.1911,
+    "routed_to": "http://worker-3:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.3292879000000539,
+    "worker_id": "worker-1",
+    "processing_time": 0.2632,
+    "routed_to": "http://worker-1:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.3068215999996937,
+    "worker_id": "worker-2",
+    "processing_time": 0.2492,
+    "routed_to": "http://worker-2:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.24637440000014976,
+    "worker_id": "worker-2",
+    "processing_time": 0.1715,
+    "routed_to": "http://worker-2:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.38622850000001563,
+    "worker_id": "worker-1",
+    "processing_time": 0.2921,
+    "routed_to": "http://worker-1:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.2925936999999976,
+    "worker_id": "worker-3",
+    "processing_time": 0.1837,
+    "routed_to": "http://worker-3:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.30433720000019093,
+    "worker_id": "worker-3",
+    "processing_time": 0.2098,
+    "routed_to": "http://worker-3:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.37092870000014955,
+    "worker_id": "worker-1",
+    "processing_time": 0.2236,
+    "routed_to": "http://worker-1:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.3438917999997102,
+    "worker_id": "worker-3",
+    "processing_time": 0.2209,
+    "routed_to": "http://worker-3:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.26452879999988,
+    "worker_id": "worker-2",
+    "processing_time": 0.1267,
+    "routed_to": "http://worker-2:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.2640553000001091,
+    "worker_id": "worker-1",
+    "processing_time": 0.1178,
+    "routed_to": "http://worker-1:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.4160343999997167,
+    "worker_id": "worker-2",
+    "processing_time": 0.286,
+    "routed_to": "http://worker-2:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.3052400999999918,
+    "worker_id": "worker-3",
+    "processing_time": 0.1596,
+    "routed_to": "http://worker-3:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.4043633999999656,
+    "worker_id": "worker-1",
+    "processing_time": 0.2935,
+    "routed_to": "http://worker-1:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.3266510000003109,
+    "worker_id": "worker-2",
+    "processing_time": 0.2134,
+    "routed_to": "http://worker-2:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.34992659999988973,
+    "worker_id": "worker-3",
+    "processing_time": 0.238,
+    "routed_to": "http://worker-3:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.3922058000002835,
+    "worker_id": "worker-1",
+    "processing_time": 0.2797,
+    "routed_to": "http://worker-1:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.2676629000002322,
+    "worker_id": "worker-2",
+    "processing_time": 0.1221,
+    "routed_to": "http://worker-2:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.3640927000001284,
+    "worker_id": "worker-3",
+    "processing_time": 0.2586,
+    "routed_to": "http://worker-3:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.31684279999990395,
+    "worker_id": "worker-1",
+    "processing_time": 0.2052,
+    "routed_to": "http://worker-1:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.3175876000000244,
+    "worker_id": "worker-2",
+    "processing_time": 0.2036,
+    "routed_to": "http://worker-2:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.3224809999996978,
+    "worker_id": "worker-3",
+    "processing_time": 0.1902,
+    "routed_to": "http://worker-3:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.28585119999979725,
+    "worker_id": "worker-1",
+    "processing_time": 0.143,
+    "routed_to": "http://worker-1:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.25098460000026535,
+    "worker_id": "worker-2",
+    "processing_time": 0.1292,
+    "routed_to": "http://worker-2:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.3250967999997556,
+    "worker_id": "worker-3",
+    "processing_time": 0.1561,
+    "routed_to": "http://worker-3:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.3469999000003554,
+    "worker_id": "worker-3",
+    "processing_time": 0.1673,
+    "routed_to": "http://worker-3:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.4326850000002196,
+    "worker_id": "worker-1",
+    "processing_time": 0.2446,
+    "routed_to": "http://worker-1:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.3087377000001652,
+    "worker_id": "worker-1",
+    "processing_time": 0.1769,
+    "routed_to": "http://worker-1:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.3868459000000257,
+    "worker_id": "worker-2",
+    "processing_time": 0.2135,
+    "routed_to": "http://worker-2:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.3617661999996926,
+    "worker_id": "worker-3",
+    "processing_time": 0.1927,
+    "routed_to": "http://worker-3:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.4354708999999275,
+    "worker_id": "worker-2",
+    "processing_time": 0.2511,
+    "routed_to": "http://worker-2:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.5153328999999758,
+    "worker_id": "worker-1",
+    "processing_time": 0.2937,
+    "routed_to": "http://worker-1:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.4342160999999578,
+    "worker_id": "worker-2",
+    "processing_time": 0.237,
+    "routed_to": "http://worker-2:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.4747258000002148,
+    "worker_id": "worker-2",
+    "processing_time": 0.2883,
+    "routed_to": "http://worker-2:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.3415193000000727,
+    "worker_id": "worker-3",
+    "processing_time": 0.1979,
+    "routed_to": "http://worker-3:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.25953359999994063,
+    "worker_id": "worker-1",
+    "processing_time": 0.1392,
+    "routed_to": "http://worker-1:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.44440910000002987,
+    "worker_id": "worker-3",
+    "processing_time": 0.2584,
+    "routed_to": "http://worker-3:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.27159419999998136,
+    "worker_id": "worker-3",
+    "processing_time": 0.1769,
+    "routed_to": "http://worker-3:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.23269200000004275,
+    "worker_id": "worker-2",
+    "processing_time": 0.146,
+    "routed_to": "http://worker-2:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.2641791999999441,
+    "worker_id": "worker-1",
+    "processing_time": 0.1763,
+    "routed_to": "http://worker-1:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.3690965999999207,
+    "worker_id": "worker-3",
+    "processing_time": 0.2326,
+    "routed_to": "http://worker-3:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.404743299999609,
+    "worker_id": "worker-1",
+    "processing_time": 0.2548,
+    "routed_to": "http://worker-1:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.4126931999999215,
+    "worker_id": "worker-2",
+    "processing_time": 0.2872,
+    "routed_to": "http://worker-2:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.3108581999999842,
+    "worker_id": "worker-1",
+    "processing_time": 0.213,
+    "routed_to": "http://worker-1:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.3167020999999295,
+    "worker_id": "worker-2",
+    "processing_time": 0.1824,
+    "routed_to": "http://worker-2:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.2915555000004133,
+    "worker_id": "worker-3",
+    "processing_time": 0.1996,
+    "routed_to": "http://worker-3:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.31452779999972336,
+    "worker_id": "worker-1",
+    "processing_time": 0.1823,
+    "routed_to": "http://worker-1:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.2350146999997378,
+    "worker_id": "worker-2",
+    "processing_time": 0.1266,
+    "routed_to": "http://worker-2:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.34852730000011434,
+    "worker_id": "worker-1",
+    "processing_time": 0.1995,
+    "routed_to": "http://worker-1:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.24430339999980788,
+    "worker_id": "worker-3",
+    "processing_time": 0.1607,
+    "routed_to": "http://worker-3:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.3509918999998263,
+    "worker_id": "worker-2",
+    "processing_time": 0.193,
+    "routed_to": "http://worker-2:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.32099460000017643,
+    "worker_id": "worker-1",
+    "processing_time": 0.1823,
+    "routed_to": "http://worker-1:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.18451779999986684,
+    "worker_id": "worker-3",
+    "processing_time": 0.1136,
+    "routed_to": "http://worker-3:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.3487110000000939,
+    "worker_id": "worker-3",
+    "processing_time": 0.2185,
+    "routed_to": "http://worker-3:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.444930099999965,
+    "worker_id": "worker-2",
+    "processing_time": 0.2642,
+    "routed_to": "http://worker-2:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.33426589999999123,
+    "worker_id": "worker-1",
+    "processing_time": 0.1935,
+    "routed_to": "http://worker-1:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.20569579999983034,
+    "worker_id": "worker-2",
+    "processing_time": 0.1367,
+    "routed_to": "http://worker-2:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.40832689999979266,
+    "worker_id": "worker-1",
+    "processing_time": 0.2974,
+    "routed_to": "http://worker-1:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.4060638000000836,
+    "worker_id": "worker-3",
+    "processing_time": 0.2892,
+    "routed_to": "http://worker-3:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.399290899999869,
+    "worker_id": "worker-2",
+    "processing_time": 0.2246,
+    "routed_to": "http://worker-2:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.3848272000000179,
+    "worker_id": "worker-3",
+    "processing_time": 0.2033,
+    "routed_to": "http://worker-3:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.3828078999999889,
+    "worker_id": "worker-1",
+    "processing_time": 0.2075,
+    "routed_to": "http://worker-1:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.26825270000017554,
+    "worker_id": "worker-3",
+    "processing_time": 0.1686,
+    "routed_to": "http://worker-3:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.3649903999998969,
+    "worker_id": "worker-1",
+    "processing_time": 0.2152,
+    "routed_to": "http://worker-1:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.1731098000000202,
+    "worker_id": "worker-2",
+    "processing_time": 0.1082,
+    "routed_to": "http://worker-2:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.3641597000000729,
+    "worker_id": "worker-2",
+    "processing_time": 0.2616,
+    "routed_to": "http://worker-2:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.23302130000001853,
+    "worker_id": "worker-3",
+    "processing_time": 0.1231,
+    "routed_to": "http://worker-3:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.3427665999997771,
+    "worker_id": "worker-1",
+    "processing_time": 0.2647,
+    "routed_to": "http://worker-1:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.3169919000001755,
+    "worker_id": "worker-2",
+    "processing_time": 0.147,
+    "routed_to": "http://worker-2:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.21393239999997604,
+    "worker_id": "worker-3",
+    "processing_time": 0.1266,
+    "routed_to": "http://worker-3:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.21174149999978908,
+    "worker_id": "worker-1",
+    "processing_time": 0.1187,
+    "routed_to": "http://worker-1:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.3388953999997284,
+    "worker_id": "worker-2",
+    "processing_time": 0.2715,
+    "routed_to": "http://worker-2:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.29424010000002454,
+    "worker_id": "worker-3",
+    "processing_time": 0.1277,
+    "routed_to": "http://worker-3:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.29994780000015453,
+    "worker_id": "worker-2",
+    "processing_time": 0.1699,
+    "routed_to": "http://worker-2:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.20174960000031206,
+    "worker_id": "worker-1",
+    "processing_time": 0.1249,
+    "routed_to": "http://worker-1:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.19115400000009686,
+    "worker_id": "worker-3",
+    "processing_time": 0.1213,
+    "routed_to": "http://worker-3:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.18725480000011885,
+    "worker_id": "worker-2",
+    "processing_time": 0.1204,
+    "routed_to": "http://worker-2:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.31138670000018465,
+    "worker_id": "worker-1",
+    "processing_time": 0.1996,
+    "routed_to": "http://worker-1:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.35319570000001477,
+    "worker_id": "worker-3",
+    "processing_time": 0.2923,
+    "routed_to": "http://worker-3:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.2703283000000738,
+    "worker_id": "worker-2",
+    "processing_time": 0.103,
+    "routed_to": "http://worker-2:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.2699142999999822,
+    "worker_id": "worker-1",
+    "processing_time": 0.1617,
+    "routed_to": "http://worker-1:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.3029778999998598,
+    "worker_id": "worker-3",
+    "processing_time": 0.1787,
+    "routed_to": "http://worker-3:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.3079552999997759,
+    "worker_id": "worker-1",
+    "processing_time": 0.1915,
+    "routed_to": "http://worker-1:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.3901386000002276,
+    "worker_id": "worker-2",
+    "processing_time": 0.2836,
+    "routed_to": "http://worker-2:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.3955022000000099,
+    "worker_id": "worker-3",
+    "processing_time": 0.2661,
+    "routed_to": "http://worker-3:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.37571239999988393,
+    "worker_id": "worker-1",
+    "processing_time": 0.2561,
+    "routed_to": "http://worker-1:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.41180930000018634,
+    "worker_id": "worker-2",
+    "processing_time": 0.2622,
+    "routed_to": "http://worker-2:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.3865412000000106,
+    "worker_id": "worker-3",
+    "processing_time": 0.2253,
+    "routed_to": "http://worker-3:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.2868631999999707,
+    "worker_id": "worker-1",
+    "processing_time": 0.1185,
+    "routed_to": "http://worker-1:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.5303129999997509,
+    "worker_id": "worker-2",
+    "processing_time": 0.2965,
+    "routed_to": "http://worker-2:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.4421345000000656,
+    "worker_id": "worker-3",
+    "processing_time": 0.2479,
+    "routed_to": "http://worker-3:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.3082303999999567,
+    "worker_id": "worker-1",
+    "processing_time": 0.1379,
+    "routed_to": "http://worker-1:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.437774200000149,
+    "worker_id": "worker-3",
+    "processing_time": 0.2407,
+    "routed_to": "http://worker-3:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.47033779999992475,
+    "worker_id": "worker-2",
+    "processing_time": 0.2493,
+    "routed_to": "http://worker-2:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.5001061000002665,
+    "worker_id": "worker-1",
+    "processing_time": 0.2946,
+    "routed_to": "http://worker-1:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.2461636000002727,
+    "worker_id": "worker-2",
+    "processing_time": 0.1156,
+    "routed_to": "http://worker-2:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.4698041999999987,
+    "worker_id": "worker-3",
+    "processing_time": 0.2544,
+    "routed_to": "http://worker-3:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.46764400000029127,
+    "worker_id": "worker-1",
+    "processing_time": 0.263,
+    "routed_to": "http://worker-1:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.4359278000001723,
+    "worker_id": "worker-2",
+    "processing_time": 0.2473,
+    "routed_to": "http://worker-2:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.4319252000000233,
+    "worker_id": "worker-1",
+    "processing_time": 0.24,
+    "routed_to": "http://worker-1:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.3897530000003826,
+    "worker_id": "worker-2",
+    "processing_time": 0.2237,
+    "routed_to": "http://worker-2:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.3280316000000312,
+    "worker_id": "worker-3",
+    "processing_time": 0.1868,
+    "routed_to": "http://worker-3:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.43605969999998706,
+    "worker_id": "worker-3",
+    "processing_time": 0.2393,
+    "routed_to": "http://worker-3:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.48638660000005984,
+    "worker_id": "worker-1",
+    "processing_time": 0.2891,
+    "routed_to": "http://worker-1:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.4979714999999487,
+    "worker_id": "worker-2",
+    "processing_time": 0.2878,
+    "routed_to": "http://worker-2:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.46980470000016794,
+    "worker_id": "worker-3",
+    "processing_time": 0.2661,
+    "routed_to": "http://worker-3:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.44989760000044043,
+    "worker_id": "worker-1",
+    "processing_time": 0.2373,
+    "routed_to": "http://worker-1:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.34146099999998114,
+    "worker_id": "worker-2",
+    "processing_time": 0.181,
+    "routed_to": "http://worker-2:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.352125999999771,
+    "worker_id": "worker-3",
+    "processing_time": 0.1928,
+    "routed_to": "http://worker-3:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.292759500000102,
+    "worker_id": "worker-1",
+    "processing_time": 0.1475,
+    "routed_to": "http://worker-1:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.3139368000001923,
+    "worker_id": "worker-2",
+    "processing_time": 0.1698,
+    "routed_to": "http://worker-2:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.2584631999998237,
+    "worker_id": "worker-3",
+    "processing_time": 0.1499,
+    "routed_to": "http://worker-3:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.21280810000007477,
+    "worker_id": "worker-1",
+    "processing_time": 0.1216,
+    "routed_to": "http://worker-1:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.4108973000002152,
+    "worker_id": "worker-2",
+    "processing_time": 0.262,
+    "routed_to": "http://worker-2:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.20189299999992727,
+    "worker_id": "worker-3",
+    "processing_time": 0.1081,
+    "routed_to": "http://worker-3:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.2142930999998498,
+    "worker_id": "worker-1",
+    "processing_time": 0.119,
+    "routed_to": "http://worker-1:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.2445480999999745,
+    "worker_id": "worker-3",
+    "processing_time": 0.1377,
+    "routed_to": "http://worker-3:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.21987709999984872,
+    "worker_id": "worker-1",
+    "processing_time": 0.1296,
+    "routed_to": "http://worker-1:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.3646929999999884,
+    "worker_id": "worker-3",
+    "processing_time": 0.2355,
+    "routed_to": "http://worker-3:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.36566910000010466,
+    "worker_id": "worker-2",
+    "processing_time": 0.2265,
+    "routed_to": "http://worker-2:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.3240729999997711,
+    "worker_id": "worker-2",
+    "processing_time": 0.1828,
+    "routed_to": "http://worker-2:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.41832760000033886,
+    "worker_id": "worker-1",
+    "processing_time": 0.2911,
+    "routed_to": "http://worker-1:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.3643539999998211,
+    "worker_id": "worker-3",
+    "processing_time": 0.2324,
+    "routed_to": "http://worker-3:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.31712289999995846,
+    "worker_id": "worker-2",
+    "processing_time": 0.2042,
+    "routed_to": "http://worker-2:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.25898819999974876,
+    "worker_id": "worker-1",
+    "processing_time": 0.1379,
+    "routed_to": "http://worker-1:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.3125335999998242,
+    "worker_id": "worker-2",
+    "processing_time": 0.1996,
+    "routed_to": "http://worker-2:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.34483319999981177,
+    "worker_id": "worker-3",
+    "processing_time": 0.2213,
+    "routed_to": "http://worker-3:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.1909363999998277,
+    "worker_id": "worker-1",
+    "processing_time": 0.1298,
+    "routed_to": "http://worker-1:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.2937194000001,
+    "worker_id": "worker-2",
+    "processing_time": 0.1763,
+    "routed_to": "http://worker-2:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.3395621999998184,
+    "worker_id": "worker-3",
+    "processing_time": 0.2173,
+    "routed_to": "http://worker-3:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.27203499999995984,
+    "worker_id": "worker-1",
+    "processing_time": 0.1725,
+    "routed_to": "http://worker-1:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.1661258000003727,
+    "worker_id": "worker-2",
+    "processing_time": 0.1331,
+    "routed_to": "http://worker-2:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.2571253000000979,
+    "worker_id": "worker-3",
+    "processing_time": 0.167,
+    "routed_to": "http://worker-3:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.32521330000008675,
+    "worker_id": "worker-1",
+    "processing_time": 0.2464,
+    "routed_to": "http://worker-1:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.14811859999963417,
+    "worker_id": "worker-2",
+    "processing_time": 0.119,
+    "routed_to": "http://worker-2:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.21371570000019346,
+    "worker_id": "worker-3",
+    "processing_time": 0.1414,
+    "routed_to": "http://worker-3:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.19220119999999952,
+    "worker_id": "worker-1",
+    "processing_time": 0.1077,
+    "routed_to": "http://worker-1:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.19363160000011703,
+    "worker_id": "worker-2",
+    "processing_time": 0.1408,
+    "routed_to": "http://worker-2:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.26635739999983343,
+    "worker_id": "worker-3",
+    "processing_time": 0.2109,
+    "routed_to": "http://worker-3:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.25119619999986753,
+    "worker_id": "worker-1",
+    "processing_time": 0.1995,
+    "routed_to": "http://worker-1:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.2577419999997801,
+    "worker_id": "worker-2",
+    "processing_time": 0.2152,
+    "routed_to": "http://worker-2:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.22758350000003702,
+    "worker_id": "worker-3",
+    "processing_time": 0.138,
+    "routed_to": "http://worker-3:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.25528399999984686,
+    "worker_id": "worker-1",
+    "processing_time": 0.2101,
+    "routed_to": "http://worker-1:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.22611129999995683,
+    "worker_id": "worker-2",
+    "processing_time": 0.1788,
+    "routed_to": "http://worker-2:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.4994409999999334,
+    "worker_id": "worker-3",
+    "processing_time": 0.2982,
+    "routed_to": "http://worker-3:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.3764267000001382,
+    "worker_id": "worker-1",
+    "processing_time": 0.2318,
+    "routed_to": "http://worker-1:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.25872670000035214,
+    "worker_id": "worker-2",
+    "processing_time": 0.1145,
+    "routed_to": "http://worker-2:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.2722030999998424,
+    "worker_id": "worker-3",
+    "processing_time": 0.1388,
+    "routed_to": "http://worker-3:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.28567019999991317,
+    "worker_id": "worker-1",
+    "processing_time": 0.1303,
+    "routed_to": "http://worker-1:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.42578240000011647,
+    "worker_id": "worker-2",
+    "processing_time": 0.2267,
+    "routed_to": "http://worker-2:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.30902900000000955,
+    "worker_id": "worker-1",
+    "processing_time": 0.1396,
+    "routed_to": "http://worker-1:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.5019913000000997,
+    "worker_id": "worker-2",
+    "processing_time": 0.2481,
+    "routed_to": "http://worker-2:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.3688854000001811,
+    "worker_id": "worker-3",
+    "processing_time": 0.1906,
+    "routed_to": "http://worker-3:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.46307290000004286,
+    "worker_id": "worker-3",
+    "processing_time": 0.2454,
+    "routed_to": "http://worker-3:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.4609599000000344,
+    "worker_id": "worker-3",
+    "processing_time": 0.2277,
+    "routed_to": "http://worker-3:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.43648940000002767,
+    "worker_id": "worker-2",
+    "processing_time": 0.2378,
+    "routed_to": "http://worker-2:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.33526620000020557,
+    "worker_id": "worker-1",
+    "processing_time": 0.1727,
+    "routed_to": "http://worker-1:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.375057299999753,
+    "worker_id": "worker-1",
+    "processing_time": 0.1914,
+    "routed_to": "http://worker-1:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.4202853000001596,
+    "worker_id": "worker-2",
+    "processing_time": 0.2022,
+    "routed_to": "http://worker-2:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.3949654000002738,
+    "worker_id": "worker-3",
+    "processing_time": 0.1975,
+    "routed_to": "http://worker-3:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.2358024000000114,
+    "worker_id": "worker-1",
+    "processing_time": 0.1047,
+    "routed_to": "http://worker-1:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.4301915999999437,
+    "worker_id": "worker-2",
+    "processing_time": 0.2546,
+    "routed_to": "http://worker-2:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.2779614999999467,
+    "worker_id": "worker-3",
+    "processing_time": 0.1238,
+    "routed_to": "http://worker-3:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.42921419999993304,
+    "worker_id": "worker-1",
+    "processing_time": 0.2609,
+    "routed_to": "http://worker-1:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.41388169999981983,
+    "worker_id": "worker-3",
+    "processing_time": 0.2398,
+    "routed_to": "http://worker-3:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.38909319999993386,
+    "worker_id": "worker-1",
+    "processing_time": 0.1958,
+    "routed_to": "http://worker-1:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.4247400000003836,
+    "worker_id": "worker-3",
+    "processing_time": 0.2611,
+    "routed_to": "http://worker-3:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.25777560000005906,
+    "worker_id": "worker-2",
+    "processing_time": 0.1186,
+    "routed_to": "http://worker-2:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.41035069999998086,
+    "worker_id": "worker-1",
+    "processing_time": 0.1923,
+    "routed_to": "http://worker-1:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.38587730000017473,
+    "worker_id": "worker-2",
+    "processing_time": 0.1784,
+    "routed_to": "http://worker-2:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.2657664999996996,
+    "worker_id": "worker-1",
+    "processing_time": 0.1273,
+    "routed_to": "http://worker-1:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.30737550000003466,
+    "worker_id": "worker-3",
+    "processing_time": 0.1478,
+    "routed_to": "http://worker-3:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.3355271000000357,
+    "worker_id": "worker-2",
+    "processing_time": 0.1842,
+    "routed_to": "http://worker-2:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.4786637000001974,
+    "worker_id": "worker-2",
+    "processing_time": 0.296,
+    "routed_to": "http://worker-2:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.23407059999999547,
+    "worker_id": "worker-3",
+    "processing_time": 0.1105,
+    "routed_to": "http://worker-3:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.39907140000013896,
+    "worker_id": "worker-1",
+    "processing_time": 0.2275,
+    "routed_to": "http://worker-1:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.4444318999999268,
+    "worker_id": "worker-2",
+    "processing_time": 0.2827,
+    "routed_to": "http://worker-2:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.38670830000000933,
+    "worker_id": "worker-3",
+    "processing_time": 0.2688,
+    "routed_to": "http://worker-3:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.2212453000001915,
+    "worker_id": "worker-1",
+    "processing_time": 0.113,
+    "routed_to": "http://worker-1:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.2252914000000601,
+    "worker_id": "worker-3",
+    "processing_time": 0.1199,
+    "routed_to": "http://worker-3:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.3783825999998953,
+    "worker_id": "worker-1",
+    "processing_time": 0.2249,
+    "routed_to": "http://worker-1:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.4419938999999431,
+    "worker_id": "worker-2",
+    "processing_time": 0.2811,
+    "routed_to": "http://worker-2:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.19871799999964423,
+    "worker_id": "worker-2",
+    "processing_time": 0.1017,
+    "routed_to": "http://worker-2:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.44472600000017337,
+    "worker_id": "worker-3",
+    "processing_time": 0.2888,
+    "routed_to": "http://worker-3:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.41684510000004593,
+    "worker_id": "worker-2",
+    "processing_time": 0.2721,
+    "routed_to": "http://worker-2:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.41765780000014274,
+    "worker_id": "worker-1",
+    "processing_time": 0.2769,
+    "routed_to": "http://worker-1:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.3498574999998709,
+    "worker_id": "worker-3",
+    "processing_time": 0.2144,
+    "routed_to": "http://worker-3:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.3334647000001496,
+    "worker_id": "worker-1",
+    "processing_time": 0.2442,
+    "routed_to": "http://worker-1:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.29508839999971315,
+    "worker_id": "worker-2",
+    "processing_time": 0.1098,
+    "routed_to": "http://worker-2:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.32656809999980396,
+    "worker_id": "worker-3",
+    "processing_time": 0.223,
+    "routed_to": "http://worker-3:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.3259435999998459,
+    "worker_id": "worker-1",
+    "processing_time": 0.1887,
+    "routed_to": "http://worker-1:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.3887024000000565,
+    "worker_id": "worker-2",
+    "processing_time": 0.2948,
+    "routed_to": "http://worker-2:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.36890409999978147,
+    "worker_id": "worker-3",
+    "processing_time": 0.2648,
+    "routed_to": "http://worker-3:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.3008820000000014,
+    "worker_id": "worker-1",
+    "processing_time": 0.2346,
+    "routed_to": "http://worker-1:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.3455295999997361,
+    "worker_id": "worker-2",
+    "processing_time": 0.2938,
+    "routed_to": "http://worker-2:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.32855719999997746,
+    "worker_id": "worker-3",
+    "processing_time": 0.2857,
+    "routed_to": "http://worker-3:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.21993560000009893,
+    "worker_id": "worker-1",
+    "processing_time": 0.1308,
+    "routed_to": "http://worker-1:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.25636519999989105,
+    "worker_id": "worker-2",
+    "processing_time": 0.2024,
+    "routed_to": "http://worker-2:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.1952022999998917,
+    "worker_id": "worker-3",
+    "processing_time": 0.1753,
+    "routed_to": "http://worker-3:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.2742548999999599,
+    "worker_id": "worker-1",
+    "processing_time": 0.2204,
+    "routed_to": "http://worker-1:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.1806061000002046,
+    "worker_id": "worker-2",
+    "processing_time": 0.1225,
+    "routed_to": "http://worker-2:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.2747162999999091,
+    "worker_id": "worker-3",
+    "processing_time": 0.2042,
+    "routed_to": "http://worker-3:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.29766490000019985,
+    "worker_id": "worker-1",
+    "processing_time": 0.2431,
+    "routed_to": "http://worker-1:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.2935324000000037,
+    "worker_id": "worker-3",
+    "processing_time": 0.2092,
+    "routed_to": "http://worker-3:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.2135747000002084,
+    "worker_id": "worker-2",
+    "processing_time": 0.1044,
+    "routed_to": "http://worker-2:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.2854053000000931,
+    "worker_id": "worker-1",
+    "processing_time": 0.2005,
+    "routed_to": "http://worker-1:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.248242399999981,
+    "worker_id": "worker-2",
+    "processing_time": 0.1544,
+    "routed_to": "http://worker-2:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.26625819999981104,
+    "worker_id": "worker-1",
+    "processing_time": 0.1917,
+    "routed_to": "http://worker-1:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.3336398999999801,
+    "worker_id": "worker-3",
+    "processing_time": 0.2761,
+    "routed_to": "http://worker-3:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.17541709999977684,
+    "worker_id": "worker-2",
+    "processing_time": 0.113,
+    "routed_to": "http://worker-2:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.184758100000181,
+    "worker_id": "worker-3",
+    "processing_time": 0.1446,
+    "routed_to": "http://worker-3:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.2139300999997431,
+    "worker_id": "worker-1",
+    "processing_time": 0.2052,
+    "routed_to": "http://worker-1:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.20695999999998094,
+    "worker_id": "worker-2",
+    "processing_time": 0.1963,
+    "routed_to": "http://worker-2:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.2844926000002488,
+    "worker_id": "worker-3",
+    "processing_time": 0.1707,
+    "routed_to": "http://worker-3:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.4173983999999109,
+    "worker_id": "worker-1",
+    "processing_time": 0.2241,
+    "routed_to": "http://worker-1:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.341737600000215,
+    "worker_id": "worker-2",
+    "processing_time": 0.1807,
+    "routed_to": "http://worker-2:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.29122800000004645,
+    "worker_id": "worker-3",
+    "processing_time": 0.1648,
+    "routed_to": "http://worker-3:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.46365460000015446,
+    "worker_id": "worker-1",
+    "processing_time": 0.2903,
+    "routed_to": "http://worker-1:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.41864639999994324,
+    "worker_id": "worker-2",
+    "processing_time": 0.2283,
+    "routed_to": "http://worker-2:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.3930995000000621,
+    "worker_id": "worker-3",
+    "processing_time": 0.2118,
+    "routed_to": "http://worker-3:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.42937369999981456,
+    "worker_id": "worker-1",
+    "processing_time": 0.2545,
+    "routed_to": "http://worker-1:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.4289173000001938,
+    "worker_id": "worker-2",
+    "processing_time": 0.2391,
+    "routed_to": "http://worker-2:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.4608041999999841,
+    "worker_id": "worker-1",
+    "processing_time": 0.2845,
+    "routed_to": "http://worker-1:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.429961099999673,
+    "worker_id": "worker-3",
+    "processing_time": 0.2733,
+    "routed_to": "http://worker-3:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.25103489999992235,
+    "worker_id": "worker-2",
+    "processing_time": 0.1272,
+    "routed_to": "http://worker-2:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.28558010000006107,
+    "worker_id": "worker-1",
+    "processing_time": 0.1585,
+    "routed_to": "http://worker-1:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.3417418000003636,
+    "worker_id": "worker-3",
+    "processing_time": 0.185,
+    "routed_to": "http://worker-3:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.34137650000002395,
+    "worker_id": "worker-2",
+    "processing_time": 0.1774,
+    "routed_to": "http://worker-2:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.2683974000001399,
+    "worker_id": "worker-3",
+    "processing_time": 0.1431,
+    "routed_to": "http://worker-3:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.45603299999993396,
+    "worker_id": "worker-1",
+    "processing_time": 0.2761,
+    "routed_to": "http://worker-1:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.25730730000032054,
+    "worker_id": "worker-2",
+    "processing_time": 0.1371,
+    "routed_to": "http://worker-2:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.3846010000002025,
+    "worker_id": "worker-1",
+    "processing_time": 0.2097,
+    "routed_to": "http://worker-1:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.2878381000000445,
+    "worker_id": "worker-3",
+    "processing_time": 0.1595,
+    "routed_to": "http://worker-3:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.22069280000005165,
+    "worker_id": "worker-2",
+    "processing_time": 0.1054,
+    "routed_to": "http://worker-2:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.331478000000061,
+    "worker_id": "worker-2",
+    "processing_time": 0.187,
+    "routed_to": "http://worker-2:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.46146930000031716,
+    "worker_id": "worker-3",
+    "processing_time": 0.2991,
+    "routed_to": "http://worker-3:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.32873739999968166,
+    "worker_id": "worker-3",
+    "processing_time": 0.1747,
+    "routed_to": "http://worker-3:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.4218508999997539,
+    "worker_id": "worker-1",
+    "processing_time": 0.2362,
+    "routed_to": "http://worker-1:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.4148559000000205,
+    "worker_id": "worker-1",
+    "processing_time": 0.2631,
+    "routed_to": "http://worker-1:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.4073174000000108,
+    "worker_id": "worker-2",
+    "processing_time": 0.2669,
+    "routed_to": "http://worker-2:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.3641715999997359,
+    "worker_id": "worker-3",
+    "processing_time": 0.2407,
+    "routed_to": "http://worker-3:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.37806030000001556,
+    "worker_id": "worker-1",
+    "processing_time": 0.251,
+    "routed_to": "http://worker-1:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.3607487000003857,
+    "worker_id": "worker-2",
+    "processing_time": 0.2155,
+    "routed_to": "http://worker-2:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.2762780999996721,
+    "worker_id": "worker-3",
+    "processing_time": 0.1587,
+    "routed_to": "http://worker-3:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.18842769999992015,
+    "worker_id": "worker-1",
+    "processing_time": 0.1023,
+    "routed_to": "http://worker-1:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.2776622999999745,
+    "worker_id": "worker-2",
+    "processing_time": 0.1684,
+    "routed_to": "http://worker-2:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.3643640000000232,
+    "worker_id": "worker-3",
+    "processing_time": 0.2272,
+    "routed_to": "http://worker-3:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.39498409999987416,
+    "worker_id": "worker-3",
+    "processing_time": 0.2667,
+    "routed_to": "http://worker-3:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.35303739999972095,
+    "worker_id": "worker-1",
+    "processing_time": 0.2283,
+    "routed_to": "http://worker-1:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.35238680000020395,
+    "worker_id": "worker-2",
+    "processing_time": 0.2199,
+    "routed_to": "http://worker-2:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.2371197999996184,
+    "worker_id": "worker-1",
+    "processing_time": 0.1312,
+    "routed_to": "http://worker-1:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.3748123999998825,
+    "worker_id": "worker-2",
+    "processing_time": 0.2616,
+    "routed_to": "http://worker-2:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.39230470000029527,
+    "worker_id": "worker-3",
+    "processing_time": 0.2952,
+    "routed_to": "http://worker-3:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.33469719999993686,
+    "worker_id": "worker-1",
+    "processing_time": 0.206,
+    "routed_to": "http://worker-1:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.23390400000016598,
+    "worker_id": "worker-2",
+    "processing_time": 0.1569,
+    "routed_to": "http://worker-2:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.218654300000253,
+    "worker_id": "worker-3",
+    "processing_time": 0.1546,
+    "routed_to": "http://worker-3:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.3208612999997058,
+    "worker_id": "worker-1",
+    "processing_time": 0.2499,
+    "routed_to": "http://worker-1:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.291403100000025,
+    "worker_id": "worker-2",
+    "processing_time": 0.1954,
+    "routed_to": "http://worker-2:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.2722453999999743,
+    "worker_id": "worker-3",
+    "processing_time": 0.1786,
+    "routed_to": "http://worker-3:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.1433774999995876,
+    "worker_id": "worker-1",
+    "processing_time": 0.1125,
+    "routed_to": "http://worker-1:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.16517290000001594,
+    "worker_id": "worker-2",
+    "processing_time": 0.121,
+    "routed_to": "http://worker-2:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.2841624000002412,
+    "worker_id": "worker-3",
+    "processing_time": 0.2243,
+    "routed_to": "http://worker-3:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.2528927000003023,
+    "worker_id": "worker-1",
+    "processing_time": 0.1923,
+    "routed_to": "http://worker-1:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.2811550999999781,
+    "worker_id": "worker-2",
+    "processing_time": 0.2542,
+    "routed_to": "http://worker-2:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.26844389999996565,
+    "worker_id": "worker-3",
+    "processing_time": 0.2424,
+    "routed_to": "http://worker-3:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.24992659999998068,
+    "worker_id": "worker-1",
+    "processing_time": 0.2196,
+    "routed_to": "http://worker-1:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.29593629999999393,
+    "worker_id": "worker-2",
+    "processing_time": 0.2843,
+    "routed_to": "http://worker-2:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.23354209999979503,
+    "worker_id": "worker-3",
+    "processing_time": 0.1992,
+    "routed_to": "http://worker-3:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.26098119999960545,
+    "worker_id": "worker-1",
+    "processing_time": 0.1864,
+    "routed_to": "http://worker-1:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.2970346000001882,
+    "worker_id": "worker-2",
+    "processing_time": 0.1635,
+    "routed_to": "http://worker-2:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.2872162999997272,
+    "worker_id": "worker-3",
+    "processing_time": 0.1602,
+    "routed_to": "http://worker-3:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.29260729999987234,
+    "worker_id": "worker-1",
+    "processing_time": 0.1632,
+    "routed_to": "http://worker-1:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.45657329999994545,
+    "worker_id": "worker-2",
+    "processing_time": 0.2864,
+    "routed_to": "http://worker-2:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.29033860000026834,
+    "worker_id": "worker-3",
+    "processing_time": 0.1484,
+    "routed_to": "http://worker-3:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.473993099999916,
+    "worker_id": "worker-1",
+    "processing_time": 0.2705,
+    "routed_to": "http://worker-1:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.3212639999997009,
+    "worker_id": "worker-1",
+    "processing_time": 0.1643,
+    "routed_to": "http://worker-1:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.5025312999996459,
+    "worker_id": "worker-2",
+    "processing_time": 0.2893,
+    "routed_to": "http://worker-2:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.4432993999998871,
+    "worker_id": "worker-2",
+    "processing_time": 0.2502,
+    "routed_to": "http://worker-2:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.4878384999997252,
+    "worker_id": "worker-3",
+    "processing_time": 0.2825,
+    "routed_to": "http://worker-3:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.38553779999983817,
+    "worker_id": "worker-3",
+    "processing_time": 0.2089,
+    "routed_to": "http://worker-3:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.4512408000000505,
+    "worker_id": "worker-1",
+    "processing_time": 0.2578,
+    "routed_to": "http://worker-1:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.3695386999997936,
+    "worker_id": "worker-2",
+    "processing_time": 0.2078,
+    "routed_to": "http://worker-2:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.49504250000018146,
+    "worker_id": "worker-3",
+    "processing_time": 0.2733,
+    "routed_to": "http://worker-3:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.4081896000002416,
+    "worker_id": "worker-1",
+    "processing_time": 0.2268,
+    "routed_to": "http://worker-1:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.3401312999999391,
+    "worker_id": "worker-2",
+    "processing_time": 0.2004,
+    "routed_to": "http://worker-2:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.3710881000001791,
+    "worker_id": "worker-3",
+    "processing_time": 0.2243,
+    "routed_to": "http://worker-3:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.3956503999997949,
+    "worker_id": "worker-1",
+    "processing_time": 0.2495,
+    "routed_to": "http://worker-1:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.28698480000002746,
+    "worker_id": "worker-2",
+    "processing_time": 0.1753,
+    "routed_to": "http://worker-2:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.3412055999997392,
+    "worker_id": "worker-3",
+    "processing_time": 0.2043,
+    "routed_to": "http://worker-3:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.2671096999997644,
+    "worker_id": "worker-2",
+    "processing_time": 0.1707,
+    "routed_to": "http://worker-2:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.3835141999998086,
+    "worker_id": "worker-1",
+    "processing_time": 0.2455,
+    "routed_to": "http://worker-1:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.32521300000007614,
+    "worker_id": "worker-2",
+    "processing_time": 0.1985,
+    "routed_to": "http://worker-2:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.2645353000002615,
+    "worker_id": "worker-1",
+    "processing_time": 0.1526,
+    "routed_to": "http://worker-1:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.4092666999999892,
+    "worker_id": "worker-3",
+    "processing_time": 0.2642,
+    "routed_to": "http://worker-3:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.4190381999997044,
+    "worker_id": "worker-1",
+    "processing_time": 0.2788,
+    "routed_to": "http://worker-1:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.2106748000001062,
+    "worker_id": "worker-3",
+    "processing_time": 0.1168,
+    "routed_to": "http://worker-3:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.4204844000000776,
+    "worker_id": "worker-2",
+    "processing_time": 0.2715,
+    "routed_to": "http://worker-2:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.20492520000016157,
+    "worker_id": "worker-3",
+    "processing_time": 0.1102,
+    "routed_to": "http://worker-3:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.3243840000000091,
+    "worker_id": "worker-1",
+    "processing_time": 0.1993,
+    "routed_to": "http://worker-1:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.44194130000005316,
+    "worker_id": "worker-2",
+    "processing_time": 0.2787,
+    "routed_to": "http://worker-2:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.2544597999999496,
+    "worker_id": "worker-3",
+    "processing_time": 0.1547,
+    "routed_to": "http://worker-3:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.24826419999999416,
+    "worker_id": "worker-1",
+    "processing_time": 0.1471,
+    "routed_to": "http://worker-1:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.2958560000001853,
+    "worker_id": "worker-2",
+    "processing_time": 0.1855,
+    "routed_to": "http://worker-2:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.38003589999971155,
+    "worker_id": "worker-3",
+    "processing_time": 0.2541,
+    "routed_to": "http://worker-3:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.40999079999983223,
+    "worker_id": "worker-1",
+    "processing_time": 0.2813,
+    "routed_to": "http://worker-1:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.2035488000001351,
+    "worker_id": "worker-2",
+    "processing_time": 0.1299,
+    "routed_to": "http://worker-2:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.4123217999999724,
+    "worker_id": "worker-1",
+    "processing_time": 0.2913,
+    "routed_to": "http://worker-1:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.41188340000007884,
+    "worker_id": "worker-2",
+    "processing_time": 0.2808,
+    "routed_to": "http://worker-2:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.3339621000000079,
+    "worker_id": "worker-3",
+    "processing_time": 0.2162,
+    "routed_to": "http://worker-3:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.39876219999996465,
+    "worker_id": "worker-3",
+    "processing_time": 0.2872,
+    "routed_to": "http://worker-3:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.19808069999999134,
+    "worker_id": "worker-2",
+    "processing_time": 0.1336,
+    "routed_to": "http://worker-2:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.2810988000001089,
+    "worker_id": "worker-1",
+    "processing_time": 0.1809,
+    "routed_to": "http://worker-1:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.237502499999664,
+    "worker_id": "worker-3",
+    "processing_time": 0.1586,
+    "routed_to": "http://worker-3:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.1664734999999382,
+    "worker_id": "worker-1",
+    "processing_time": 0.1338,
+    "routed_to": "http://worker-1:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.14851820000012594,
+    "worker_id": "worker-2",
+    "processing_time": 0.1169,
+    "routed_to": "http://worker-2:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.3244942000001174,
+    "worker_id": "worker-3",
+    "processing_time": 0.2544,
+    "routed_to": "http://worker-3:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.29456260000006296,
+    "worker_id": "worker-1",
+    "processing_time": 0.2173,
+    "routed_to": "http://worker-1:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.25368780000007973,
+    "worker_id": "worker-2",
+    "processing_time": 0.2052,
+    "routed_to": "http://worker-2:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.20793570000023465,
+    "worker_id": "worker-3",
+    "processing_time": 0.1607,
+    "routed_to": "http://worker-3:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.182436399999915,
+    "worker_id": "worker-1",
+    "processing_time": 0.1341,
+    "routed_to": "http://worker-1:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.11269039999979213,
+    "worker_id": "worker-2",
+    "processing_time": 0.1,
+    "routed_to": "http://worker-2:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.2591522000002442,
+    "worker_id": "worker-3",
+    "processing_time": 0.201,
+    "routed_to": "http://worker-3:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.22797979999995732,
+    "worker_id": "worker-1",
+    "processing_time": 0.1777,
+    "routed_to": "http://worker-1:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.31966220000003887,
+    "worker_id": "worker-2",
+    "processing_time": 0.2902,
+    "routed_to": "http://worker-2:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.31243670000003476,
+    "worker_id": "worker-3",
+    "processing_time": 0.2783,
+    "routed_to": "http://worker-3:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.28009730000030686,
+    "worker_id": "worker-1",
+    "processing_time": 0.251,
+    "routed_to": "http://worker-1:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.2583057000001645,
+    "worker_id": "worker-2",
+    "processing_time": 0.2402,
+    "routed_to": "http://worker-2:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.29144240000005084,
+    "worker_id": "worker-3",
+    "processing_time": 0.2565,
+    "routed_to": "http://worker-3:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.28023880000000645,
+    "worker_id": "worker-1",
+    "processing_time": 0.2424,
+    "routed_to": "http://worker-1:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.22494319999987056,
+    "worker_id": "worker-2",
+    "processing_time": 0.1723,
+    "routed_to": "http://worker-2:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.266736900000069,
+    "worker_id": "worker-3",
+    "processing_time": 0.1518,
+    "routed_to": "http://worker-3:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.2208810000001904,
+    "worker_id": "worker-1",
+    "processing_time": 0.107,
+    "routed_to": "http://worker-1:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.39060990000007223,
+    "worker_id": "worker-2",
+    "processing_time": 0.2939,
+    "routed_to": "http://worker-2:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.3113432999998622,
+    "worker_id": "worker-1",
+    "processing_time": 0.2075,
+    "routed_to": "http://worker-1:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.2986895999997614,
+    "worker_id": "worker-2",
+    "processing_time": 0.1956,
+    "routed_to": "http://worker-2:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.28334270000004835,
+    "worker_id": "worker-3",
+    "processing_time": 0.189,
+    "routed_to": "http://worker-3:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.42760930000031294,
+    "worker_id": "worker-3",
+    "processing_time": 0.2817,
+    "routed_to": "http://worker-3:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.32501570000022184,
+    "worker_id": "worker-2",
+    "processing_time": 0.1819,
+    "routed_to": "http://worker-2:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.4717900999999074,
+    "worker_id": "worker-3",
+    "processing_time": 0.2831,
+    "routed_to": "http://worker-3:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.3019805999997516,
+    "worker_id": "worker-1",
+    "processing_time": 0.1619,
+    "routed_to": "http://worker-1:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.4301129000000401,
+    "worker_id": "worker-1",
+    "processing_time": 0.2518,
+    "routed_to": "http://worker-1:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.3884378000002471,
+    "worker_id": "worker-2",
+    "processing_time": 0.2313,
+    "routed_to": "http://worker-2:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.48357369999985167,
+    "worker_id": "worker-3",
+    "processing_time": 0.2983,
+    "routed_to": "http://worker-3:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.2482162999999673,
+    "worker_id": "worker-1",
+    "processing_time": 0.1122,
+    "routed_to": "http://worker-1:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.42882430000008753,
+    "worker_id": "worker-2",
+    "processing_time": 0.2571,
+    "routed_to": "http://worker-2:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.3226081000002523,
+    "worker_id": "worker-3",
+    "processing_time": 0.1866,
+    "routed_to": "http://worker-3:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.3727324999999837,
+    "worker_id": "worker-1",
+    "processing_time": 0.2082,
+    "routed_to": "http://worker-1:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.24920009999959802,
+    "worker_id": "worker-2",
+    "processing_time": 0.1145,
+    "routed_to": "http://worker-2:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.3356213000001844,
+    "worker_id": "worker-3",
+    "processing_time": 0.1918,
+    "routed_to": "http://worker-3:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.42178199999989374,
+    "worker_id": "worker-1",
+    "processing_time": 0.2369,
+    "routed_to": "http://worker-1:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.441008199999942,
+    "worker_id": "worker-2",
+    "processing_time": 0.2757,
+    "routed_to": "http://worker-2:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.34234490000017104,
+    "worker_id": "worker-3",
+    "processing_time": 0.1993,
+    "routed_to": "http://worker-3:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.44634069999983694,
+    "worker_id": "worker-1",
+    "processing_time": 0.2794,
+    "routed_to": "http://worker-1:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.4049566999997296,
+    "worker_id": "worker-2",
+    "processing_time": 0.2454,
+    "routed_to": "http://worker-2:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.2406568999999763,
+    "worker_id": "worker-2",
+    "processing_time": 0.1259,
+    "routed_to": "http://worker-2:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.3753028999999515,
+    "worker_id": "worker-1",
+    "processing_time": 0.2307,
+    "routed_to": "http://worker-1:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.4741823999997905,
+    "worker_id": "worker-3",
+    "processing_time": 0.2951,
+    "routed_to": "http://worker-3:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.3381832000000031,
+    "worker_id": "worker-3",
+    "processing_time": 0.2225,
+    "routed_to": "http://worker-3:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.3026972000002388,
+    "worker_id": "worker-1",
+    "processing_time": 0.168,
+    "routed_to": "http://worker-1:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.3097296999999344,
+    "worker_id": "worker-2",
+    "processing_time": 0.193,
+    "routed_to": "http://worker-2:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.4441240999999536,
+    "worker_id": "worker-3",
+    "processing_time": 0.2845,
+    "routed_to": "http://worker-3:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.222237099999802,
+    "worker_id": "worker-1",
+    "processing_time": 0.119,
+    "routed_to": "http://worker-1:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.2740834999999606,
+    "worker_id": "worker-2",
+    "processing_time": 0.1729,
+    "routed_to": "http://worker-2:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.20030300000007628,
+    "worker_id": "worker-3",
+    "processing_time": 0.1097,
+    "routed_to": "http://worker-3:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.2979107999999542,
+    "worker_id": "worker-1",
+    "processing_time": 0.1747,
+    "routed_to": "http://worker-1:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.2612638999999035,
+    "worker_id": "worker-2",
+    "processing_time": 0.1527,
+    "routed_to": "http://worker-2:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.43288529999972525,
+    "worker_id": "worker-3",
+    "processing_time": 0.2809,
+    "routed_to": "http://worker-3:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.3357022000000143,
+    "worker_id": "worker-1",
+    "processing_time": 0.2019,
+    "routed_to": "http://worker-1:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.21313680000002933,
+    "worker_id": "worker-2",
+    "processing_time": 0.1308,
+    "routed_to": "http://worker-2:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.3268970000003719,
+    "worker_id": "worker-3",
+    "processing_time": 0.2057,
+    "routed_to": "http://worker-3:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.22195529999999053,
+    "worker_id": "worker-1",
+    "processing_time": 0.1287,
+    "routed_to": "http://worker-1:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.31165199999986726,
+    "worker_id": "worker-2",
+    "processing_time": 0.2019,
+    "routed_to": "http://worker-2:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.33874340000011216,
+    "worker_id": "worker-3",
+    "processing_time": 0.224,
+    "routed_to": "http://worker-3:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.1878750000000764,
+    "worker_id": "worker-1",
+    "processing_time": 0.1224,
+    "routed_to": "http://worker-1:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.23141320000013366,
+    "worker_id": "worker-2",
+    "processing_time": 0.1513,
+    "routed_to": "http://worker-2:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.27096720000008645,
+    "worker_id": "worker-3",
+    "processing_time": 0.174,
+    "routed_to": "http://worker-3:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.20488840000007258,
+    "worker_id": "worker-1",
+    "processing_time": 0.1296,
+    "routed_to": "http://worker-1:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.2628365999999005,
+    "worker_id": "worker-2",
+    "processing_time": 0.2018,
+    "routed_to": "http://worker-2:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.247798899999907,
+    "worker_id": "worker-3",
+    "processing_time": 0.1779,
+    "routed_to": "http://worker-3:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.18083770000021104,
+    "worker_id": "worker-2",
+    "processing_time": 0.1296,
+    "routed_to": "http://worker-2:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.3223374999997759,
+    "worker_id": "worker-1",
+    "processing_time": 0.2491,
+    "routed_to": "http://worker-1:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.29600799999980154,
+    "worker_id": "worker-3",
+    "processing_time": 0.2232,
+    "routed_to": "http://worker-3:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.21165689999997994,
+    "worker_id": "worker-1",
+    "processing_time": 0.1644,
+    "routed_to": "http://worker-1:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.2908495000001494,
+    "worker_id": "worker-2",
+    "processing_time": 0.2373,
+    "routed_to": "http://worker-2:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.1949414999999135,
+    "worker_id": "worker-3",
+    "processing_time": 0.1476,
+    "routed_to": "http://worker-3:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.2718910999997206,
+    "worker_id": "worker-1",
+    "processing_time": 0.2146,
+    "routed_to": "http://worker-1:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.20203070000025036,
+    "worker_id": "worker-2",
+    "processing_time": 0.1528,
+    "routed_to": "http://worker-2:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.1544107999998232,
+    "worker_id": "worker-3",
+    "processing_time": 0.1098,
+    "routed_to": "http://worker-3:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.29688609999993787,
+    "worker_id": "worker-1",
+    "processing_time": 0.2682,
+    "routed_to": "http://worker-1:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.285602899999958,
+    "worker_id": "worker-2",
+    "processing_time": 0.2414,
+    "routed_to": "http://worker-2:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.15945560000000114,
+    "worker_id": "worker-3",
+    "processing_time": 0.1017,
+    "routed_to": "http://worker-3:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.19769529999985025,
+    "worker_id": "worker-1",
+    "processing_time": 0.1438,
+    "routed_to": "http://worker-1:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.3363334999999097,
+    "worker_id": "worker-2",
+    "processing_time": 0.2903,
+    "routed_to": "http://worker-2:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.24671369999987292,
+    "worker_id": "worker-3",
+    "processing_time": 0.1652,
+    "routed_to": "http://worker-3:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.33063990000027843,
+    "worker_id": "worker-1",
+    "processing_time": 0.2982,
+    "routed_to": "http://worker-1:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.19898160000002463,
+    "worker_id": "worker-2",
+    "processing_time": 0.1331,
+    "routed_to": "http://worker-2:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.28903859999991255,
+    "worker_id": "worker-3",
+    "processing_time": 0.2739,
+    "routed_to": "http://worker-3:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.18116620000000694,
+    "worker_id": "worker-1",
+    "processing_time": 0.1025,
+    "routed_to": "http://worker-1:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.31284150000010413,
+    "worker_id": "worker-2",
+    "processing_time": 0.2545,
+    "routed_to": "http://worker-2:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.32220589999997173,
+    "worker_id": "worker-3",
+    "processing_time": 0.2526,
+    "routed_to": "http://worker-3:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.23552729999983057,
+    "worker_id": "worker-1",
+    "processing_time": 0.1351,
+    "routed_to": "http://worker-1:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.3546518000002834,
+    "worker_id": "worker-2",
+    "processing_time": 0.2297,
+    "routed_to": "http://worker-2:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.36488409999992655,
+    "worker_id": "worker-3",
+    "processing_time": 0.2222,
+    "routed_to": "http://worker-3:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.32855019999988144,
+    "worker_id": "worker-1",
+    "processing_time": 0.2045,
+    "routed_to": "http://worker-1:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.2946630000001278,
+    "worker_id": "worker-2",
+    "processing_time": 0.1493,
+    "routed_to": "http://worker-2:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.357137099999818,
+    "worker_id": "worker-3",
+    "processing_time": 0.2164,
+    "routed_to": "http://worker-3:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.2514769999997952,
+    "worker_id": "worker-1",
+    "processing_time": 0.1162,
+    "routed_to": "http://worker-1:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.4360827000000427,
+    "worker_id": "worker-2",
+    "processing_time": 0.2609,
+    "routed_to": "http://worker-2:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.314086700000189,
+    "worker_id": "worker-3",
+    "processing_time": 0.1793,
+    "routed_to": "http://worker-3:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.2861817999996674,
+    "worker_id": "worker-1",
+    "processing_time": 0.1549,
+    "routed_to": "http://worker-1:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.4279292000001078,
+    "worker_id": "worker-2",
+    "processing_time": 0.2567,
+    "routed_to": "http://worker-2:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.4228438999998616,
+    "worker_id": "worker-3",
+    "processing_time": 0.265,
+    "routed_to": "http://worker-3:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.39527570000018386,
+    "worker_id": "worker-1",
+    "processing_time": 0.2,
+    "routed_to": "http://worker-1:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.39993609999964974,
+    "worker_id": "worker-2",
+    "processing_time": 0.2165,
+    "routed_to": "http://worker-2:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.43649679999998625,
+    "worker_id": "worker-3",
+    "processing_time": 0.247,
+    "routed_to": "http://worker-3:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.2619412999997621,
+    "worker_id": "worker-1",
+    "processing_time": 0.108,
+    "routed_to": "http://worker-1:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.3107063000002199,
+    "worker_id": "worker-1",
+    "processing_time": 0.1681,
+    "routed_to": "http://worker-1:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.41477919999988444,
+    "worker_id": "worker-3",
+    "processing_time": 0.2308,
+    "routed_to": "http://worker-3:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.4910021000000597,
+    "worker_id": "worker-2",
+    "processing_time": 0.2963,
+    "routed_to": "http://worker-2:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.29025620000038543,
+    "worker_id": "worker-2",
+    "processing_time": 0.1404,
+    "routed_to": "http://worker-2:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.3397840000002361,
+    "worker_id": "worker-3",
+    "processing_time": 0.1651,
+    "routed_to": "http://worker-3:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.4696227000004001,
+    "worker_id": "worker-1",
+    "processing_time": 0.2891,
+    "routed_to": "http://worker-1:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.2533893999998327,
+    "worker_id": "worker-2",
+    "processing_time": 0.1132,
+    "routed_to": "http://worker-2:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.42200850000017454,
+    "worker_id": "worker-3",
+    "processing_time": 0.2412,
+    "routed_to": "http://worker-3:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.2506945000000087,
+    "worker_id": "worker-1",
+    "processing_time": 0.1052,
+    "routed_to": "http://worker-1:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.4079172000001563,
+    "worker_id": "worker-2",
+    "processing_time": 0.243,
+    "routed_to": "http://worker-2:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.46708440000020346,
+    "worker_id": "worker-1",
+    "processing_time": 0.2963,
+    "routed_to": "http://worker-1:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.3719506999996156,
+    "worker_id": "worker-3",
+    "processing_time": 0.1932,
+    "routed_to": "http://worker-3:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.3712291000001642,
+    "worker_id": "worker-2",
+    "processing_time": 0.2014,
+    "routed_to": "http://worker-2:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.31024210000032326,
+    "worker_id": "worker-3",
+    "processing_time": 0.1766,
+    "routed_to": "http://worker-3:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.43176820000007865,
+    "worker_id": "worker-2",
+    "processing_time": 0.289,
+    "routed_to": "http://worker-2:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.4380347000001166,
+    "worker_id": "worker-1",
+    "processing_time": 0.284,
+    "routed_to": "http://worker-1:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.4148822000001928,
+    "worker_id": "worker-3",
+    "processing_time": 0.2748,
+    "routed_to": "http://worker-3:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.27721680000013293,
+    "worker_id": "worker-1",
+    "processing_time": 0.1472,
+    "routed_to": "http://worker-1:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.37309640000012223,
+    "worker_id": "worker-1",
+    "processing_time": 0.2384,
+    "routed_to": "http://worker-1:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.3070321000000149,
+    "worker_id": "worker-2",
+    "processing_time": 0.1907,
+    "routed_to": "http://worker-2:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.19695269999965603,
+    "worker_id": "worker-3",
+    "processing_time": 0.1074,
+    "routed_to": "http://worker-3:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.29832630000009885,
+    "worker_id": "worker-2",
+    "processing_time": 0.1711,
+    "routed_to": "http://worker-2:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.29779259999986607,
+    "worker_id": "worker-3",
+    "processing_time": 0.1628,
+    "routed_to": "http://worker-3:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.39084600000023784,
+    "worker_id": "worker-1",
+    "processing_time": 0.2708,
+    "routed_to": "http://worker-1:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.3376746999997522,
+    "worker_id": "worker-2",
+    "processing_time": 0.2193,
+    "routed_to": "http://worker-2:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.3897533999997904,
+    "worker_id": "worker-3",
+    "processing_time": 0.2647,
+    "routed_to": "http://worker-3:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.144438799999989,
+    "worker_id": "worker-1",
+    "processing_time": 0.1013,
+    "routed_to": "http://worker-1:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.20405940000000555,
+    "worker_id": "worker-2",
+    "processing_time": 0.1201,
+    "routed_to": "http://worker-2:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.1505987999998979,
+    "worker_id": "worker-3",
+    "processing_time": 0.1018,
+    "routed_to": "http://worker-3:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.23772989999997662,
+    "worker_id": "worker-1",
+    "processing_time": 0.1914,
+    "routed_to": "http://worker-1:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.20108550000031755,
+    "worker_id": "worker-2",
+    "processing_time": 0.1508,
+    "routed_to": "http://worker-2:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.24258629999985715,
+    "worker_id": "worker-3",
+    "processing_time": 0.1655,
+    "routed_to": "http://worker-3:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.3113735000001725,
+    "worker_id": "worker-1",
+    "processing_time": 0.2901,
+    "routed_to": "http://worker-1:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.2634760999999344,
+    "worker_id": "worker-3",
+    "processing_time": 0.2273,
+    "routed_to": "http://worker-3:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.20628320000014355,
+    "worker_id": "worker-2",
+    "processing_time": 0.1542,
+    "routed_to": "http://worker-2:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.24039250000032553,
+    "worker_id": "worker-1",
+    "processing_time": 0.1559,
+    "routed_to": "http://worker-1:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.26611200000024837,
+    "worker_id": "worker-2",
+    "processing_time": 0.2133,
+    "routed_to": "http://worker-2:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.17278080000005502,
+    "worker_id": "worker-3",
+    "processing_time": 0.1035,
+    "routed_to": "http://worker-3:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.22239140000010593,
+    "worker_id": "worker-1",
+    "processing_time": 0.1587,
+    "routed_to": "http://worker-1:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.2624372999998741,
+    "worker_id": "worker-3",
+    "processing_time": 0.2058,
+    "routed_to": "http://worker-3:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.2608291999999892,
+    "worker_id": "worker-2",
+    "processing_time": 0.2097,
+    "routed_to": "http://worker-2:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.3341577999999572,
+    "worker_id": "worker-1",
+    "processing_time": 0.2969,
+    "routed_to": "http://worker-1:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.27888990000019476,
+    "worker_id": "worker-2",
+    "processing_time": 0.2388,
+    "routed_to": "http://worker-2:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.27360829999997804,
+    "worker_id": "worker-3",
+    "processing_time": 0.2316,
+    "routed_to": "http://worker-3:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.23508850000007442,
+    "worker_id": "worker-1",
+    "processing_time": 0.1294,
+    "routed_to": "http://worker-1:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.22607499999958236,
+    "worker_id": "worker-2",
+    "processing_time": 0.1316,
+    "routed_to": "http://worker-2:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.40054549999968003,
+    "worker_id": "worker-1",
+    "processing_time": 0.262,
+    "routed_to": "http://worker-1:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.41863899999998466,
+    "worker_id": "worker-3",
+    "processing_time": 0.2718,
+    "routed_to": "http://worker-3:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.30684400000018286,
+    "worker_id": "worker-2",
+    "processing_time": 0.1793,
+    "routed_to": "http://worker-2:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.3859659999998257,
+    "worker_id": "worker-3",
+    "processing_time": 0.2574,
+    "routed_to": "http://worker-3:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.4928469000001314,
+    "worker_id": "worker-1",
+    "processing_time": 0.2943,
+    "routed_to": "http://worker-1:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.46331229999987045,
+    "worker_id": "worker-1",
+    "processing_time": 0.2883,
+    "routed_to": "http://worker-1:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.3180185999999594,
+    "worker_id": "worker-2",
+    "processing_time": 0.1977,
+    "routed_to": "http://worker-2:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.4602407000002131,
+    "worker_id": "worker-3",
+    "processing_time": 0.2866,
+    "routed_to": "http://worker-3:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.2408685999998852,
+    "worker_id": "worker-2",
+    "processing_time": 0.1218,
+    "routed_to": "http://worker-2:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.333224799999698,
+    "worker_id": "worker-3",
+    "processing_time": 0.2085,
+    "routed_to": "http://worker-3:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.24983219999967332,
+    "worker_id": "worker-1",
+    "processing_time": 0.1401,
+    "routed_to": "http://worker-1:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.4058871000002,
+    "worker_id": "worker-2",
+    "processing_time": 0.2337,
+    "routed_to": "http://worker-2:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.2717078999999103,
+    "worker_id": "worker-3",
+    "processing_time": 0.1626,
+    "routed_to": "http://worker-3:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.22175760000027367,
+    "worker_id": "worker-1",
+    "processing_time": 0.1126,
+    "routed_to": "http://worker-1:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.3294012000001203,
+    "worker_id": "worker-2",
+    "processing_time": 0.205,
+    "routed_to": "http://worker-2:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.22552420000010898,
+    "worker_id": "worker-3",
+    "processing_time": 0.1196,
+    "routed_to": "http://worker-3:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.3897701999999299,
+    "worker_id": "worker-1",
+    "processing_time": 0.224,
+    "routed_to": "http://worker-1:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.247147799999766,
+    "worker_id": "worker-2",
+    "processing_time": 0.1413,
+    "routed_to": "http://worker-2:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.4134337000000414,
+    "worker_id": "worker-3",
+    "processing_time": 0.2327,
+    "routed_to": "http://worker-3:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.34199089999992793,
+    "worker_id": "worker-1",
+    "processing_time": 0.2155,
+    "routed_to": "http://worker-1:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.25558159999991403,
+    "worker_id": "worker-2",
+    "processing_time": 0.1517,
+    "routed_to": "http://worker-2:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.23405350000030012,
+    "worker_id": "worker-3",
+    "processing_time": 0.1351,
+    "routed_to": "http://worker-3:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.332722399999966,
+    "worker_id": "worker-1",
+    "processing_time": 0.2017,
+    "routed_to": "http://worker-1:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.4407694999999876,
+    "worker_id": "worker-1",
+    "processing_time": 0.2542,
+    "routed_to": "http://worker-1:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.4677486999999019,
+    "worker_id": "worker-3",
+    "processing_time": 0.2822,
+    "routed_to": "http://worker-3:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.19967259999975795,
+    "worker_id": "worker-2",
+    "processing_time": 0.1119,
+    "routed_to": "http://worker-2:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.4342163999999684,
+    "worker_id": "worker-2",
+    "processing_time": 0.2557,
+    "routed_to": "http://worker-2:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.3915785999997752,
+    "worker_id": "worker-3",
+    "processing_time": 0.2355,
+    "routed_to": "http://worker-3:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.45559480000019903,
+    "worker_id": "worker-1",
+    "processing_time": 0.2706,
+    "routed_to": "http://worker-1:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.2651851999999053,
+    "worker_id": "worker-2",
+    "processing_time": 0.1831,
+    "routed_to": "http://worker-2:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.18260849999978745,
+    "worker_id": "worker-3",
+    "processing_time": 0.1183,
+    "routed_to": "http://worker-3:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.41456949999974313,
+    "worker_id": "worker-1",
+    "processing_time": 0.2761,
+    "routed_to": "http://worker-1:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.2349280000003091,
+    "worker_id": "worker-2",
+    "processing_time": 0.1622,
+    "routed_to": "http://worker-2:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.31801850000010745,
+    "worker_id": "worker-3",
+    "processing_time": 0.1885,
+    "routed_to": "http://worker-3:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.32852219999995214,
+    "worker_id": "worker-1",
+    "processing_time": 0.1982,
+    "routed_to": "http://worker-1:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.3665768000000753,
+    "worker_id": "worker-2",
+    "processing_time": 0.224,
+    "routed_to": "http://worker-2:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.37764370000013514,
+    "worker_id": "worker-3",
+    "processing_time": 0.2307,
+    "routed_to": "http://worker-3:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.23515889999998763,
+    "worker_id": "worker-1",
+    "processing_time": 0.1593,
+    "routed_to": "http://worker-1:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.2199004999997669,
+    "worker_id": "worker-2",
+    "processing_time": 0.1564,
+    "routed_to": "http://worker-2:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.2636563999999453,
+    "worker_id": "worker-3",
+    "processing_time": 0.178,
+    "routed_to": "http://worker-3:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.23326769999994212,
+    "worker_id": "worker-1",
+    "processing_time": 0.1653,
+    "routed_to": "http://worker-1:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.38857829999960813,
+    "worker_id": "worker-2",
+    "processing_time": 0.2673,
+    "routed_to": "http://worker-2:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.1716652999998587,
+    "worker_id": "worker-3",
+    "processing_time": 0.1454,
+    "routed_to": "http://worker-3:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.3233242000001155,
+    "worker_id": "worker-1",
+    "processing_time": 0.2219,
+    "routed_to": "http://worker-1:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.28679990000000544,
+    "worker_id": "worker-2",
+    "processing_time": 0.1893,
+    "routed_to": "http://worker-2:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.13814400000001115,
+    "worker_id": "worker-3",
+    "processing_time": 0.1064,
+    "routed_to": "http://worker-3:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.35871580000002723,
+    "worker_id": "worker-1",
+    "processing_time": 0.2338,
+    "routed_to": "http://worker-1:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.3494837999996889,
+    "worker_id": "worker-2",
+    "processing_time": 0.2807,
+    "routed_to": "http://worker-2:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.24430609999990338,
+    "worker_id": "worker-3",
+    "processing_time": 0.1675,
+    "routed_to": "http://worker-3:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.32598179999968124,
+    "worker_id": "worker-1",
+    "processing_time": 0.2639,
+    "routed_to": "http://worker-1:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.15298729999994976,
+    "worker_id": "worker-2",
+    "processing_time": 0.1126,
+    "routed_to": "http://worker-2:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.25299009999980626,
+    "worker_id": "worker-3",
+    "processing_time": 0.1604,
+    "routed_to": "http://worker-3:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.1909338000000389,
+    "worker_id": "worker-1",
+    "processing_time": 0.1158,
+    "routed_to": "http://worker-1:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.2790002999995522,
+    "worker_id": "worker-2",
+    "processing_time": 0.1576,
+    "routed_to": "http://worker-2:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.1929120999998304,
+    "worker_id": "worker-3",
+    "processing_time": 0.123,
+    "routed_to": "http://worker-3:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.24810269999989032,
+    "worker_id": "worker-1",
+    "processing_time": 0.1308,
+    "routed_to": "http://worker-1:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.29543629999989207,
+    "worker_id": "worker-2",
+    "processing_time": 0.2628,
+    "routed_to": "http://worker-2:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.21980779999967126,
+    "worker_id": "worker-3",
+    "processing_time": 0.1152,
+    "routed_to": "http://worker-3:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.23243509999974776,
+    "worker_id": "worker-2",
+    "processing_time": 0.1333,
+    "routed_to": "http://worker-2:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.31015949999982695,
+    "worker_id": "worker-1",
+    "processing_time": 0.2918,
+    "routed_to": "http://worker-1:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.23699249999981475,
+    "worker_id": "worker-1",
+    "processing_time": 0.1203,
+    "routed_to": "http://worker-1:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.29623910000009346,
+    "worker_id": "worker-3",
+    "processing_time": 0.2696,
+    "routed_to": "http://worker-3:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.2684449999997014,
+    "worker_id": "worker-2",
+    "processing_time": 0.2206,
+    "routed_to": "http://worker-2:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.28231110000024273,
+    "worker_id": "worker-3",
+    "processing_time": 0.2734,
+    "routed_to": "http://worker-3:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.2700552000001153,
+    "worker_id": "worker-1",
+    "processing_time": 0.2418,
+    "routed_to": "http://worker-1:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.28795279999985723,
+    "worker_id": "worker-2",
+    "processing_time": 0.1792,
+    "routed_to": "http://worker-2:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.29908649999970294,
+    "worker_id": "worker-3",
+    "processing_time": 0.1596,
+    "routed_to": "http://worker-3:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.41510580000021946,
+    "worker_id": "worker-2",
+    "processing_time": 0.2265,
+    "routed_to": "http://worker-2:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.3168047999997725,
+    "worker_id": "worker-1",
+    "processing_time": 0.156,
+    "routed_to": "http://worker-1:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.47958829999970476,
+    "worker_id": "worker-3",
+    "processing_time": 0.2352,
+    "routed_to": "http://worker-3:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.3206316999999217,
+    "worker_id": "worker-1",
+    "processing_time": 0.1391,
+    "routed_to": "http://worker-1:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.4753816999996161,
+    "worker_id": "worker-3",
+    "processing_time": 0.233,
+    "routed_to": "http://worker-3:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.498429500000384,
+    "worker_id": "worker-2",
+    "processing_time": 0.2325,
+    "routed_to": "http://worker-2:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.491628799999944,
+    "worker_id": "worker-1",
+    "processing_time": 0.2715,
+    "routed_to": "http://worker-1:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.6028713000000607,
+    "worker_id": "worker-2",
+    "processing_time": 0.2987,
+    "routed_to": "http://worker-2:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.5330999000002521,
+    "worker_id": "worker-2",
+    "processing_time": 0.2639,
+    "routed_to": "http://worker-2:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.4689459999999599,
+    "worker_id": "worker-1",
+    "processing_time": 0.2293,
+    "routed_to": "http://worker-1:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.28082720000020345,
+    "worker_id": "worker-3",
+    "processing_time": 0.1007,
+    "routed_to": "http://worker-3:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.3462626000000455,
+    "worker_id": "worker-3",
+    "processing_time": 0.16,
+    "routed_to": "http://worker-3:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.5163177000003998,
+    "worker_id": "worker-1",
+    "processing_time": 0.2717,
+    "routed_to": "http://worker-1:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.2588909999999487,
+    "worker_id": "worker-2",
+    "processing_time": 0.12,
+    "routed_to": "http://worker-2:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.37297990000024583,
+    "worker_id": "worker-3",
+    "processing_time": 0.1847,
+    "routed_to": "http://worker-3:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.32852669999965656,
+    "worker_id": "worker-1",
+    "processing_time": 0.172,
+    "routed_to": "http://worker-1:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.271150999999918,
+    "worker_id": "worker-2",
+    "processing_time": 0.1349,
+    "routed_to": "http://worker-2:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.4752235999999357,
+    "worker_id": "worker-3",
+    "processing_time": 0.2623,
+    "routed_to": "http://worker-3:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.5516510999996171,
+    "worker_id": "worker-2",
+    "processing_time": 0.2897,
+    "routed_to": "http://worker-2:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.2850028000002567,
+    "worker_id": "worker-1",
+    "processing_time": 0.149,
+    "routed_to": "http://worker-1:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.4138167000000976,
+    "worker_id": "worker-1",
+    "processing_time": 0.2429,
+    "routed_to": "http://worker-1:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.4027782999996816,
+    "worker_id": "worker-3",
+    "processing_time": 0.2322,
+    "routed_to": "http://worker-3:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.399159999999938,
+    "worker_id": "worker-3",
+    "processing_time": 0.2116,
+    "routed_to": "http://worker-3:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.2732688999999482,
+    "worker_id": "worker-2",
+    "processing_time": 0.1458,
+    "routed_to": "http://worker-2:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.2812266000000818,
+    "worker_id": "worker-1",
+    "processing_time": 0.1543,
+    "routed_to": "http://worker-1:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.3676695000003747,
+    "worker_id": "worker-2",
+    "processing_time": 0.2206,
+    "routed_to": "http://worker-2:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.357741199999964,
+    "worker_id": "worker-1",
+    "processing_time": 0.2123,
+    "routed_to": "http://worker-1:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.4206491999998434,
+    "worker_id": "worker-2",
+    "processing_time": 0.2511,
+    "routed_to": "http://worker-2:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.19671670000025188,
+    "worker_id": "worker-3",
+    "processing_time": 0.1083,
+    "routed_to": "http://worker-3:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.4143095999997968,
+    "worker_id": "worker-3",
+    "processing_time": 0.2521,
+    "routed_to": "http://worker-3:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.48164020000012897,
+    "worker_id": "worker-1",
+    "processing_time": 0.2894,
+    "routed_to": "http://worker-1:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.3189452000001438,
+    "worker_id": "worker-2",
+    "processing_time": 0.1781,
+    "routed_to": "http://worker-2:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.42017100000020946,
+    "worker_id": "worker-3",
+    "processing_time": 0.2543,
+    "routed_to": "http://worker-3:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.23608880000028876,
+    "worker_id": "worker-1",
+    "processing_time": 0.1552,
+    "routed_to": "http://worker-1:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.5001815999999053,
+    "worker_id": "worker-2",
+    "processing_time": 0.2862,
+    "routed_to": "http://worker-2:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.23397609999983615,
+    "worker_id": "worker-3",
+    "processing_time": 0.1522,
+    "routed_to": "http://worker-3:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.32831609999993816,
+    "worker_id": "worker-1",
+    "processing_time": 0.2343,
+    "routed_to": "http://worker-1:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.419722599999659,
+    "worker_id": "worker-2",
+    "processing_time": 0.2605,
+    "routed_to": "http://worker-2:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.38398629999983314,
+    "worker_id": "worker-3",
+    "processing_time": 0.2399,
+    "routed_to": "http://worker-3:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.32037010000021837,
+    "worker_id": "worker-1",
+    "processing_time": 0.1842,
+    "routed_to": "http://worker-1:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.2514211999996405,
+    "worker_id": "worker-2",
+    "processing_time": 0.1609,
+    "routed_to": "http://worker-2:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.2915800999999192,
+    "worker_id": "worker-3",
+    "processing_time": 0.2084,
+    "routed_to": "http://worker-3:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.4775467999998,
+    "worker_id": "worker-1",
+    "processing_time": 0.2768,
+    "routed_to": "http://worker-1:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.44896139999991647,
+    "worker_id": "worker-2",
+    "processing_time": 0.2721,
+    "routed_to": "http://worker-2:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.40068750000000364,
+    "worker_id": "worker-3",
+    "processing_time": 0.2615,
+    "routed_to": "http://worker-3:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.12043420000009064,
+    "worker_id": "worker-1",
+    "processing_time": 0.1053,
+    "routed_to": "http://worker-1:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.24319009999999253,
+    "worker_id": "worker-2",
+    "processing_time": 0.1872,
+    "routed_to": "http://worker-2:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.24508939999986978,
+    "worker_id": "worker-3",
+    "processing_time": 0.1813,
+    "routed_to": "http://worker-3:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.401837500000056,
+    "worker_id": "worker-1",
+    "processing_time": 0.2683,
+    "routed_to": "http://worker-1:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.37688040000011824,
+    "worker_id": "worker-2",
+    "processing_time": 0.2519,
+    "routed_to": "http://worker-2:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.3560109999998531,
+    "worker_id": "worker-3",
+    "processing_time": 0.26,
+    "routed_to": "http://worker-3:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.3590672000000268,
+    "worker_id": "worker-1",
+    "processing_time": 0.2581,
+    "routed_to": "http://worker-1:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.3363890000000538,
+    "worker_id": "worker-2",
+    "processing_time": 0.2148,
+    "routed_to": "http://worker-2:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.35628289999976914,
+    "worker_id": "worker-3",
+    "processing_time": 0.245,
+    "routed_to": "http://worker-3:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.2839790000002722,
+    "worker_id": "worker-1",
+    "processing_time": 0.1604,
+    "routed_to": "http://worker-1:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.31727139999975407,
+    "worker_id": "worker-2",
+    "processing_time": 0.1977,
+    "routed_to": "http://worker-2:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.3444626000000426,
+    "worker_id": "worker-3",
+    "processing_time": 0.2648,
+    "routed_to": "http://worker-3:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.3907426000000669,
+    "worker_id": "worker-1",
+    "processing_time": 0.2786,
+    "routed_to": "http://worker-1:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.3428706999998212,
+    "worker_id": "worker-2",
+    "processing_time": 0.1653,
+    "routed_to": "http://worker-2:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.44639710000001287,
+    "worker_id": "worker-2",
+    "processing_time": 0.2078,
+    "routed_to": "http://worker-2:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.44282269999985147,
+    "worker_id": "worker-2",
+    "processing_time": 0.2099,
+    "routed_to": "http://worker-2:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.4102372999996078,
+    "worker_id": "worker-1",
+    "processing_time": 0.1759,
+    "routed_to": "http://worker-1:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.4906399000001329,
+    "worker_id": "worker-3",
+    "processing_time": 0.2522,
+    "routed_to": "http://worker-3:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.5007794000002832,
+    "worker_id": "worker-3",
+    "processing_time": 0.2673,
+    "routed_to": "http://worker-3:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.3476267999999436,
+    "worker_id": "worker-1",
+    "processing_time": 0.1102,
+    "routed_to": "http://worker-1:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.5422857000003205,
+    "worker_id": "worker-3",
+    "processing_time": 0.2668,
+    "routed_to": "http://worker-3:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.5562718999999561,
+    "worker_id": "worker-1",
+    "processing_time": 0.2809,
+    "routed_to": "http://worker-1:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.4535679999999047,
+    "worker_id": "worker-2",
+    "processing_time": 0.2213,
+    "routed_to": "http://worker-2:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.37518379999983154,
+    "worker_id": "worker-3",
+    "processing_time": 0.1204,
+    "routed_to": "http://worker-3:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.44764889999987645,
+    "worker_id": "worker-3",
+    "processing_time": 0.1857,
+    "routed_to": "http://worker-3:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.38441629999988436,
+    "worker_id": "worker-3",
+    "processing_time": 0.1179,
+    "routed_to": "http://worker-3:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.5178445999999894,
+    "worker_id": "worker-2",
+    "processing_time": 0.26,
+    "routed_to": "http://worker-2:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.3529817999997249,
+    "worker_id": "worker-2",
+    "processing_time": 0.1149,
+    "routed_to": "http://worker-2:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.5000208999999813,
+    "worker_id": "worker-3",
+    "processing_time": 0.2713,
+    "routed_to": "http://worker-3:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.47095409999974436,
+    "worker_id": "worker-1",
+    "processing_time": 0.2455,
+    "routed_to": "http://worker-1:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.3714244000002509,
+    "worker_id": "worker-1",
+    "processing_time": 0.1209,
+    "routed_to": "http://worker-1:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.40217070000016975,
+    "worker_id": "worker-2",
+    "processing_time": 0.1462,
+    "routed_to": "http://worker-2:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.3969452999999703,
+    "worker_id": "worker-3",
+    "processing_time": 0.1485,
+    "routed_to": "http://worker-3:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.37123730000030264,
+    "worker_id": "worker-1",
+    "processing_time": 0.1363,
+    "routed_to": "http://worker-1:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.3964089999999487,
+    "worker_id": "worker-2",
+    "processing_time": 0.1425,
+    "routed_to": "http://worker-2:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.3700880999999754,
+    "worker_id": "worker-1",
+    "processing_time": 0.1263,
+    "routed_to": "http://worker-1:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.4486861999998837,
+    "worker_id": "worker-2",
+    "processing_time": 0.1978,
+    "routed_to": "http://worker-2:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.46626160000005257,
+    "worker_id": "worker-1",
+    "processing_time": 0.2233,
+    "routed_to": "http://worker-1:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.4393442000000505,
+    "worker_id": "worker-3",
+    "processing_time": 0.2118,
+    "routed_to": "http://worker-3:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.507072700000208,
+    "worker_id": "worker-1",
+    "processing_time": 0.277,
+    "routed_to": "http://worker-1:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.4681825000002391,
+    "worker_id": "worker-2",
+    "processing_time": 0.2492,
+    "routed_to": "http://worker-2:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.3474386000002596,
+    "worker_id": "worker-3",
+    "processing_time": 0.1051,
+    "routed_to": "http://worker-3:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.5402481999999509,
+    "worker_id": "worker-1",
+    "processing_time": 0.2765,
+    "routed_to": "http://worker-1:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.4389155999997456,
+    "worker_id": "worker-2",
+    "processing_time": 0.2214,
+    "routed_to": "http://worker-2:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.35718260000021473,
+    "worker_id": "worker-3",
+    "processing_time": 0.1385,
+    "routed_to": "http://worker-3:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.356050100000175,
+    "worker_id": "worker-1",
+    "processing_time": 0.1347,
+    "routed_to": "http://worker-1:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.4802532999997311,
+    "worker_id": "worker-2",
+    "processing_time": 0.2537,
+    "routed_to": "http://worker-2:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.3024364999996578,
+    "worker_id": "worker-3",
+    "processing_time": 0.1165,
+    "routed_to": "http://worker-3:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.3513330999999198,
+    "worker_id": "worker-3",
+    "processing_time": 0.1731,
+    "routed_to": "http://worker-3:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.46927080000023125,
+    "worker_id": "worker-2",
+    "processing_time": 0.2637,
+    "routed_to": "http://worker-2:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.2785121000001709,
+    "worker_id": "worker-1",
+    "processing_time": 0.1189,
+    "routed_to": "http://worker-1:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.4432566999998926,
+    "worker_id": "worker-1",
+    "processing_time": 0.2424,
+    "routed_to": "http://worker-1:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.3111357000002499,
+    "worker_id": "worker-2",
+    "processing_time": 0.1446,
+    "routed_to": "http://worker-2:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.34545040000011795,
+    "worker_id": "worker-3",
+    "processing_time": 0.1821,
+    "routed_to": "http://worker-3:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.4415902000000642,
+    "worker_id": "worker-1",
+    "processing_time": 0.2411,
+    "routed_to": "http://worker-1:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.45971209999970597,
+    "worker_id": "worker-3",
+    "processing_time": 0.2794,
+    "routed_to": "http://worker-3:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.4728387999998631,
+    "worker_id": "worker-3",
+    "processing_time": 0.2922,
+    "routed_to": "http://worker-3:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.3569213000000673,
+    "worker_id": "worker-1",
+    "processing_time": 0.2016,
+    "routed_to": "http://worker-1:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.2797408000001269,
+    "worker_id": "worker-2",
+    "processing_time": 0.1314,
+    "routed_to": "http://worker-2:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.23910930000010922,
+    "worker_id": "worker-2",
+    "processing_time": 0.1036,
+    "routed_to": "http://worker-2:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.452512299999853,
+    "worker_id": "worker-1",
+    "processing_time": 0.2869,
+    "routed_to": "http://worker-1:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.39954820000002655,
+    "worker_id": "worker-2",
+    "processing_time": 0.2479,
+    "routed_to": "http://worker-2:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.33467000000018743,
+    "worker_id": "worker-3",
+    "processing_time": 0.2164,
+    "routed_to": "http://worker-3:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.37020010000014736,
+    "worker_id": "worker-2",
+    "processing_time": 0.2622,
+    "routed_to": "http://worker-2:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.38538580000022193,
+    "worker_id": "worker-1",
+    "processing_time": 0.2976,
+    "routed_to": "http://worker-1:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.40431489999991754,
+    "worker_id": "worker-3",
+    "processing_time": 0.285,
+    "routed_to": "http://worker-3:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.16535350000003746,
+    "worker_id": "worker-1",
+    "processing_time": 0.1394,
+    "routed_to": "http://worker-1:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.35730340000009164,
+    "worker_id": "worker-2",
+    "processing_time": 0.2658,
+    "routed_to": "http://worker-2:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.16701220000004469,
+    "worker_id": "worker-3",
+    "processing_time": 0.1336,
+    "routed_to": "http://worker-3:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.26774599999998827,
+    "worker_id": "worker-1",
+    "processing_time": 0.2017,
+    "routed_to": "http://worker-1:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.2558249000003343,
+    "worker_id": "worker-2",
+    "processing_time": 0.2177,
+    "routed_to": "http://worker-2:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.3145058000000063,
+    "worker_id": "worker-3",
+    "processing_time": 0.2144,
+    "routed_to": "http://worker-3:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.3026998000000276,
+    "worker_id": "worker-2",
+    "processing_time": 0.2071,
+    "routed_to": "http://worker-2:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.31294690000004266,
+    "worker_id": "worker-1",
+    "processing_time": 0.2055,
+    "routed_to": "http://worker-1:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.13572730000032607,
+    "worker_id": "worker-3",
+    "processing_time": 0.108,
+    "routed_to": "http://worker-3:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.30750010000019756,
+    "worker_id": "worker-1",
+    "processing_time": 0.2399,
+    "routed_to": "http://worker-1:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.3157607999996799,
+    "worker_id": "worker-2",
+    "processing_time": 0.2917,
+    "routed_to": "http://worker-2:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.2234017999999196,
+    "worker_id": "worker-3",
+    "processing_time": 0.1495,
+    "routed_to": "http://worker-3:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.3137205000002723,
+    "worker_id": "worker-2",
+    "processing_time": 0.2335,
+    "routed_to": "http://worker-2:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.3627132999999958,
+    "worker_id": "worker-1",
+    "processing_time": 0.2947,
+    "routed_to": "http://worker-1:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.2655859999999848,
+    "worker_id": "worker-3",
+    "processing_time": 0.1586,
+    "routed_to": "http://worker-3:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.27656130000013945,
+    "worker_id": "worker-1",
+    "processing_time": 0.1808,
+    "routed_to": "http://worker-1:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.37344860000030167,
+    "worker_id": "worker-1",
+    "processing_time": 0.2974,
+    "routed_to": "http://worker-1:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.3012916999996378,
+    "worker_id": "worker-2",
+    "processing_time": 0.2295,
+    "routed_to": "http://worker-2:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.2917587000001731,
+    "worker_id": "worker-3",
+    "processing_time": 0.207,
+    "routed_to": "http://worker-3:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.1959273000002213,
+    "worker_id": "worker-2",
+    "processing_time": 0.1165,
+    "routed_to": "http://worker-2:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.19778469999982917,
+    "worker_id": "worker-3",
+    "processing_time": 0.1182,
+    "routed_to": "http://worker-3:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.23380080000015369,
+    "worker_id": "worker-1",
+    "processing_time": 0.1297,
+    "routed_to": "http://worker-1:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.3606326999997691,
+    "worker_id": "worker-2",
+    "processing_time": 0.2874,
+    "routed_to": "http://worker-2:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.36207409999997253,
+    "worker_id": "worker-3",
+    "processing_time": 0.2854,
+    "routed_to": "http://worker-3:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.35698409999986325,
+    "worker_id": "worker-1",
+    "processing_time": 0.2928,
+    "routed_to": "http://worker-1:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.35317639999993844,
+    "worker_id": "worker-2",
+    "processing_time": 0.2796,
+    "routed_to": "http://worker-2:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.3504533000000265,
+    "worker_id": "worker-3",
+    "processing_time": 0.278,
+    "routed_to": "http://worker-3:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.3406108999997741,
+    "worker_id": "worker-1",
+    "processing_time": 0.2756,
+    "routed_to": "http://worker-1:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.2628715999999258,
+    "worker_id": "worker-2",
+    "processing_time": 0.1932,
+    "routed_to": "http://worker-2:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.2525918000001184,
+    "worker_id": "worker-3",
+    "processing_time": 0.1658,
+    "routed_to": "http://worker-3:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.2706428000001324,
+    "worker_id": "worker-1",
+    "processing_time": 0.1683,
+    "routed_to": "http://worker-1:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.19661039999982677,
+    "worker_id": "worker-3",
+    "processing_time": 0.1066,
+    "routed_to": "http://worker-3:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.26478190000034374,
+    "worker_id": "worker-2",
+    "processing_time": 0.1925,
+    "routed_to": "http://worker-2:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.3159901000003629,
+    "worker_id": "worker-1",
+    "processing_time": 0.2424,
+    "routed_to": "http://worker-1:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.3069774000000507,
+    "worker_id": "worker-2",
+    "processing_time": 0.2391,
+    "routed_to": "http://worker-2:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.31562810000013997,
+    "worker_id": "worker-3",
+    "processing_time": 0.2521,
+    "routed_to": "http://worker-3:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.2985745000000861,
+    "worker_id": "worker-1",
+    "processing_time": 0.1873,
+    "routed_to": "http://worker-1:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.32423979999975927,
+    "worker_id": "worker-2",
+    "processing_time": 0.2479,
+    "routed_to": "http://worker-2:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.2532697999999982,
+    "worker_id": "worker-3",
+    "processing_time": 0.1644,
+    "routed_to": "http://worker-3:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.37402899999960937,
+    "worker_id": "worker-1",
+    "processing_time": 0.2413,
+    "routed_to": "http://worker-1:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.3817607000000862,
+    "worker_id": "worker-2",
+    "processing_time": 0.2637,
+    "routed_to": "http://worker-2:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.24476989999993748,
+    "worker_id": "worker-3",
+    "processing_time": 0.141,
+    "routed_to": "http://worker-3:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.3198070000003099,
+    "worker_id": "worker-1",
+    "processing_time": 0.2159,
+    "routed_to": "http://worker-1:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.28924589999996897,
+    "worker_id": "worker-3",
+    "processing_time": 0.1759,
+    "routed_to": "http://worker-3:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.3134844000001067,
+    "worker_id": "worker-2",
+    "processing_time": 0.1923,
+    "routed_to": "http://worker-2:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.24242260000028182,
+    "worker_id": "worker-1",
+    "processing_time": 0.1247,
+    "routed_to": "http://worker-1:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.3221508999999969,
+    "worker_id": "worker-2",
+    "processing_time": 0.2188,
+    "routed_to": "http://worker-2:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.36508610000009867,
+    "worker_id": "worker-3",
+    "processing_time": 0.263,
+    "routed_to": "http://worker-3:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.2631200999999237,
+    "worker_id": "worker-1",
+    "processing_time": 0.162,
+    "routed_to": "http://worker-1:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.28494540000019697,
+    "worker_id": "worker-3",
+    "processing_time": 0.1854,
+    "routed_to": "http://worker-3:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.22850179999977627,
+    "worker_id": "worker-2",
+    "processing_time": 0.1261,
+    "routed_to": "http://worker-2:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.3893057999998746,
+    "worker_id": "worker-1",
+    "processing_time": 0.2879,
+    "routed_to": "http://worker-1:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.2687584999998762,
+    "worker_id": "worker-2",
+    "processing_time": 0.1842,
+    "routed_to": "http://worker-2:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.3212195999999494,
+    "worker_id": "worker-3",
+    "processing_time": 0.2424,
+    "routed_to": "http://worker-3:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.34844239999983984,
+    "worker_id": "worker-1",
+    "processing_time": 0.2582,
+    "routed_to": "http://worker-1:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.33476539999992383,
+    "worker_id": "worker-2",
+    "processing_time": 0.2523,
+    "routed_to": "http://worker-2:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.3426021000000219,
+    "worker_id": "worker-3",
+    "processing_time": 0.2503,
+    "routed_to": "http://worker-3:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.37512939999987793,
+    "worker_id": "worker-1",
+    "processing_time": 0.255,
+    "routed_to": "http://worker-1:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.33826230000022406,
+    "worker_id": "worker-2",
+    "processing_time": 0.2279,
+    "routed_to": "http://worker-2:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.2207935000001271,
+    "worker_id": "worker-2",
+    "processing_time": 0.1136,
+    "routed_to": "http://worker-2:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.40351900000041496,
+    "worker_id": "worker-1",
+    "processing_time": 0.2971,
+    "routed_to": "http://worker-1:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.38260399999990113,
+    "worker_id": "worker-3",
+    "processing_time": 0.2768,
+    "routed_to": "http://worker-3:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.3762212000001455,
+    "worker_id": "worker-3",
+    "processing_time": 0.2723,
+    "routed_to": "http://worker-3:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.3337967999996181,
+    "worker_id": "worker-2",
+    "processing_time": 0.2324,
+    "routed_to": "http://worker-2:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.30363939999961076,
+    "worker_id": "worker-1",
+    "processing_time": 0.202,
+    "routed_to": "http://worker-1:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.2964993000000504,
+    "worker_id": "worker-1",
+    "processing_time": 0.211,
+    "routed_to": "http://worker-1:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.2700875000000451,
+    "worker_id": "worker-3",
+    "processing_time": 0.1649,
+    "routed_to": "http://worker-3:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.2990477999996983,
+    "worker_id": "worker-1",
+    "processing_time": 0.2063,
+    "routed_to": "http://worker-1:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.32562200000029407,
+    "worker_id": "worker-3",
+    "processing_time": 0.2554,
+    "routed_to": "http://worker-3:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.2670649000001504,
+    "worker_id": "worker-2",
+    "processing_time": 0.1826,
+    "routed_to": "http://worker-2:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.23687650000010763,
+    "worker_id": "worker-2",
+    "processing_time": 0.1509,
+    "routed_to": "http://worker-2:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.23926590000019132,
+    "worker_id": "worker-3",
+    "processing_time": 0.1593,
+    "routed_to": "http://worker-3:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.2293181000000004,
+    "worker_id": "worker-1",
+    "processing_time": 0.153,
+    "routed_to": "http://worker-1:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.2541332999999213,
+    "worker_id": "worker-2",
+    "processing_time": 0.1929,
+    "routed_to": "http://worker-2:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.28332259999979215,
+    "worker_id": "worker-1",
+    "processing_time": 0.2216,
+    "routed_to": "http://worker-1:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.1629078999999365,
+    "worker_id": "worker-3",
+    "processing_time": 0.1017,
+    "routed_to": "http://worker-3:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.3342728000002353,
+    "worker_id": "worker-2",
+    "processing_time": 0.2828,
+    "routed_to": "http://worker-2:8000",
+    "strategy": "rr"
+  },
+  {
+    "ok": true,
+    "latency": 0.33322510000016337,
+    "worker_id": "worker-3",
+    "processing_time": 0.2982,
+    "routed_to": "http://worker-3:8000",
+    "strategy": "rr"
+  }
+]

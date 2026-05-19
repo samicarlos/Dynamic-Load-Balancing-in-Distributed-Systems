@@ -1,0 +1,68 @@
+[
+  {
+    "timestamp": "2026-05-19 02:08:24",
+    "strategy": "rr",
+    "requests_total": 1000,
+    "requests_ok": 1000,
+    "requests_failed": 0,
+    "total_time_s": 6.7557,
+    "throughput_req_s": 148.02,
+    "latency_ms": {
+      "avg": 324.9,
+      "min": 112.69,
+      "max": 602.87,
+      "p50": 320.09,
+      "p95": 474.73,
+      "p99": 517.84
+    },
+    "worker_distribution": {
+      "worker-2": 333,
+      "worker-3": 334,
+      "worker-1": 333
+    }
+  },
+  {
+    "timestamp": "2026-05-19 02:06:25",
+    "strategy": "lc",
+    "requests_total": 1000,
+    "requests_ok": 1000,
+    "requests_failed": 0,
+    "total_time_s": 6.8273,
+    "throughput_req_s": 146.47,
+    "latency_ms": {
+      "avg": 322.91,
+      "min": 122.7,
+      "max": 873.99,
+      "p50": 310.24,
+      "p95": 520.93,
+      "p99": 591.17
+    },
+    "worker_distribution": {
+      "worker-2": 332,
+      "worker-1": 343,
+      "worker-3": 325
+    }
+  },
+  {
+    "timestamp": "2026-05-19 03:12:15",
+    "strategy": "lrt",
+    "requests_total": 1000,
+    "requests_ok": 1000,
+    "requests_failed": 0,
+    "total_time_s": 4.9949,
+    "throughput_req_s": 200.21,
+    "latency_ms": {
+      "avg": 239.12,
+      "min": 106.21,
+      "max": 453.03,
+      "p50": 236.39,
+      "p95": 365.29,
+      "p99": 423.62
+    },
+    "worker_distribution": {
+      "worker-2": 340,
+      "worker-3": 315,
+      "worker-1": 345
+    }
+  }
+]

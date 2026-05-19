@@ -1,0 +1,7252 @@
+[
+  {
+    "ok": true,
+    "latency": 0.7009478999998464,
+    "worker_id": "worker-2",
+    "processing_time": 0.5073,
+    "routed_to": "http://worker-2:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": true,
+    "latency": 0.6918818000003739,
+    "worker_id": "worker-2",
+    "processing_time": 0.5007,
+    "routed_to": "http://worker-2:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": true,
+    "latency": 0.28618079999978363,
+    "worker_id": "worker-1",
+    "processing_time": 0.107,
+    "routed_to": "http://worker-1:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": true,
+    "latency": 0.36100059999989753,
+    "worker_id": "worker-1",
+    "processing_time": 0.1612,
+    "routed_to": "http://worker-1:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": true,
+    "latency": 0.4000071999998909,
+    "worker_id": "worker-1",
+    "processing_time": 0.2112,
+    "routed_to": "http://worker-1:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": true,
+    "latency": 0.4152334000000337,
+    "worker_id": "worker-3",
+    "processing_time": 0.2243,
+    "routed_to": "http://worker-3:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": true,
+    "latency": 0.94720099999995,
+    "worker_id": "worker-2",
+    "processing_time": 0.7394,
+    "routed_to": "http://worker-2:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": true,
+    "latency": 0.9667411999998876,
+    "worker_id": "worker-2",
+    "processing_time": 0.7783,
+    "routed_to": "http://worker-2:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": true,
+    "latency": 0.30682750000050873,
+    "worker_id": "worker-3",
+    "processing_time": 0.1189,
+    "routed_to": "http://worker-3:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": true,
+    "latency": 0.320555900000727,
+    "worker_id": "worker-3",
+    "processing_time": 0.1318,
+    "routed_to": "http://worker-3:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": true,
+    "latency": 0.8614067999997133,
+    "worker_id": "worker-2",
+    "processing_time": 0.6479,
+    "routed_to": "http://worker-2:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": true,
+    "latency": 0.9780786999999691,
+    "worker_id": "worker-2",
+    "processing_time": 0.8163,
+    "routed_to": "http://worker-2:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": true,
+    "latency": 0.8737559999999576,
+    "worker_id": "worker-2",
+    "processing_time": 0.6829,
+    "routed_to": "http://worker-2:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": true,
+    "latency": 0.295998900000086,
+    "worker_id": "worker-1",
+    "processing_time": 0.1265,
+    "routed_to": "http://worker-1:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": true,
+    "latency": 0.29101469999932306,
+    "worker_id": "worker-3",
+    "processing_time": 0.1204,
+    "routed_to": "http://worker-3:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": true,
+    "latency": 0.34989129999939905,
+    "worker_id": "worker-3",
+    "processing_time": 0.1602,
+    "routed_to": "http://worker-3:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": true,
+    "latency": 0.8239469000000099,
+    "worker_id": "worker-2",
+    "processing_time": 0.6348,
+    "routed_to": "http://worker-2:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": true,
+    "latency": 0.3509158999995634,
+    "worker_id": "worker-3",
+    "processing_time": 0.149,
+    "routed_to": "http://worker-3:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": true,
+    "latency": 1.1365288999995755,
+    "worker_id": "worker-2",
+    "processing_time": 0.9546,
+    "routed_to": "http://worker-2:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": true,
+    "latency": 0.37427779999961786,
+    "worker_id": "worker-1",
+    "processing_time": 0.1919,
+    "routed_to": "http://worker-1:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": true,
+    "latency": 0.9975910000002841,
+    "worker_id": "worker-2",
+    "processing_time": 0.826,
+    "routed_to": "http://worker-2:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": true,
+    "latency": 1.051248100000521,
+    "worker_id": "worker-2",
+    "processing_time": 0.8793,
+    "routed_to": "http://worker-2:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": true,
+    "latency": 0.7930292000000918,
+    "worker_id": "worker-2",
+    "processing_time": 0.6205,
+    "routed_to": "http://worker-2:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": true,
+    "latency": 0.35201259999939793,
+    "worker_id": "worker-3",
+    "processing_time": 0.1571,
+    "routed_to": "http://worker-3:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": true,
+    "latency": 0.2795610000002853,
+    "worker_id": "worker-1",
+    "processing_time": 0.1325,
+    "routed_to": "http://worker-1:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": true,
+    "latency": 0.37491559999944,
+    "worker_id": "worker-3",
+    "processing_time": 0.2106,
+    "routed_to": "http://worker-3:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": true,
+    "latency": 0.9126431999993656,
+    "worker_id": "worker-2",
+    "processing_time": 0.7262,
+    "routed_to": "http://worker-2:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": true,
+    "latency": 0.7779608000000735,
+    "worker_id": "worker-2",
+    "processing_time": 0.6189,
+    "routed_to": "http://worker-2:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": true,
+    "latency": 0.733447000000524,
+    "worker_id": "worker-2",
+    "processing_time": 0.5633,
+    "routed_to": "http://worker-2:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": true,
+    "latency": 0.7347467999998116,
+    "worker_id": "worker-2",
+    "processing_time": 0.5609,
+    "routed_to": "http://worker-2:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": true,
+    "latency": 0.33581989999947837,
+    "worker_id": "worker-1",
+    "processing_time": 0.1571,
+    "routed_to": "http://worker-1:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": true,
+    "latency": 0.3968319999994492,
+    "worker_id": "worker-1",
+    "processing_time": 0.2297,
+    "routed_to": "http://worker-1:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": true,
+    "latency": 0.3796857999996064,
+    "worker_id": "worker-1",
+    "processing_time": 0.2089,
+    "routed_to": "http://worker-1:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": true,
+    "latency": 0.3341667000004236,
+    "worker_id": "worker-1",
+    "processing_time": 0.16,
+    "routed_to": "http://worker-1:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": true,
+    "latency": 0.4547537000007651,
+    "worker_id": "worker-1",
+    "processing_time": 0.2916,
+    "routed_to": "http://worker-1:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": true,
+    "latency": 0.37163979999968433,
+    "worker_id": "worker-3",
+    "processing_time": 0.1954,
+    "routed_to": "http://worker-3:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": true,
+    "latency": 0.28867470000022877,
+    "worker_id": "worker-1",
+    "processing_time": 0.1221,
+    "routed_to": "http://worker-1:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": true,
+    "latency": 0.3009834000004048,
+    "worker_id": "worker-1",
+    "processing_time": 0.1293,
+    "routed_to": "http://worker-1:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": true,
+    "latency": 0.335158699999738,
+    "worker_id": "worker-1",
+    "processing_time": 0.1593,
+    "routed_to": "http://worker-1:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": true,
+    "latency": 0.40323129999978846,
+    "worker_id": "worker-1",
+    "processing_time": 0.2624,
+    "routed_to": "http://worker-1:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": true,
+    "latency": 0.3883906000000934,
+    "worker_id": "worker-3",
+    "processing_time": 0.2366,
+    "routed_to": "http://worker-3:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": true,
+    "latency": 0.25121800000033545,
+    "worker_id": "worker-3",
+    "processing_time": 0.1022,
+    "routed_to": "http://worker-3:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": true,
+    "latency": 0.3504817000002731,
+    "worker_id": "worker-3",
+    "processing_time": 0.1799,
+    "routed_to": "http://worker-3:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": true,
+    "latency": 0.3744258999995509,
+    "worker_id": "worker-1",
+    "processing_time": 0.2139,
+    "routed_to": "http://worker-1:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": true,
+    "latency": 0.3200048999997307,
+    "worker_id": "worker-3",
+    "processing_time": 0.1348,
+    "routed_to": "http://worker-3:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": true,
+    "latency": 0.6922025999992911,
+    "worker_id": "worker-2",
+    "processing_time": 0.5314,
+    "routed_to": "http://worker-2:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": true,
+    "latency": 0.42750119999982417,
+    "worker_id": "worker-3",
+    "processing_time": 0.2695,
+    "routed_to": "http://worker-3:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": true,
+    "latency": 0.33616600000004837,
+    "worker_id": "worker-3",
+    "processing_time": 0.1605,
+    "routed_to": "http://worker-3:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": true,
+    "latency": 0.379362100000435,
+    "worker_id": "worker-3",
+    "processing_time": 0.2111,
+    "routed_to": "http://worker-3:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": true,
+    "latency": 0.28516680000029737,
+    "worker_id": "worker-1",
+    "processing_time": 0.1295,
+    "routed_to": "http://worker-1:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": true,
+    "latency": 0.18757339999956457,
+    "worker_id": "worker-3",
+    "processing_time": 0.1808,
+    "routed_to": "http://worker-3:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": true,
+    "latency": 0.21314540000003035,
+    "worker_id": "worker-1",
+    "processing_time": 0.2032,
+    "routed_to": "http://worker-1:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": true,
+    "latency": 0.2066458999997849,
+    "worker_id": "worker-1",
+    "processing_time": 0.1946,
+    "routed_to": "http://worker-1:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": true,
+    "latency": 0.21422379999967234,
+    "worker_id": "worker-3",
+    "processing_time": 0.2036,
+    "routed_to": "http://worker-3:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": true,
+    "latency": 0.19180370000049152,
+    "worker_id": "worker-1",
+    "processing_time": 0.1728,
+    "routed_to": "http://worker-1:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": true,
+    "latency": 0.25445789999957924,
+    "worker_id": "worker-3",
+    "processing_time": 0.2447,
+    "routed_to": "http://worker-3:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": true,
+    "latency": 0.23406340000019554,
+    "worker_id": "worker-1",
+    "processing_time": 0.1658,
+    "routed_to": "http://worker-1:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": true,
+    "latency": 0.3296701999997822,
+    "worker_id": "worker-1",
+    "processing_time": 0.2593,
+    "routed_to": "http://worker-1:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": true,
+    "latency": 0.196907900000042,
+    "worker_id": "worker-3",
+    "processing_time": 0.1341,
+    "routed_to": "http://worker-3:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": true,
+    "latency": 0.17085270000006858,
+    "worker_id": "worker-3",
+    "processing_time": 0.1103,
+    "routed_to": "http://worker-3:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": true,
+    "latency": 0.3312808999999106,
+    "worker_id": "worker-1",
+    "processing_time": 0.2802,
+    "routed_to": "http://worker-1:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": true,
+    "latency": 0.2528168999997433,
+    "worker_id": "worker-3",
+    "processing_time": 0.2114,
+    "routed_to": "http://worker-3:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": true,
+    "latency": 0.2786831000003076,
+    "worker_id": "worker-3",
+    "processing_time": 0.2354,
+    "routed_to": "http://worker-3:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": true,
+    "latency": 0.29249199999958364,
+    "worker_id": "worker-1",
+    "processing_time": 0.241,
+    "routed_to": "http://worker-1:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": true,
+    "latency": 0.2316491000001406,
+    "worker_id": "worker-1",
+    "processing_time": 0.1892,
+    "routed_to": "http://worker-1:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": true,
+    "latency": 0.1470720999996047,
+    "worker_id": "worker-1",
+    "processing_time": 0.1028,
+    "routed_to": "http://worker-1:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": true,
+    "latency": 0.21335170000020298,
+    "worker_id": "worker-3",
+    "processing_time": 0.1764,
+    "routed_to": "http://worker-3:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": true,
+    "latency": 0.2087854999999763,
+    "worker_id": "worker-1",
+    "processing_time": 0.1674,
+    "routed_to": "http://worker-1:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": true,
+    "latency": 0.16738150000037422,
+    "worker_id": "worker-3",
+    "processing_time": 0.1284,
+    "routed_to": "http://worker-3:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": true,
+    "latency": 0.23185149999972055,
+    "worker_id": "worker-3",
+    "processing_time": 0.195,
+    "routed_to": "http://worker-3:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": true,
+    "latency": 0.13659580000057758,
+    "worker_id": "worker-3",
+    "processing_time": 0.1053,
+    "routed_to": "http://worker-3:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": true,
+    "latency": 0.2505043000001024,
+    "worker_id": "worker-1",
+    "processing_time": 0.2085,
+    "routed_to": "http://worker-1:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": true,
+    "latency": 0.20095390000005864,
+    "worker_id": "worker-1",
+    "processing_time": 0.164,
+    "routed_to": "http://worker-1:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": true,
+    "latency": 0.3001611999998204,
+    "worker_id": "worker-1",
+    "processing_time": 0.2722,
+    "routed_to": "http://worker-1:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": true,
+    "latency": 0.18566950000058569,
+    "worker_id": "worker-3",
+    "processing_time": 0.1601,
+    "routed_to": "http://worker-3:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": true,
+    "latency": 0.19381109999994806,
+    "worker_id": "worker-3",
+    "processing_time": 0.1648,
+    "routed_to": "http://worker-3:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": true,
+    "latency": 0.18485160000000178,
+    "worker_id": "worker-3",
+    "processing_time": 0.1619,
+    "routed_to": "http://worker-3:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": true,
+    "latency": 0.244894800000111,
+    "worker_id": "worker-1",
+    "processing_time": 0.2281,
+    "routed_to": "http://worker-1:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": true,
+    "latency": 0.16608480000013515,
+    "worker_id": "worker-3",
+    "processing_time": 0.1526,
+    "routed_to": "http://worker-3:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": true,
+    "latency": 0.24432379999961995,
+    "worker_id": "worker-1",
+    "processing_time": 0.2287,
+    "routed_to": "http://worker-1:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": true,
+    "latency": 0.23405509999975038,
+    "worker_id": "worker-1",
+    "processing_time": 0.2234,
+    "routed_to": "http://worker-1:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": true,
+    "latency": 0.2603902000000744,
+    "worker_id": "worker-3",
+    "processing_time": 0.2499,
+    "routed_to": "http://worker-3:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": true,
+    "latency": 0.1671024999996007,
+    "worker_id": "worker-3",
+    "processing_time": 0.1603,
+    "routed_to": "http://worker-3:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": true,
+    "latency": 0.15331029999924795,
+    "worker_id": "worker-1",
+    "processing_time": 0.1474,
+    "routed_to": "http://worker-1:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": true,
+    "latency": 0.2956815000006827,
+    "worker_id": "worker-1",
+    "processing_time": 0.2821,
+    "routed_to": "http://worker-1:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": true,
+    "latency": 0.1609138999992865,
+    "worker_id": "worker-1",
+    "processing_time": 0.1427,
+    "routed_to": "http://worker-1:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": true,
+    "latency": 0.14787609999984852,
+    "worker_id": "worker-3",
+    "processing_time": 0.132,
+    "routed_to": "http://worker-3:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": true,
+    "latency": 0.3132268999997905,
+    "worker_id": "worker-1",
+    "processing_time": 0.2983,
+    "routed_to": "http://worker-1:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": true,
+    "latency": 0.29693499999939377,
+    "worker_id": "worker-1",
+    "processing_time": 0.2883,
+    "routed_to": "http://worker-1:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": true,
+    "latency": 0.10759859999961918,
+    "worker_id": "worker-3",
+    "processing_time": 0.1011,
+    "routed_to": "http://worker-3:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": true,
+    "latency": 0.21960699999999633,
+    "worker_id": "worker-3",
+    "processing_time": 0.2084,
+    "routed_to": "http://worker-3:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": true,
+    "latency": 0.1439025000008769,
+    "worker_id": "worker-3",
+    "processing_time": 0.1294,
+    "routed_to": "http://worker-3:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": true,
+    "latency": 0.19962649999979476,
+    "worker_id": "worker-3",
+    "processing_time": 0.1925,
+    "routed_to": "http://worker-3:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": true,
+    "latency": 0.21452430000044842,
+    "worker_id": "worker-1",
+    "processing_time": 0.1917,
+    "routed_to": "http://worker-1:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": true,
+    "latency": 0.30523749999974825,
+    "worker_id": "worker-3",
+    "processing_time": 0.2824,
+    "routed_to": "http://worker-3:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": true,
+    "latency": 0.25618239999948855,
+    "worker_id": "worker-3",
+    "processing_time": 0.2337,
+    "routed_to": "http://worker-3:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": true,
+    "latency": 0.18845210000017687,
+    "worker_id": "worker-1",
+    "processing_time": 0.1664,
+    "routed_to": "http://worker-1:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": true,
+    "latency": 0.29128039999977773,
+    "worker_id": "worker-3",
+    "processing_time": 0.2592,
+    "routed_to": "http://worker-3:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": true,
+    "latency": 0.1296250000004875,
+    "worker_id": "worker-3",
+    "processing_time": 0.1085,
+    "routed_to": "http://worker-3:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": true,
+    "latency": 0.25962059999983467,
+    "worker_id": "worker-3",
+    "processing_time": 0.2235,
+    "routed_to": "http://worker-3:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": true,
+    "latency": 0.3282091000000946,
+    "worker_id": "worker-1",
+    "processing_time": 0.2995,
+    "routed_to": "http://worker-1:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": true,
+    "latency": 0.17387460000009014,
+    "worker_id": "worker-3",
+    "processing_time": 0.143,
+    "routed_to": "http://worker-3:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": true,
+    "latency": 0.2370983000000706,
+    "worker_id": "worker-1",
+    "processing_time": 0.2185,
+    "routed_to": "http://worker-1:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": true,
+    "latency": 0.20347149999997782,
+    "worker_id": "worker-3",
+    "processing_time": 0.1925,
+    "routed_to": "http://worker-3:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": true,
+    "latency": 0.26366240000061225,
+    "worker_id": "worker-3",
+    "processing_time": 0.2159,
+    "routed_to": "http://worker-3:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": true,
+    "latency": 0.25281900000027235,
+    "worker_id": "worker-3",
+    "processing_time": 0.2254,
+    "routed_to": "http://worker-3:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": true,
+    "latency": 0.24849799999992683,
+    "worker_id": "worker-3",
+    "processing_time": 0.1853,
+    "routed_to": "http://worker-3:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": true,
+    "latency": 0.19056490000002668,
+    "worker_id": "worker-3",
+    "processing_time": 0.1639,
+    "routed_to": "http://worker-3:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": true,
+    "latency": 0.2027060000000347,
+    "worker_id": "worker-1",
+    "processing_time": 0.173,
+    "routed_to": "http://worker-1:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": true,
+    "latency": 0.28222660000028554,
+    "worker_id": "worker-1",
+    "processing_time": 0.2511,
+    "routed_to": "http://worker-1:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": true,
+    "latency": 0.2985510999997132,
+    "worker_id": "worker-3",
+    "processing_time": 0.245,
+    "routed_to": "http://worker-3:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": true,
+    "latency": 0.2697611000003235,
+    "worker_id": "worker-1",
+    "processing_time": 0.2252,
+    "routed_to": "http://worker-1:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": true,
+    "latency": 0.314208900000267,
+    "worker_id": "worker-1",
+    "processing_time": 0.2776,
+    "routed_to": "http://worker-1:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": true,
+    "latency": 0.22697450000032404,
+    "worker_id": "worker-1",
+    "processing_time": 0.1877,
+    "routed_to": "http://worker-1:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": true,
+    "latency": 0.24088149999988673,
+    "worker_id": "worker-1",
+    "processing_time": 0.1949,
+    "routed_to": "http://worker-1:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": true,
+    "latency": 0.2477824999996301,
+    "worker_id": "worker-1",
+    "processing_time": 0.196,
+    "routed_to": "http://worker-1:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": true,
+    "latency": 0.28416160000051605,
+    "worker_id": "worker-3",
+    "processing_time": 0.2389,
+    "routed_to": "http://worker-3:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": true,
+    "latency": 0.2874148000000787,
+    "worker_id": "worker-1",
+    "processing_time": 0.2451,
+    "routed_to": "http://worker-1:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": true,
+    "latency": 0.295623599999999,
+    "worker_id": "worker-1",
+    "processing_time": 0.2756,
+    "routed_to": "http://worker-1:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": true,
+    "latency": 0.8848607999998421,
+    "worker_id": "worker-2",
+    "processing_time": 0.8616,
+    "routed_to": "http://worker-2:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": true,
+    "latency": 1.0109941000000617,
+    "worker_id": "worker-2",
+    "processing_time": 0.9811,
+    "routed_to": "http://worker-2:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": true,
+    "latency": 0.20131359999959386,
+    "worker_id": "worker-1",
+    "processing_time": 0.1701,
+    "routed_to": "http://worker-1:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": true,
+    "latency": 0.2986473000000842,
+    "worker_id": "worker-3",
+    "processing_time": 0.2866,
+    "routed_to": "http://worker-3:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": true,
+    "latency": 0.20916109999961918,
+    "worker_id": "worker-3",
+    "processing_time": 0.1729,
+    "routed_to": "http://worker-3:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": true,
+    "latency": 0.5398568000000523,
+    "worker_id": "worker-2",
+    "processing_time": 0.5177,
+    "routed_to": "http://worker-2:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": true,
+    "latency": 0.30239030000029743,
+    "worker_id": "worker-3",
+    "processing_time": 0.2914,
+    "routed_to": "http://worker-3:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": true,
+    "latency": 0.30770750000010594,
+    "worker_id": "worker-3",
+    "processing_time": 0.277,
+    "routed_to": "http://worker-3:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": true,
+    "latency": 0.23865000000023429,
+    "worker_id": "worker-3",
+    "processing_time": 0.2171,
+    "routed_to": "http://worker-3:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": true,
+    "latency": 0.8799582999999984,
+    "worker_id": "worker-2",
+    "processing_time": 0.8355,
+    "routed_to": "http://worker-2:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": true,
+    "latency": 0.26230649999979505,
+    "worker_id": "worker-1",
+    "processing_time": 0.2472,
+    "routed_to": "http://worker-1:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": true,
+    "latency": 0.1883271999995486,
+    "worker_id": "worker-1",
+    "processing_time": 0.1561,
+    "routed_to": "http://worker-1:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": true,
+    "latency": 1.0229890000000523,
+    "worker_id": "worker-2",
+    "processing_time": 0.9843,
+    "routed_to": "http://worker-2:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": true,
+    "latency": 0.2904423999998471,
+    "worker_id": "worker-1",
+    "processing_time": 0.2826,
+    "routed_to": "http://worker-1:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": true,
+    "latency": 0.7391100999993796,
+    "worker_id": "worker-2",
+    "processing_time": 0.728,
+    "routed_to": "http://worker-2:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": true,
+    "latency": 0.24835739999980433,
+    "worker_id": "worker-1",
+    "processing_time": 0.225,
+    "routed_to": "http://worker-1:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": true,
+    "latency": 0.24097079999955895,
+    "worker_id": "worker-3",
+    "processing_time": 0.1988,
+    "routed_to": "http://worker-3:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": true,
+    "latency": 0.3307033999999476,
+    "worker_id": "worker-3",
+    "processing_time": 0.2738,
+    "routed_to": "http://worker-3:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": true,
+    "latency": 0.31650530000024446,
+    "worker_id": "worker-1",
+    "processing_time": 0.2597,
+    "routed_to": "http://worker-1:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": true,
+    "latency": 1.0003563999998732,
+    "worker_id": "worker-2",
+    "processing_time": 0.9252,
+    "routed_to": "http://worker-2:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": true,
+    "latency": 0.18797100000028877,
+    "worker_id": "worker-3",
+    "processing_time": 0.1209,
+    "routed_to": "http://worker-3:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": true,
+    "latency": 0.22951840000041557,
+    "worker_id": "worker-1",
+    "processing_time": 0.1628,
+    "routed_to": "http://worker-1:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": true,
+    "latency": 0.19159099999978935,
+    "worker_id": "worker-3",
+    "processing_time": 0.1256,
+    "routed_to": "http://worker-3:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": true,
+    "latency": 0.23441570000068168,
+    "worker_id": "worker-1",
+    "processing_time": 0.1469,
+    "routed_to": "http://worker-1:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": true,
+    "latency": 0.2417606999997588,
+    "worker_id": "worker-3",
+    "processing_time": 0.1702,
+    "routed_to": "http://worker-3:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": true,
+    "latency": 0.3574706999997943,
+    "worker_id": "worker-3",
+    "processing_time": 0.2921,
+    "routed_to": "http://worker-3:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": true,
+    "latency": 0.28894060000038735,
+    "worker_id": "worker-3",
+    "processing_time": 0.2093,
+    "routed_to": "http://worker-3:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": true,
+    "latency": 0.9842858000001797,
+    "worker_id": "worker-2",
+    "processing_time": 0.8912,
+    "routed_to": "http://worker-2:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": true,
+    "latency": 0.23098579999987123,
+    "worker_id": "worker-3",
+    "processing_time": 0.166,
+    "routed_to": "http://worker-3:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": true,
+    "latency": 0.6892748000000211,
+    "worker_id": "worker-2",
+    "processing_time": 0.6138,
+    "routed_to": "http://worker-2:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": true,
+    "latency": 0.26467499999944266,
+    "worker_id": "worker-1",
+    "processing_time": 0.1916,
+    "routed_to": "http://worker-1:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": true,
+    "latency": 0.3688050000000658,
+    "worker_id": "worker-3",
+    "processing_time": 0.2927,
+    "routed_to": "http://worker-3:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": true,
+    "latency": 0.3104347999997117,
+    "worker_id": "worker-1",
+    "processing_time": 0.243,
+    "routed_to": "http://worker-1:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": true,
+    "latency": 0.2151690000000599,
+    "worker_id": "worker-1",
+    "processing_time": 0.1488,
+    "routed_to": "http://worker-1:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": true,
+    "latency": 0.2668337999994037,
+    "worker_id": "worker-1",
+    "processing_time": 0.1963,
+    "routed_to": "http://worker-1:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": true,
+    "latency": 0.17168199999923672,
+    "worker_id": "worker-1",
+    "processing_time": 0.1164,
+    "routed_to": "http://worker-1:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": true,
+    "latency": 0.30542789999981323,
+    "worker_id": "worker-1",
+    "processing_time": 0.2501,
+    "routed_to": "http://worker-1:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": true,
+    "latency": 0.19271659999958501,
+    "worker_id": "worker-3",
+    "processing_time": 0.1379,
+    "routed_to": "http://worker-3:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": true,
+    "latency": 0.5681756999993013,
+    "worker_id": "worker-2",
+    "processing_time": 0.5137,
+    "routed_to": "http://worker-2:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": true,
+    "latency": 0.21910459999980958,
+    "worker_id": "worker-1",
+    "processing_time": 0.166,
+    "routed_to": "http://worker-1:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": true,
+    "latency": 0.3078059999998004,
+    "worker_id": "worker-3",
+    "processing_time": 0.254,
+    "routed_to": "http://worker-3:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": true,
+    "latency": 0.1498928999999407,
+    "worker_id": "worker-1",
+    "processing_time": 0.1078,
+    "routed_to": "http://worker-1:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": true,
+    "latency": 1.0435526999999638,
+    "worker_id": "worker-2",
+    "processing_time": 0.9817,
+    "routed_to": "http://worker-2:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": true,
+    "latency": 0.3063657000002422,
+    "worker_id": "worker-3",
+    "processing_time": 0.2662,
+    "routed_to": "http://worker-3:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": true,
+    "latency": 0.23244699999941076,
+    "worker_id": "worker-1",
+    "processing_time": 0.1986,
+    "routed_to": "http://worker-1:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": true,
+    "latency": 0.6628129999999146,
+    "worker_id": "worker-2",
+    "processing_time": 0.618,
+    "routed_to": "http://worker-2:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": true,
+    "latency": 0.128487099999802,
+    "worker_id": "worker-1",
+    "processing_time": 0.1047,
+    "routed_to": "http://worker-1:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": true,
+    "latency": 0.5782663999998476,
+    "worker_id": "worker-2",
+    "processing_time": 0.5537,
+    "routed_to": "http://worker-2:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": true,
+    "latency": 0.18466970000008587,
+    "worker_id": "worker-1",
+    "processing_time": 0.1663,
+    "routed_to": "http://worker-1:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": true,
+    "latency": 0.7833715000006123,
+    "worker_id": "worker-2",
+    "processing_time": 0.7571,
+    "routed_to": "http://worker-2:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": true,
+    "latency": 0.30204929999945307,
+    "worker_id": "worker-3",
+    "processing_time": 0.2884,
+    "routed_to": "http://worker-3:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": true,
+    "latency": 0.513062600000012,
+    "worker_id": "worker-2",
+    "processing_time": 0.5006,
+    "routed_to": "http://worker-2:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": true,
+    "latency": 0.23679939999965427,
+    "worker_id": "worker-3",
+    "processing_time": 0.2185,
+    "routed_to": "http://worker-3:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": true,
+    "latency": 0.17904099999941536,
+    "worker_id": "worker-3",
+    "processing_time": 0.1547,
+    "routed_to": "http://worker-3:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": true,
+    "latency": 0.13040619999992487,
+    "worker_id": "worker-3",
+    "processing_time": 0.1021,
+    "routed_to": "http://worker-3:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": true,
+    "latency": 0.26794449999943026,
+    "worker_id": "worker-1",
+    "processing_time": 0.2444,
+    "routed_to": "http://worker-1:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": true,
+    "latency": 0.30454769999960263,
+    "worker_id": "worker-3",
+    "processing_time": 0.2836,
+    "routed_to": "http://worker-3:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": true,
+    "latency": 0.25319170000057056,
+    "worker_id": "worker-3",
+    "processing_time": 0.2364,
+    "routed_to": "http://worker-3:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": true,
+    "latency": 0.1872255000007499,
+    "worker_id": "worker-3",
+    "processing_time": 0.1688,
+    "routed_to": "http://worker-3:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": true,
+    "latency": 0.23066629999993893,
+    "worker_id": "worker-1",
+    "processing_time": 0.2162,
+    "routed_to": "http://worker-1:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": true,
+    "latency": 0.13649659999919095,
+    "worker_id": "worker-1",
+    "processing_time": 0.1161,
+    "routed_to": "http://worker-1:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": false,
+    "latency": 0.004279699999642617,
+    "error": "HTTP 502: All connection attempts failed"
+  },
+  {
+    "ok": false,
+    "latency": 0.006777399999918998,
+    "error": "HTTP 502: All connection attempts failed"
+  },
+  {
+    "ok": true,
+    "latency": 0.1656258999992133,
+    "worker_id": "worker-1",
+    "processing_time": 0.1544,
+    "routed_to": "http://worker-1:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": false,
+    "latency": 0.006228600000213191,
+    "error": "HTTP 502: All connection attempts failed"
+  },
+  {
+    "ok": true,
+    "latency": 0.30650839999998425,
+    "worker_id": "worker-1",
+    "processing_time": 0.2814,
+    "routed_to": "http://worker-1:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": true,
+    "latency": 0.3065144000001965,
+    "worker_id": "worker-1",
+    "processing_time": 0.283,
+    "routed_to": "http://worker-1:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": false,
+    "latency": 0.013781899999230518,
+    "error": "HTTP 502: All connection attempts failed"
+  },
+  {
+    "ok": true,
+    "latency": 0.2331056000002718,
+    "worker_id": "worker-1",
+    "processing_time": 0.2039,
+    "routed_to": "http://worker-1:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": true,
+    "latency": 0.2616962000001877,
+    "worker_id": "worker-1",
+    "processing_time": 0.2267,
+    "routed_to": "http://worker-1:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": true,
+    "latency": 0.18200869999964198,
+    "worker_id": "worker-3",
+    "processing_time": 0.1586,
+    "routed_to": "http://worker-3:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": false,
+    "latency": 0.014537600000039674,
+    "error": "HTTP 502: All connection attempts failed"
+  },
+  {
+    "ok": true,
+    "latency": 0.25476849999995466,
+    "worker_id": "worker-3",
+    "processing_time": 0.2314,
+    "routed_to": "http://worker-3:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": false,
+    "latency": 0.0132078000006004,
+    "error": "HTTP 502: All connection attempts failed"
+  },
+  {
+    "ok": true,
+    "latency": 0.16074060000028112,
+    "worker_id": "worker-3",
+    "processing_time": 0.1435,
+    "routed_to": "http://worker-3:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": true,
+    "latency": 0.18925919999946927,
+    "worker_id": "worker-1",
+    "processing_time": 0.1661,
+    "routed_to": "http://worker-1:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": false,
+    "latency": 0.011176200000591052,
+    "error": "HTTP 502: All connection attempts failed"
+  },
+  {
+    "ok": true,
+    "latency": 0.2238721000003352,
+    "worker_id": "worker-1",
+    "processing_time": 0.2008,
+    "routed_to": "http://worker-1:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": false,
+    "latency": 0.02088869999988674,
+    "error": "HTTP 502: All connection attempts failed"
+  },
+  {
+    "ok": true,
+    "latency": 0.14158650000081252,
+    "worker_id": "worker-1",
+    "processing_time": 0.1013,
+    "routed_to": "http://worker-1:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": true,
+    "latency": 0.16970320000018546,
+    "worker_id": "worker-3",
+    "processing_time": 0.1278,
+    "routed_to": "http://worker-3:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": true,
+    "latency": 0.178839500000322,
+    "worker_id": "worker-3",
+    "processing_time": 0.1345,
+    "routed_to": "http://worker-3:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": true,
+    "latency": 0.18172669999967184,
+    "worker_id": "worker-1",
+    "processing_time": 0.137,
+    "routed_to": "http://worker-1:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": false,
+    "latency": 0.01712229999975534,
+    "error": "HTTP 502: All connection attempts failed"
+  },
+  {
+    "ok": true,
+    "latency": 0.17343370000071445,
+    "worker_id": "worker-3",
+    "processing_time": 0.1409,
+    "routed_to": "http://worker-3:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": true,
+    "latency": 0.1303053000001455,
+    "worker_id": "worker-1",
+    "processing_time": 0.1067,
+    "routed_to": "http://worker-1:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": false,
+    "latency": 0.014226000000235217,
+    "error": "HTTP 502: All connection attempts failed"
+  },
+  {
+    "ok": true,
+    "latency": 0.18454059999930905,
+    "worker_id": "worker-1",
+    "processing_time": 0.1524,
+    "routed_to": "http://worker-1:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": false,
+    "latency": 0.008675900000525871,
+    "error": "HTTP 502: All connection attempts failed"
+  },
+  {
+    "ok": false,
+    "latency": 0.02350750000005064,
+    "error": "HTTP 502: All connection attempts failed"
+  },
+  {
+    "ok": true,
+    "latency": 0.2875975999995717,
+    "worker_id": "worker-1",
+    "processing_time": 0.2536,
+    "routed_to": "http://worker-1:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": true,
+    "latency": 0.2938254999999117,
+    "worker_id": "worker-1",
+    "processing_time": 0.2566,
+    "routed_to": "http://worker-1:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": false,
+    "latency": 0.0173477999996976,
+    "error": "HTTP 502: All connection attempts failed"
+  },
+  {
+    "ok": true,
+    "latency": 0.2201532999997653,
+    "worker_id": "worker-3",
+    "processing_time": 0.1828,
+    "routed_to": "http://worker-3:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": true,
+    "latency": 0.20587930000056076,
+    "worker_id": "worker-1",
+    "processing_time": 0.1708,
+    "routed_to": "http://worker-1:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": false,
+    "latency": 0.027108899999802816,
+    "error": "HTTP 502: All connection attempts failed"
+  },
+  {
+    "ok": false,
+    "latency": 0.014018799999576004,
+    "error": "HTTP 502: All connection attempts failed"
+  },
+  {
+    "ok": false,
+    "latency": 0.02117420000013226,
+    "error": "HTTP 502: All connection attempts failed"
+  },
+  {
+    "ok": true,
+    "latency": 0.24721320000026026,
+    "worker_id": "worker-3",
+    "processing_time": 0.2124,
+    "routed_to": "http://worker-3:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": true,
+    "latency": 0.22253040000032343,
+    "worker_id": "worker-1",
+    "processing_time": 0.1824,
+    "routed_to": "http://worker-1:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": false,
+    "latency": 0.019569499999306572,
+    "error": "HTTP 502: All connection attempts failed"
+  },
+  {
+    "ok": true,
+    "latency": 0.21616529999937484,
+    "worker_id": "worker-3",
+    "processing_time": 0.1746,
+    "routed_to": "http://worker-3:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": true,
+    "latency": 0.3128822999997283,
+    "worker_id": "worker-3",
+    "processing_time": 0.2739,
+    "routed_to": "http://worker-3:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": true,
+    "latency": 0.19215110000004643,
+    "worker_id": "worker-1",
+    "processing_time": 0.1562,
+    "routed_to": "http://worker-1:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": true,
+    "latency": 0.2539895999998407,
+    "worker_id": "worker-3",
+    "processing_time": 0.2237,
+    "routed_to": "http://worker-3:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": true,
+    "latency": 0.18675920000077895,
+    "worker_id": "worker-3",
+    "processing_time": 0.1625,
+    "routed_to": "http://worker-3:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": false,
+    "latency": 0.016634000000522065,
+    "error": "HTTP 502: All connection attempts failed"
+  },
+  {
+    "ok": false,
+    "latency": 0.015541900000243913,
+    "error": "HTTP 502: All connection attempts failed"
+  },
+  {
+    "ok": true,
+    "latency": 0.26292909999938274,
+    "worker_id": "worker-3",
+    "processing_time": 0.2429,
+    "routed_to": "http://worker-3:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": false,
+    "latency": 0.009522500000457512,
+    "error": "HTTP 502: All connection attempts failed"
+  },
+  {
+    "ok": false,
+    "latency": 0.015834799999538518,
+    "error": "HTTP 502: All connection attempts failed"
+  },
+  {
+    "ok": false,
+    "latency": 0.016552000000046974,
+    "error": "HTTP 502: All connection attempts failed"
+  },
+  {
+    "ok": false,
+    "latency": 0.018405599999823608,
+    "error": "HTTP 502: All connection attempts failed"
+  },
+  {
+    "ok": true,
+    "latency": 0.35223450000012235,
+    "worker_id": "worker-3",
+    "processing_time": 0.2992,
+    "routed_to": "http://worker-3:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": true,
+    "latency": 0.32313539999995555,
+    "worker_id": "worker-3",
+    "processing_time": 0.2796,
+    "routed_to": "http://worker-3:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": true,
+    "latency": 0.295868000000155,
+    "worker_id": "worker-1",
+    "processing_time": 0.2522,
+    "routed_to": "http://worker-1:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": true,
+    "latency": 0.29546469999968394,
+    "worker_id": "worker-1",
+    "processing_time": 0.252,
+    "routed_to": "http://worker-1:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": false,
+    "latency": 0.02039969999987079,
+    "error": "HTTP 502: All connection attempts failed"
+  },
+  {
+    "ok": true,
+    "latency": 0.16394649999983812,
+    "worker_id": "worker-1",
+    "processing_time": 0.1284,
+    "routed_to": "http://worker-1:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": false,
+    "latency": 0.019109500000013213,
+    "error": "HTTP 502: All connection attempts failed"
+  },
+  {
+    "ok": true,
+    "latency": 0.33457329999964713,
+    "worker_id": "worker-3",
+    "processing_time": 0.2868,
+    "routed_to": "http://worker-3:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": true,
+    "latency": 0.155260300000009,
+    "worker_id": "worker-1",
+    "processing_time": 0.1095,
+    "routed_to": "http://worker-1:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": false,
+    "latency": 0.019400799999857554,
+    "error": "HTTP 502: All connection attempts failed"
+  },
+  {
+    "ok": true,
+    "latency": 0.24806249999983265,
+    "worker_id": "worker-3",
+    "processing_time": 0.2063,
+    "routed_to": "http://worker-3:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": false,
+    "latency": 0.02703750000000582,
+    "error": "HTTP 502: All connection attempts failed"
+  },
+  {
+    "ok": false,
+    "latency": 0.031018499999845517,
+    "error": "HTTP 502: All connection attempts failed"
+  },
+  {
+    "ok": true,
+    "latency": 0.3376565999997183,
+    "worker_id": "worker-3",
+    "processing_time": 0.2712,
+    "routed_to": "http://worker-3:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": true,
+    "latency": 0.3650981999999203,
+    "worker_id": "worker-1",
+    "processing_time": 0.2952,
+    "routed_to": "http://worker-1:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": true,
+    "latency": 0.30260659999930795,
+    "worker_id": "worker-3",
+    "processing_time": 0.2393,
+    "routed_to": "http://worker-3:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": true,
+    "latency": 0.16019589999996242,
+    "worker_id": "worker-1",
+    "processing_time": 0.1098,
+    "routed_to": "http://worker-1:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": false,
+    "latency": 0.03452099999958591,
+    "error": "HTTP 502: All connection attempts failed"
+  },
+  {
+    "ok": true,
+    "latency": 0.29657900000074733,
+    "worker_id": "worker-3",
+    "processing_time": 0.228,
+    "routed_to": "http://worker-3:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": false,
+    "latency": 0.035761400000410504,
+    "error": "HTTP 502: All connection attempts failed"
+  },
+  {
+    "ok": true,
+    "latency": 0.27028250000057596,
+    "worker_id": "worker-3",
+    "processing_time": 0.2145,
+    "routed_to": "http://worker-3:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": true,
+    "latency": 0.1904975999996168,
+    "worker_id": "worker-1",
+    "processing_time": 0.1456,
+    "routed_to": "http://worker-1:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": false,
+    "latency": 0.030990700000074867,
+    "error": "HTTP 502: All connection attempts failed"
+  },
+  {
+    "ok": true,
+    "latency": 0.28903900000022986,
+    "worker_id": "worker-1",
+    "processing_time": 0.236,
+    "routed_to": "http://worker-1:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": true,
+    "latency": 0.34519470000032015,
+    "worker_id": "worker-1",
+    "processing_time": 0.2945,
+    "routed_to": "http://worker-1:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": false,
+    "latency": 0.02022460000080173,
+    "error": "HTTP 502: All connection attempts failed"
+  },
+  {
+    "ok": true,
+    "latency": 0.15614989999994577,
+    "worker_id": "worker-3",
+    "processing_time": 0.1271,
+    "routed_to": "http://worker-3:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": true,
+    "latency": 0.2149358000006032,
+    "worker_id": "worker-1",
+    "processing_time": 0.181,
+    "routed_to": "http://worker-1:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": false,
+    "latency": 0.018745299999864073,
+    "error": "HTTP 502: All connection attempts failed"
+  },
+  {
+    "ok": false,
+    "latency": 0.017791000000215718,
+    "error": "HTTP 502: All connection attempts failed"
+  },
+  {
+    "ok": false,
+    "latency": 0.016032000000450353,
+    "error": "HTTP 502: All connection attempts failed"
+  },
+  {
+    "ok": true,
+    "latency": 0.2675452999992558,
+    "worker_id": "worker-1",
+    "processing_time": 0.2272,
+    "routed_to": "http://worker-1:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": false,
+    "latency": 0.008148399999299727,
+    "error": "HTTP 502: All connection attempts failed"
+  },
+  {
+    "ok": false,
+    "latency": 0.010481199999958335,
+    "error": "HTTP 502: All connection attempts failed"
+  },
+  {
+    "ok": true,
+    "latency": 0.31833580000056827,
+    "worker_id": "worker-1",
+    "processing_time": 0.275,
+    "routed_to": "http://worker-1:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": false,
+    "latency": 0.013350000000173168,
+    "error": "HTTP 502: All connection attempts failed"
+  },
+  {
+    "ok": false,
+    "latency": 0.01256809999995312,
+    "error": "HTTP 502: All connection attempts failed"
+  },
+  {
+    "ok": false,
+    "latency": 0.009951999999429972,
+    "error": "HTTP 502: All connection attempts failed"
+  },
+  {
+    "ok": false,
+    "latency": 0.01502269999946293,
+    "error": "HTTP 502: All connection attempts failed"
+  },
+  {
+    "ok": false,
+    "latency": 0.01735740000003716,
+    "error": "HTTP 502: All connection attempts failed"
+  },
+  {
+    "ok": false,
+    "latency": 0.01687839999976859,
+    "error": "HTTP 502: All connection attempts failed"
+  },
+  {
+    "ok": true,
+    "latency": 0.1646971999998641,
+    "worker_id": "worker-1",
+    "processing_time": 0.1279,
+    "routed_to": "http://worker-1:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": false,
+    "latency": 0.016696800000318035,
+    "error": "HTTP 502: All connection attempts failed"
+  },
+  {
+    "ok": false,
+    "latency": 0.0162731000000349,
+    "error": "HTTP 502: All connection attempts failed"
+  },
+  {
+    "ok": true,
+    "latency": 0.22916540000005625,
+    "worker_id": "worker-3",
+    "processing_time": 0.1829,
+    "routed_to": "http://worker-3:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": false,
+    "latency": 0.020700400000350783,
+    "error": "HTTP 502: All connection attempts failed"
+  },
+  {
+    "ok": true,
+    "latency": 0.2111389000001509,
+    "worker_id": "worker-3",
+    "processing_time": 0.1579,
+    "routed_to": "http://worker-3:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": false,
+    "latency": 0.019171199999618693,
+    "error": "HTTP 502: All connection attempts failed"
+  },
+  {
+    "ok": true,
+    "latency": 0.3442402000000584,
+    "worker_id": "worker-1",
+    "processing_time": 0.2978,
+    "routed_to": "http://worker-1:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": false,
+    "latency": 0.02490769999985787,
+    "error": "HTTP 502: All connection attempts failed"
+  },
+  {
+    "ok": true,
+    "latency": 0.34622849999959726,
+    "worker_id": "worker-1",
+    "processing_time": 0.29,
+    "routed_to": "http://worker-1:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": false,
+    "latency": 0.021882799999730196,
+    "error": "HTTP 502: All connection attempts failed"
+  },
+  {
+    "ok": false,
+    "latency": 0.021673199999895587,
+    "error": "HTTP 502: All connection attempts failed"
+  },
+  {
+    "ok": true,
+    "latency": 0.19532340000023396,
+    "worker_id": "worker-1",
+    "processing_time": 0.1475,
+    "routed_to": "http://worker-1:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": true,
+    "latency": 0.33797359999971377,
+    "worker_id": "worker-3",
+    "processing_time": 0.2863,
+    "routed_to": "http://worker-3:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": true,
+    "latency": 0.2311177999999927,
+    "worker_id": "worker-1",
+    "processing_time": 0.1847,
+    "routed_to": "http://worker-1:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": false,
+    "latency": 0.014989699999205186,
+    "error": "HTTP 502: All connection attempts failed"
+  },
+  {
+    "ok": false,
+    "latency": 0.015680800000154704,
+    "error": "HTTP 502: All connection attempts failed"
+  },
+  {
+    "ok": true,
+    "latency": 0.14649089999966236,
+    "worker_id": "worker-3",
+    "processing_time": 0.1057,
+    "routed_to": "http://worker-3:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": true,
+    "latency": 0.18797389999963343,
+    "worker_id": "worker-1",
+    "processing_time": 0.1481,
+    "routed_to": "http://worker-1:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": false,
+    "latency": 0.017166700000416313,
+    "error": "HTTP 502: All connection attempts failed"
+  },
+  {
+    "ok": true,
+    "latency": 0.2518215999998574,
+    "worker_id": "worker-1",
+    "processing_time": 0.2128,
+    "routed_to": "http://worker-1:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": false,
+    "latency": 0.015209400000458118,
+    "error": "HTTP 502: All connection attempts failed"
+  },
+  {
+    "ok": true,
+    "latency": 0.2015649000004487,
+    "worker_id": "worker-1",
+    "processing_time": 0.1628,
+    "routed_to": "http://worker-1:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": false,
+    "latency": 0.015674899999794434,
+    "error": "HTTP 502: All connection attempts failed"
+  },
+  {
+    "ok": false,
+    "latency": 0.013339000000087253,
+    "error": "HTTP 502: All connection attempts failed"
+  },
+  {
+    "ok": false,
+    "latency": 0.014761500000531669,
+    "error": "HTTP 502: All connection attempts failed"
+  },
+  {
+    "ok": true,
+    "latency": 0.29461600000013277,
+    "worker_id": "worker-3",
+    "processing_time": 0.2543,
+    "routed_to": "http://worker-3:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": false,
+    "latency": 0.012044199999763805,
+    "error": "HTTP 502: All connection attempts failed"
+  },
+  {
+    "ok": false,
+    "latency": 0.010586200000034296,
+    "error": "HTTP 502: All connection attempts failed"
+  },
+  {
+    "ok": false,
+    "latency": 0.014095399999860092,
+    "error": "HTTP 502: All connection attempts failed"
+  },
+  {
+    "ok": false,
+    "latency": 0.017368400000123074,
+    "error": "HTTP 502: All connection attempts failed"
+  },
+  {
+    "ok": false,
+    "latency": 0.017438999999285443,
+    "error": "HTTP 502: All connection attempts failed"
+  },
+  {
+    "ok": false,
+    "latency": 0.018839399999706075,
+    "error": "HTTP 502: All connection attempts failed"
+  },
+  {
+    "ok": true,
+    "latency": 0.33179760000075476,
+    "worker_id": "worker-3",
+    "processing_time": 0.2732,
+    "routed_to": "http://worker-3:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": false,
+    "latency": 0.01922130000002653,
+    "error": "HTTP 502: All connection attempts failed"
+  },
+  {
+    "ok": false,
+    "latency": 0.01852099999996426,
+    "error": "HTTP 502: All connection attempts failed"
+  },
+  {
+    "ok": false,
+    "latency": 0.01904590000049211,
+    "error": "HTTP 502: All connection attempts failed"
+  },
+  {
+    "ok": false,
+    "latency": 0.021477600000253005,
+    "error": "HTTP 502: All connection attempts failed"
+  },
+  {
+    "ok": true,
+    "latency": 0.28218010000000504,
+    "worker_id": "worker-3",
+    "processing_time": 0.2202,
+    "routed_to": "http://worker-3:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": false,
+    "latency": 0.02602500000011787,
+    "error": "HTTP 502: All connection attempts failed"
+  },
+  {
+    "ok": true,
+    "latency": 0.2590005000001838,
+    "worker_id": "worker-1",
+    "processing_time": 0.2052,
+    "routed_to": "http://worker-1:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": false,
+    "latency": 0.01855370000066614,
+    "error": "HTTP 502: All connection attempts failed"
+  },
+  {
+    "ok": false,
+    "latency": 0.020475499999520252,
+    "error": "HTTP 502: All connection attempts failed"
+  },
+  {
+    "ok": false,
+    "latency": 0.019975899999735702,
+    "error": "HTTP 502: All connection attempts failed"
+  },
+  {
+    "ok": false,
+    "latency": 0.027901599999495375,
+    "error": "HTTP 502: All connection attempts failed"
+  },
+  {
+    "ok": false,
+    "latency": 0.02538170000025275,
+    "error": "HTTP 502: All connection attempts failed"
+  },
+  {
+    "ok": false,
+    "latency": 0.02905819999978121,
+    "error": "HTTP 502: All connection attempts failed"
+  },
+  {
+    "ok": false,
+    "latency": 0.034169000000474625,
+    "error": "HTTP 502: All connection attempts failed"
+  },
+  {
+    "ok": false,
+    "latency": 0.03337370000008377,
+    "error": "HTTP 502: All connection attempts failed"
+  },
+  {
+    "ok": true,
+    "latency": 0.2621220999999423,
+    "worker_id": "worker-3",
+    "processing_time": 0.1856,
+    "routed_to": "http://worker-3:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": false,
+    "latency": 0.03174250000029133,
+    "error": "HTTP 502: All connection attempts failed"
+  },
+  {
+    "ok": true,
+    "latency": 0.178922799999782,
+    "worker_id": "worker-3",
+    "processing_time": 0.1171,
+    "routed_to": "http://worker-3:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": false,
+    "latency": 0.0322411999995893,
+    "error": "HTTP 502: All connection attempts failed"
+  },
+  {
+    "ok": false,
+    "latency": 0.03352979999999661,
+    "error": "HTTP 502: All connection attempts failed"
+  },
+  {
+    "ok": true,
+    "latency": 0.22092979999979434,
+    "worker_id": "worker-1",
+    "processing_time": 0.1428,
+    "routed_to": "http://worker-1:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": false,
+    "latency": 0.036377100000208884,
+    "error": "HTTP 502: All connection attempts failed"
+  },
+  {
+    "ok": false,
+    "latency": 0.03679220000049099,
+    "error": "HTTP 502: All connection attempts failed"
+  },
+  {
+    "ok": false,
+    "latency": 0.036217500000020664,
+    "error": "HTTP 502: All connection attempts failed"
+  },
+  {
+    "ok": false,
+    "latency": 0.0390399999996589,
+    "error": "HTTP 502: All connection attempts failed"
+  },
+  {
+    "ok": true,
+    "latency": 0.25705850000031205,
+    "worker_id": "worker-1",
+    "processing_time": 0.1648,
+    "routed_to": "http://worker-1:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": false,
+    "latency": 0.03842549999990297,
+    "error": "HTTP 502: All connection attempts failed"
+  },
+  {
+    "ok": true,
+    "latency": 0.32890390000011394,
+    "worker_id": "worker-1",
+    "processing_time": 0.2497,
+    "routed_to": "http://worker-1:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": false,
+    "latency": 0.04192590000002383,
+    "error": "HTTP 502: All connection attempts failed"
+  },
+  {
+    "ok": false,
+    "latency": 0.041369399999894085,
+    "error": "HTTP 502: All connection attempts failed"
+  },
+  {
+    "ok": true,
+    "latency": 0.2517695000005915,
+    "worker_id": "worker-1",
+    "processing_time": 0.1649,
+    "routed_to": "http://worker-1:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": false,
+    "latency": 0.05050839999967138,
+    "error": "HTTP 502: All connection attempts failed"
+  },
+  {
+    "ok": false,
+    "latency": 0.05289549999997689,
+    "error": "HTTP 502: All connection attempts failed"
+  },
+  {
+    "ok": false,
+    "latency": 0.053329999999732536,
+    "error": "HTTP 502: All connection attempts failed"
+  },
+  {
+    "ok": false,
+    "latency": 0.055393600000570586,
+    "error": "HTTP 502: All connection attempts failed"
+  },
+  {
+    "ok": true,
+    "latency": 0.2247028000001592,
+    "worker_id": "worker-3",
+    "processing_time": 0.1264,
+    "routed_to": "http://worker-3:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": true,
+    "latency": 0.40131580000070244,
+    "worker_id": "worker-3",
+    "processing_time": 0.2895,
+    "routed_to": "http://worker-3:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": false,
+    "latency": 0.05494590000034805,
+    "error": "HTTP 502: All connection attempts failed"
+  },
+  {
+    "ok": false,
+    "latency": 0.05492049999975279,
+    "error": "HTTP 502: All connection attempts failed"
+  },
+  {
+    "ok": true,
+    "latency": 0.23428939999939757,
+    "worker_id": "worker-3",
+    "processing_time": 0.127,
+    "routed_to": "http://worker-3:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": false,
+    "latency": 0.054305200000271725,
+    "error": "HTTP 502: All connection attempts failed"
+  },
+  {
+    "ok": true,
+    "latency": 0.27746359999946435,
+    "worker_id": "worker-3",
+    "processing_time": 0.1776,
+    "routed_to": "http://worker-3:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": false,
+    "latency": 0.05305549999957293,
+    "error": "HTTP 502: All connection attempts failed"
+  },
+  {
+    "ok": true,
+    "latency": 0.3875335000002451,
+    "worker_id": "worker-3",
+    "processing_time": 0.2808,
+    "routed_to": "http://worker-3:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": false,
+    "latency": 0.05304999999952997,
+    "error": "HTTP 502: All connection attempts failed"
+  },
+  {
+    "ok": true,
+    "latency": 0.28999429999930726,
+    "worker_id": "worker-3",
+    "processing_time": 0.1984,
+    "routed_to": "http://worker-3:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": true,
+    "latency": 0.2888842000002114,
+    "worker_id": "worker-3",
+    "processing_time": 0.1951,
+    "routed_to": "http://worker-3:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": false,
+    "latency": 0.04827779999959603,
+    "error": "HTTP 502: All connection attempts failed"
+  },
+  {
+    "ok": true,
+    "latency": 0.31520799999998417,
+    "worker_id": "worker-3",
+    "processing_time": 0.2198,
+    "routed_to": "http://worker-3:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": false,
+    "latency": 0.05068529999971361,
+    "error": "HTTP 502: All connection attempts failed"
+  },
+  {
+    "ok": true,
+    "latency": 0.3849761999999828,
+    "worker_id": "worker-1",
+    "processing_time": 0.2886,
+    "routed_to": "http://worker-1:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": false,
+    "latency": 0.048576799999864306,
+    "error": "HTTP 502: All connection attempts failed"
+  },
+  {
+    "ok": true,
+    "latency": 0.24190739999994548,
+    "worker_id": "worker-1",
+    "processing_time": 0.14,
+    "routed_to": "http://worker-1:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": false,
+    "latency": 0.04990989999987505,
+    "error": "HTTP 502: All connection attempts failed"
+  },
+  {
+    "ok": false,
+    "latency": 0.052091399999881105,
+    "error": "HTTP 502: All connection attempts failed"
+  },
+  {
+    "ok": true,
+    "latency": 0.2172009000005346,
+    "worker_id": "worker-3",
+    "processing_time": 0.1193,
+    "routed_to": "http://worker-3:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": true,
+    "latency": 0.3081731000002037,
+    "worker_id": "worker-1",
+    "processing_time": 0.2206,
+    "routed_to": "http://worker-1:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": false,
+    "latency": 0.05292699999972683,
+    "error": "HTTP 502: All connection attempts failed"
+  },
+  {
+    "ok": false,
+    "latency": 0.0497019000004002,
+    "error": "HTTP 502: All connection attempts failed"
+  },
+  {
+    "ok": false,
+    "latency": 0.04911450000054174,
+    "error": "HTTP 502: All connection attempts failed"
+  },
+  {
+    "ok": false,
+    "latency": 0.04966900000090391,
+    "error": "HTTP 502: All connection attempts failed"
+  },
+  {
+    "ok": true,
+    "latency": 0.2537895999994362,
+    "worker_id": "worker-1",
+    "processing_time": 0.1657,
+    "routed_to": "http://worker-1:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": true,
+    "latency": 0.1994383999999627,
+    "worker_id": "worker-1",
+    "processing_time": 0.1007,
+    "routed_to": "http://worker-1:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": false,
+    "latency": 0.04902889999993931,
+    "error": "HTTP 502: All connection attempts failed"
+  },
+  {
+    "ok": false,
+    "latency": 0.047449499999856926,
+    "error": "HTTP 502: All connection attempts failed"
+  },
+  {
+    "ok": false,
+    "latency": 0.047662599999966915,
+    "error": "HTTP 502: All connection attempts failed"
+  },
+  {
+    "ok": true,
+    "latency": 0.2548223000003418,
+    "worker_id": "worker-1",
+    "processing_time": 0.1643,
+    "routed_to": "http://worker-1:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": false,
+    "latency": 0.044014099999913014,
+    "error": "HTTP 502: All connection attempts failed"
+  },
+  {
+    "ok": true,
+    "latency": 0.35885699999926146,
+    "worker_id": "worker-1",
+    "processing_time": 0.2677,
+    "routed_to": "http://worker-1:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": false,
+    "latency": 0.04451269999935903,
+    "error": "HTTP 502: All connection attempts failed"
+  },
+  {
+    "ok": false,
+    "latency": 0.043255300000055286,
+    "error": "HTTP 502: All connection attempts failed"
+  },
+  {
+    "ok": false,
+    "latency": 0.04361150000022462,
+    "error": "HTTP 502: All connection attempts failed"
+  },
+  {
+    "ok": false,
+    "latency": 0.04418439999972179,
+    "error": "HTTP 502: All connection attempts failed"
+  },
+  {
+    "ok": false,
+    "latency": 0.042415599999912956,
+    "error": "HTTP 502: All connection attempts failed"
+  },
+  {
+    "ok": false,
+    "latency": 0.0415101999997205,
+    "error": "HTTP 502: All connection attempts failed"
+  },
+  {
+    "ok": true,
+    "latency": 0.36578710000048886,
+    "worker_id": "worker-1",
+    "processing_time": 0.2807,
+    "routed_to": "http://worker-1:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": false,
+    "latency": 0.0432133000003887,
+    "error": "HTTP 502: All connection attempts failed"
+  },
+  {
+    "ok": false,
+    "latency": 0.040891499999816006,
+    "error": "HTTP 502: All connection attempts failed"
+  },
+  {
+    "ok": true,
+    "latency": 0.2684847999998965,
+    "worker_id": "worker-3",
+    "processing_time": 0.1834,
+    "routed_to": "http://worker-3:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": false,
+    "latency": 0.04187960000035673,
+    "error": "HTTP 502: All connection attempts failed"
+  },
+  {
+    "ok": false,
+    "latency": 0.04582879999998113,
+    "error": "HTTP 502: All connection attempts failed"
+  },
+  {
+    "ok": false,
+    "latency": 0.04619170000023587,
+    "error": "HTTP 502: All connection attempts failed"
+  },
+  {
+    "ok": false,
+    "latency": 0.04728460000023915,
+    "error": "HTTP 502: All connection attempts failed"
+  },
+  {
+    "ok": false,
+    "latency": 0.05034700000032899,
+    "error": "HTTP 502: All connection attempts failed"
+  },
+  {
+    "ok": false,
+    "latency": 0.04972890000044572,
+    "error": "HTTP 502: All connection attempts failed"
+  },
+  {
+    "ok": true,
+    "latency": 0.21740680000038992,
+    "worker_id": "worker-1",
+    "processing_time": 0.1182,
+    "routed_to": "http://worker-1:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": false,
+    "latency": 0.05099750000044878,
+    "error": "HTTP 502: All connection attempts failed"
+  },
+  {
+    "ok": false,
+    "latency": 0.050431900000148744,
+    "error": "HTTP 502: All connection attempts failed"
+  },
+  {
+    "ok": false,
+    "latency": 0.05472089999966556,
+    "error": "HTTP 502: All connection attempts failed"
+  },
+  {
+    "ok": false,
+    "latency": 0.06536429999960092,
+    "error": "HTTP 502: All connection attempts failed"
+  },
+  {
+    "ok": false,
+    "latency": 0.05990990000009333,
+    "error": "HTTP 502: All connection attempts failed"
+  },
+  {
+    "ok": false,
+    "latency": 0.05895460000010644,
+    "error": "HTTP 502: All connection attempts failed"
+  },
+  {
+    "ok": false,
+    "latency": 0.062220800000432064,
+    "error": "HTTP 502: All connection attempts failed"
+  },
+  {
+    "ok": false,
+    "latency": 0.06509149999965302,
+    "error": "HTTP 502: All connection attempts failed"
+  },
+  {
+    "ok": false,
+    "latency": 0.06662129999949684,
+    "error": "HTTP 502: All connection attempts failed"
+  },
+  {
+    "ok": false,
+    "latency": 0.0668547999994189,
+    "error": "HTTP 502: All connection attempts failed"
+  },
+  {
+    "ok": false,
+    "latency": 0.06307299999934912,
+    "error": "HTTP 502: All connection attempts failed"
+  },
+  {
+    "ok": true,
+    "latency": 0.42049219999989873,
+    "worker_id": "worker-1",
+    "processing_time": 0.2994,
+    "routed_to": "http://worker-1:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": false,
+    "latency": 0.06604810000044381,
+    "error": "HTTP 502: All connection attempts failed"
+  },
+  {
+    "ok": true,
+    "latency": 0.23096189999978378,
+    "worker_id": "worker-1",
+    "processing_time": 0.107,
+    "routed_to": "http://worker-1:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": false,
+    "latency": 0.07020809999994526,
+    "error": "HTTP 502: All connection attempts failed"
+  },
+  {
+    "ok": false,
+    "latency": 0.07129520000034972,
+    "error": "HTTP 502: All connection attempts failed"
+  },
+  {
+    "ok": false,
+    "latency": 0.07109310000032565,
+    "error": "HTTP 502: All connection attempts failed"
+  },
+  {
+    "ok": false,
+    "latency": 0.07035760000053415,
+    "error": "HTTP 502: All connection attempts failed"
+  },
+  {
+    "ok": true,
+    "latency": 0.24847279999994498,
+    "worker_id": "worker-3",
+    "processing_time": 0.1208,
+    "routed_to": "http://worker-3:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": false,
+    "latency": 0.06851060000008147,
+    "error": "HTTP 502: All connection attempts failed"
+  },
+  {
+    "ok": true,
+    "latency": 0.4076381000004403,
+    "worker_id": "worker-1",
+    "processing_time": 0.2816,
+    "routed_to": "http://worker-1:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": false,
+    "latency": 0.07994919999964623,
+    "error": "HTTP 502: All connection attempts failed"
+  },
+  {
+    "ok": true,
+    "latency": 0.35963579999952344,
+    "worker_id": "worker-3",
+    "processing_time": 0.2289,
+    "routed_to": "http://worker-3:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": true,
+    "latency": 0.2904871999999159,
+    "worker_id": "worker-3",
+    "processing_time": 0.1545,
+    "routed_to": "http://worker-3:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": false,
+    "latency": 0.07279099999959726,
+    "error": "HTTP 502: All connection attempts failed"
+  },
+  {
+    "ok": false,
+    "latency": 0.07324569999946107,
+    "error": "HTTP 502: All connection attempts failed"
+  },
+  {
+    "ok": false,
+    "latency": 0.07356960000015533,
+    "error": "HTTP 502: All connection attempts failed"
+  },
+  {
+    "ok": true,
+    "latency": 0.3276573000002827,
+    "worker_id": "worker-3",
+    "processing_time": 0.2159,
+    "routed_to": "http://worker-3:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": false,
+    "latency": 0.0724556000004668,
+    "error": "HTTP 502: All connection attempts failed"
+  },
+  {
+    "ok": false,
+    "latency": 0.07561870000063209,
+    "error": "HTTP 502: All connection attempts failed"
+  },
+  {
+    "ok": true,
+    "latency": 0.28700469999967027,
+    "worker_id": "worker-1",
+    "processing_time": 0.1735,
+    "routed_to": "http://worker-1:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": false,
+    "latency": 0.07199629999922763,
+    "error": "HTTP 502: All connection attempts failed"
+  },
+  {
+    "ok": false,
+    "latency": 0.07150499999988824,
+    "error": "HTTP 502: All connection attempts failed"
+  },
+  {
+    "ok": true,
+    "latency": 0.25798740000027465,
+    "worker_id": "worker-1",
+    "processing_time": 0.1442,
+    "routed_to": "http://worker-1:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": true,
+    "latency": 0.2663387000002331,
+    "worker_id": "worker-3",
+    "processing_time": 0.1437,
+    "routed_to": "http://worker-3:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": false,
+    "latency": 0.06926980000025651,
+    "error": "HTTP 502: All connection attempts failed"
+  },
+  {
+    "ok": true,
+    "latency": 0.2684081999996124,
+    "worker_id": "worker-3",
+    "processing_time": 0.1572,
+    "routed_to": "http://worker-3:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": false,
+    "latency": 0.06731839999974909,
+    "error": "HTTP 502: All connection attempts failed"
+  },
+  {
+    "ok": false,
+    "latency": 0.06917489999977988,
+    "error": "HTTP 502: All connection attempts failed"
+  },
+  {
+    "ok": false,
+    "latency": 0.0703055999993012,
+    "error": "HTTP 502: All connection attempts failed"
+  },
+  {
+    "ok": false,
+    "latency": 0.06577409999954398,
+    "error": "HTTP 502: All connection attempts failed"
+  },
+  {
+    "ok": false,
+    "latency": 0.06506439999975555,
+    "error": "HTTP 502: All connection attempts failed"
+  },
+  {
+    "ok": false,
+    "latency": 0.06424900000001799,
+    "error": "HTTP 502: All connection attempts failed"
+  },
+  {
+    "ok": true,
+    "latency": 0.30091949999950884,
+    "worker_id": "worker-3",
+    "processing_time": 0.1884,
+    "routed_to": "http://worker-3:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": true,
+    "latency": 0.3580704000005426,
+    "worker_id": "worker-1",
+    "processing_time": 0.2735,
+    "routed_to": "http://worker-1:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": false,
+    "latency": 0.06971470000007685,
+    "error": "HTTP 502: All connection attempts failed"
+  },
+  {
+    "ok": false,
+    "latency": 0.0652989999998681,
+    "error": "HTTP 502: All connection attempts failed"
+  },
+  {
+    "ok": false,
+    "latency": 0.06468109999968874,
+    "error": "HTTP 502: All connection attempts failed"
+  },
+  {
+    "ok": false,
+    "latency": 0.06303010000010545,
+    "error": "HTTP 502: All connection attempts failed"
+  },
+  {
+    "ok": false,
+    "latency": 0.06316310000056546,
+    "error": "HTTP 502: All connection attempts failed"
+  },
+  {
+    "ok": true,
+    "latency": 0.2650112999999692,
+    "worker_id": "worker-1",
+    "processing_time": 0.1636,
+    "routed_to": "http://worker-1:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": false,
+    "latency": 0.06206940000083705,
+    "error": "HTTP 502: All connection attempts failed"
+  },
+  {
+    "ok": true,
+    "latency": 0.31209060000037425,
+    "worker_id": "worker-3",
+    "processing_time": 0.2045,
+    "routed_to": "http://worker-3:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": false,
+    "latency": 0.06033500000012282,
+    "error": "HTTP 502: All connection attempts failed"
+  },
+  {
+    "ok": true,
+    "latency": 0.214161800000511,
+    "worker_id": "worker-3",
+    "processing_time": 0.1004,
+    "routed_to": "http://worker-3:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": false,
+    "latency": 0.060036800000489166,
+    "error": "HTTP 502: All connection attempts failed"
+  },
+  {
+    "ok": true,
+    "latency": 0.3235036999994918,
+    "worker_id": "worker-1",
+    "processing_time": 0.2367,
+    "routed_to": "http://worker-1:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": false,
+    "latency": 0.06061850000060076,
+    "error": "HTTP 502: All connection attempts failed"
+  },
+  {
+    "ok": false,
+    "latency": 0.059043999999630614,
+    "error": "HTTP 502: All connection attempts failed"
+  },
+  {
+    "ok": false,
+    "latency": 0.059929299999566865,
+    "error": "HTTP 502: All connection attempts failed"
+  },
+  {
+    "ok": false,
+    "latency": 0.062035300000388816,
+    "error": "HTTP 502: All connection attempts failed"
+  },
+  {
+    "ok": false,
+    "latency": 0.06129950000013196,
+    "error": "HTTP 502: All connection attempts failed"
+  },
+  {
+    "ok": false,
+    "latency": 0.06127420000029815,
+    "error": "HTTP 502: All connection attempts failed"
+  },
+  {
+    "ok": false,
+    "latency": 0.06236530000023777,
+    "error": "HTTP 502: All connection attempts failed"
+  },
+  {
+    "ok": false,
+    "latency": 0.06042969999998604,
+    "error": "HTTP 502: All connection attempts failed"
+  },
+  {
+    "ok": false,
+    "latency": 0.0625423999999839,
+    "error": "HTTP 502: All connection attempts failed"
+  },
+  {
+    "ok": false,
+    "latency": 0.06301710000025196,
+    "error": "HTTP 502: All connection attempts failed"
+  },
+  {
+    "ok": true,
+    "latency": 0.34770230000049196,
+    "worker_id": "worker-1",
+    "processing_time": 0.2584,
+    "routed_to": "http://worker-1:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": false,
+    "latency": 0.06161229999997886,
+    "error": "HTTP 502: All connection attempts failed"
+  },
+  {
+    "ok": true,
+    "latency": 0.24136300000009214,
+    "worker_id": "worker-3",
+    "processing_time": 0.1228,
+    "routed_to": "http://worker-3:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": false,
+    "latency": 0.06579919999967387,
+    "error": "HTTP 502: All connection attempts failed"
+  },
+  {
+    "ok": true,
+    "latency": 0.3010927000004813,
+    "worker_id": "worker-1",
+    "processing_time": 0.2086,
+    "routed_to": "http://worker-1:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": false,
+    "latency": 0.061126900000090245,
+    "error": "HTTP 502: All connection attempts failed"
+  },
+  {
+    "ok": true,
+    "latency": 0.3587969999998677,
+    "worker_id": "worker-3",
+    "processing_time": 0.2652,
+    "routed_to": "http://worker-3:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": false,
+    "latency": 0.06851640000058978,
+    "error": "HTTP 502: All connection attempts failed"
+  },
+  {
+    "ok": false,
+    "latency": 0.06971439999961149,
+    "error": "HTTP 502: All connection attempts failed"
+  },
+  {
+    "ok": true,
+    "latency": 0.24322599999959493,
+    "worker_id": "worker-3",
+    "processing_time": 0.1263,
+    "routed_to": "http://worker-3:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": true,
+    "latency": 0.34312969999973575,
+    "worker_id": "worker-1",
+    "processing_time": 0.2548,
+    "routed_to": "http://worker-1:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": false,
+    "latency": 0.06835129999944911,
+    "error": "HTTP 502: All connection attempts failed"
+  },
+  {
+    "ok": false,
+    "latency": 0.0703404000005321,
+    "error": "HTTP 502: All connection attempts failed"
+  },
+  {
+    "ok": false,
+    "latency": 0.06891150000046764,
+    "error": "HTTP 502: All connection attempts failed"
+  },
+  {
+    "ok": true,
+    "latency": 0.21880719999990106,
+    "worker_id": "worker-1",
+    "processing_time": 0.1039,
+    "routed_to": "http://worker-1:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": false,
+    "latency": 0.07161160000032396,
+    "error": "HTTP 502: All connection attempts failed"
+  },
+  {
+    "ok": false,
+    "latency": 0.07214949999979581,
+    "error": "HTTP 502: All connection attempts failed"
+  },
+  {
+    "ok": false,
+    "latency": 0.07090769999922486,
+    "error": "HTTP 502: All connection attempts failed"
+  },
+  {
+    "ok": false,
+    "latency": 0.07649159999982658,
+    "error": "HTTP 502: All connection attempts failed"
+  },
+  {
+    "ok": false,
+    "latency": 0.07049770000048738,
+    "error": "HTTP 502: All connection attempts failed"
+  },
+  {
+    "ok": false,
+    "latency": 0.06940370000029361,
+    "error": "HTTP 502: All connection attempts failed"
+  },
+  {
+    "ok": false,
+    "latency": 0.07229460000053223,
+    "error": "HTTP 502: All connection attempts failed"
+  },
+  {
+    "ok": false,
+    "latency": 0.07273720000011963,
+    "error": "HTTP 502: All connection attempts failed"
+  },
+  {
+    "ok": false,
+    "latency": 0.07337900000038644,
+    "error": "HTTP 502: All connection attempts failed"
+  },
+  {
+    "ok": false,
+    "latency": 0.07762120000006689,
+    "error": "HTTP 502: All connection attempts failed"
+  },
+  {
+    "ok": false,
+    "latency": 0.0771431000002849,
+    "error": "HTTP 502: All connection attempts failed"
+  },
+  {
+    "ok": true,
+    "latency": 0.34629450000011275,
+    "worker_id": "worker-3",
+    "processing_time": 0.2458,
+    "routed_to": "http://worker-3:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": false,
+    "latency": 0.07802739999988262,
+    "error": "HTTP 502: All connection attempts failed"
+  },
+  {
+    "ok": false,
+    "latency": 0.07578899999953137,
+    "error": "HTTP 502: All connection attempts failed"
+  },
+  {
+    "ok": true,
+    "latency": 0.38268560000051366,
+    "worker_id": "worker-3",
+    "processing_time": 0.2678,
+    "routed_to": "http://worker-3:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": true,
+    "latency": 0.2696427999999287,
+    "worker_id": "worker-1",
+    "processing_time": 0.1784,
+    "routed_to": "http://worker-1:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": false,
+    "latency": 0.06898129999990488,
+    "error": "HTTP 502: All connection attempts failed"
+  },
+  {
+    "ok": false,
+    "latency": 0.06867900000088412,
+    "error": "HTTP 502: All connection attempts failed"
+  },
+  {
+    "ok": false,
+    "latency": 0.06860299999971176,
+    "error": "HTTP 502: All connection attempts failed"
+  },
+  {
+    "ok": false,
+    "latency": 0.07024000000001251,
+    "error": "HTTP 502: All connection attempts failed"
+  },
+  {
+    "ok": true,
+    "latency": 0.24113610000040353,
+    "worker_id": "worker-1",
+    "processing_time": 0.1535,
+    "routed_to": "http://worker-1:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": false,
+    "latency": 0.0670297999995455,
+    "error": "HTTP 502: All connection attempts failed"
+  },
+  {
+    "ok": false,
+    "latency": 0.06942619999972521,
+    "error": "HTTP 502: All connection attempts failed"
+  },
+  {
+    "ok": false,
+    "latency": 0.06795309999961319,
+    "error": "HTTP 502: All connection attempts failed"
+  },
+  {
+    "ok": false,
+    "latency": 0.06911339999987831,
+    "error": "HTTP 502: All connection attempts failed"
+  },
+  {
+    "ok": false,
+    "latency": 0.07019089999994321,
+    "error": "HTTP 502: All connection attempts failed"
+  },
+  {
+    "ok": false,
+    "latency": 0.06780059999982768,
+    "error": "HTTP 502: All connection attempts failed"
+  },
+  {
+    "ok": true,
+    "latency": 0.33357150000028923,
+    "worker_id": "worker-3",
+    "processing_time": 0.2201,
+    "routed_to": "http://worker-3:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": false,
+    "latency": 0.06855199999972683,
+    "error": "HTTP 502: All connection attempts failed"
+  },
+  {
+    "ok": false,
+    "latency": 0.06837300000006508,
+    "error": "HTTP 502: All connection attempts failed"
+  },
+  {
+    "ok": true,
+    "latency": 0.3225007999999434,
+    "worker_id": "worker-1",
+    "processing_time": 0.2143,
+    "routed_to": "http://worker-1:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": false,
+    "latency": 0.06428549999964162,
+    "error": "HTTP 502: All connection attempts failed"
+  },
+  {
+    "ok": false,
+    "latency": 0.07048089999989315,
+    "error": "HTTP 502: All connection attempts failed"
+  },
+  {
+    "ok": false,
+    "latency": 0.07004820000020118,
+    "error": "HTTP 502: All connection attempts failed"
+  },
+  {
+    "ok": true,
+    "latency": 0.30584300000009534,
+    "worker_id": "worker-3",
+    "processing_time": 0.1985,
+    "routed_to": "http://worker-3:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": true,
+    "latency": 0.2659856000000218,
+    "worker_id": "worker-1",
+    "processing_time": 0.1733,
+    "routed_to": "http://worker-1:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": false,
+    "latency": 0.06461200000012468,
+    "error": "HTTP 502: All connection attempts failed"
+  },
+  {
+    "ok": false,
+    "latency": 0.06358730000010837,
+    "error": "HTTP 502: All connection attempts failed"
+  },
+  {
+    "ok": true,
+    "latency": 0.1940191000003324,
+    "worker_id": "worker-1",
+    "processing_time": 0.1146,
+    "routed_to": "http://worker-1:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": false,
+    "latency": 0.06280310000056488,
+    "error": "HTTP 502: All connection attempts failed"
+  },
+  {
+    "ok": false,
+    "latency": 0.06294820000039181,
+    "error": "HTTP 502: All connection attempts failed"
+  },
+  {
+    "ok": false,
+    "latency": 0.062143099999957485,
+    "error": "HTTP 502: All connection attempts failed"
+  },
+  {
+    "ok": false,
+    "latency": 0.06308159999935015,
+    "error": "HTTP 502: All connection attempts failed"
+  },
+  {
+    "ok": false,
+    "latency": 0.0619922999994742,
+    "error": "HTTP 502: All connection attempts failed"
+  },
+  {
+    "ok": false,
+    "latency": 0.06169179999960761,
+    "error": "HTTP 502: All connection attempts failed"
+  },
+  {
+    "ok": true,
+    "latency": 0.23395799999980227,
+    "worker_id": "worker-3",
+    "processing_time": 0.1431,
+    "routed_to": "http://worker-3:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": false,
+    "latency": 0.06033579999984795,
+    "error": "HTTP 502: All connection attempts failed"
+  },
+  {
+    "ok": true,
+    "latency": 0.2898113999999623,
+    "worker_id": "worker-3",
+    "processing_time": 0.2019,
+    "routed_to": "http://worker-3:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": false,
+    "latency": 0.06334479999986797,
+    "error": "HTTP 502: All connection attempts failed"
+  },
+  {
+    "ok": false,
+    "latency": 0.06288660000063828,
+    "error": "HTTP 502: All connection attempts failed"
+  },
+  {
+    "ok": false,
+    "latency": 0.06315150000045833,
+    "error": "HTTP 502: All connection attempts failed"
+  },
+  {
+    "ok": false,
+    "latency": 0.062389900000198395,
+    "error": "HTTP 502: All connection attempts failed"
+  },
+  {
+    "ok": false,
+    "latency": 0.06258439999965049,
+    "error": "HTTP 502: All connection attempts failed"
+  },
+  {
+    "ok": true,
+    "latency": 0.35732460000053834,
+    "worker_id": "worker-1",
+    "processing_time": 0.2689,
+    "routed_to": "http://worker-1:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": true,
+    "latency": 0.1890436999992744,
+    "worker_id": "worker-3",
+    "processing_time": 0.101,
+    "routed_to": "http://worker-3:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": false,
+    "latency": 0.06546129999969708,
+    "error": "HTTP 502: All connection attempts failed"
+  },
+  {
+    "ok": false,
+    "latency": 0.06634140000005573,
+    "error": "HTTP 502: All connection attempts failed"
+  },
+  {
+    "ok": false,
+    "latency": 0.06589189999976952,
+    "error": "HTTP 502: All connection attempts failed"
+  },
+  {
+    "ok": true,
+    "latency": 0.2602305000000342,
+    "worker_id": "worker-3",
+    "processing_time": 0.1473,
+    "routed_to": "http://worker-3:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": true,
+    "latency": 0.35988220000035653,
+    "worker_id": "worker-1",
+    "processing_time": 0.2699,
+    "routed_to": "http://worker-1:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": false,
+    "latency": 0.06373480000002019,
+    "error": "HTTP 502: All connection attempts failed"
+  },
+  {
+    "ok": false,
+    "latency": 0.06415969999943627,
+    "error": "HTTP 502: All connection attempts failed"
+  },
+  {
+    "ok": false,
+    "latency": 0.06599220000043715,
+    "error": "HTTP 502: All connection attempts failed"
+  },
+  {
+    "ok": false,
+    "latency": 0.06530990000010206,
+    "error": "HTTP 502: All connection attempts failed"
+  },
+  {
+    "ok": false,
+    "latency": 0.06458410000050208,
+    "error": "HTTP 502: All connection attempts failed"
+  },
+  {
+    "ok": false,
+    "latency": 0.06271569999989879,
+    "error": "HTTP 502: All connection attempts failed"
+  },
+  {
+    "ok": false,
+    "latency": 0.06254950000038662,
+    "error": "HTTP 502: All connection attempts failed"
+  },
+  {
+    "ok": false,
+    "latency": 0.061881499999799416,
+    "error": "HTTP 502: All connection attempts failed"
+  },
+  {
+    "ok": true,
+    "latency": 0.25523429999975633,
+    "worker_id": "worker-3",
+    "processing_time": 0.1708,
+    "routed_to": "http://worker-3:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": true,
+    "latency": 0.33224479999989853,
+    "worker_id": "worker-3",
+    "processing_time": 0.2552,
+    "routed_to": "http://worker-3:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": false,
+    "latency": 10.026495799999793,
+    "error": "HTTP 502: "
+  },
+  {
+    "ok": false,
+    "latency": 10.027061700000559,
+    "error": "HTTP 502: "
+  },
+  {
+    "ok": false,
+    "latency": 10.026666199999454,
+    "error": "HTTP 502: "
+  },
+  {
+    "ok": false,
+    "latency": 10.02518710000004,
+    "error": "HTTP 502: "
+  },
+  {
+    "ok": false,
+    "latency": 10.024247599999399,
+    "error": "HTTP 502: "
+  },
+  {
+    "ok": false,
+    "latency": 10.023782399999618,
+    "error": "HTTP 502: "
+  },
+  {
+    "ok": true,
+    "latency": 0.26090100000055827,
+    "worker_id": "worker-3",
+    "processing_time": 0.1788,
+    "routed_to": "http://worker-3:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": false,
+    "latency": 10.02551769999991,
+    "error": "HTTP 502: "
+  },
+  {
+    "ok": false,
+    "latency": 10.024950600000011,
+    "error": "HTTP 502: "
+  },
+  {
+    "ok": true,
+    "latency": 0.25438279999980296,
+    "worker_id": "worker-1",
+    "processing_time": 0.1811,
+    "routed_to": "http://worker-1:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": true,
+    "latency": 0.21449749999919732,
+    "worker_id": "worker-3",
+    "processing_time": 0.1565,
+    "routed_to": "http://worker-3:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": false,
+    "latency": 10.021238999999696,
+    "error": "HTTP 502: "
+  },
+  {
+    "ok": false,
+    "latency": 10.021755400000075,
+    "error": "HTTP 502: "
+  },
+  {
+    "ok": false,
+    "latency": 10.019651499999782,
+    "error": "HTTP 502: "
+  },
+  {
+    "ok": true,
+    "latency": 0.3016312999998263,
+    "worker_id": "worker-3",
+    "processing_time": 0.2535,
+    "routed_to": "http://worker-3:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": true,
+    "latency": 0.26420450000023266,
+    "worker_id": "worker-1",
+    "processing_time": 0.2107,
+    "routed_to": "http://worker-1:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": false,
+    "latency": 10.017446500000005,
+    "error": "HTTP 502: "
+  },
+  {
+    "ok": true,
+    "latency": 0.3322647999993933,
+    "worker_id": "worker-3",
+    "processing_time": 0.2844,
+    "routed_to": "http://worker-3:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": false,
+    "latency": 10.0152736,
+    "error": "HTTP 502: "
+  },
+  {
+    "ok": false,
+    "latency": 10.014397300000383,
+    "error": "HTTP 502: "
+  },
+  {
+    "ok": true,
+    "latency": 0.20122339999943506,
+    "worker_id": "worker-1",
+    "processing_time": 0.1456,
+    "routed_to": "http://worker-1:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": false,
+    "latency": 10.011194700000488,
+    "error": "HTTP 502: "
+  },
+  {
+    "ok": true,
+    "latency": 0.2965125000000626,
+    "worker_id": "worker-1",
+    "processing_time": 0.2555,
+    "routed_to": "http://worker-1:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": false,
+    "latency": 10.011170900000252,
+    "error": "HTTP 502: "
+  },
+  {
+    "ok": true,
+    "latency": 0.20499999999992724,
+    "worker_id": "worker-3",
+    "processing_time": 0.1645,
+    "routed_to": "http://worker-3:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": true,
+    "latency": 0.1813060000004043,
+    "worker_id": "worker-1",
+    "processing_time": 0.1433,
+    "routed_to": "http://worker-1:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": false,
+    "latency": 10.010408500000267,
+    "error": "HTTP 502: "
+  },
+  {
+    "ok": true,
+    "latency": 0.1815721000002668,
+    "worker_id": "worker-1",
+    "processing_time": 0.1565,
+    "routed_to": "http://worker-1:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": true,
+    "latency": 0.2005141999998159,
+    "worker_id": "worker-1",
+    "processing_time": 0.1683,
+    "routed_to": "http://worker-1:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": true,
+    "latency": 0.297925199999554,
+    "worker_id": "worker-1",
+    "processing_time": 0.2851,
+    "routed_to": "http://worker-1:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": true,
+    "latency": 0.29753809999965597,
+    "worker_id": "worker-1",
+    "processing_time": 0.2788,
+    "routed_to": "http://worker-1:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": true,
+    "latency": 0.2318652000003567,
+    "worker_id": "worker-1",
+    "processing_time": 0.2183,
+    "routed_to": "http://worker-1:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": true,
+    "latency": 0.3023843000000852,
+    "worker_id": "worker-1",
+    "processing_time": 0.2793,
+    "routed_to": "http://worker-1:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": true,
+    "latency": 0.27984509999987495,
+    "worker_id": "worker-1",
+    "processing_time": 0.2511,
+    "routed_to": "http://worker-1:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": true,
+    "latency": 0.17693749999943975,
+    "worker_id": "worker-1",
+    "processing_time": 0.1606,
+    "routed_to": "http://worker-1:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": true,
+    "latency": 0.3144488999996611,
+    "worker_id": "worker-3",
+    "processing_time": 0.2947,
+    "routed_to": "http://worker-3:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": true,
+    "latency": 0.13099739999961457,
+    "worker_id": "worker-3",
+    "processing_time": 0.1037,
+    "routed_to": "http://worker-3:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": true,
+    "latency": 0.2740714999999909,
+    "worker_id": "worker-3",
+    "processing_time": 0.254,
+    "routed_to": "http://worker-3:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": true,
+    "latency": 0.28143939999972645,
+    "worker_id": "worker-1",
+    "processing_time": 0.2589,
+    "routed_to": "http://worker-1:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": true,
+    "latency": 0.34500240000033955,
+    "worker_id": "worker-3",
+    "processing_time": 0.2971,
+    "routed_to": "http://worker-3:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": true,
+    "latency": 0.19463989999985642,
+    "worker_id": "worker-3",
+    "processing_time": 0.1586,
+    "routed_to": "http://worker-3:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": true,
+    "latency": 0.15690139999969688,
+    "worker_id": "worker-3",
+    "processing_time": 0.1049,
+    "routed_to": "http://worker-3:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": true,
+    "latency": 0.2233384000001024,
+    "worker_id": "worker-3",
+    "processing_time": 0.1769,
+    "routed_to": "http://worker-3:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": true,
+    "latency": 0.2743257000001904,
+    "worker_id": "worker-1",
+    "processing_time": 0.2293,
+    "routed_to": "http://worker-1:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": true,
+    "latency": 0.17478070000015578,
+    "worker_id": "worker-3",
+    "processing_time": 0.1217,
+    "routed_to": "http://worker-3:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": true,
+    "latency": 0.1934902000002694,
+    "worker_id": "worker-3",
+    "processing_time": 0.1558,
+    "routed_to": "http://worker-3:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": true,
+    "latency": 0.14907990000028803,
+    "worker_id": "worker-3",
+    "processing_time": 0.1126,
+    "routed_to": "http://worker-3:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": true,
+    "latency": 0.14672929999960616,
+    "worker_id": "worker-1",
+    "processing_time": 0.1127,
+    "routed_to": "http://worker-1:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": true,
+    "latency": 0.19790659999944182,
+    "worker_id": "worker-3",
+    "processing_time": 0.1487,
+    "routed_to": "http://worker-3:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": true,
+    "latency": 0.14725859999998647,
+    "worker_id": "worker-1",
+    "processing_time": 0.1137,
+    "routed_to": "http://worker-1:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": true,
+    "latency": 0.2625953999995545,
+    "worker_id": "worker-3",
+    "processing_time": 0.2347,
+    "routed_to": "http://worker-3:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": true,
+    "latency": 0.1847021000003224,
+    "worker_id": "worker-1",
+    "processing_time": 0.1493,
+    "routed_to": "http://worker-1:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": true,
+    "latency": 0.23829569999998057,
+    "worker_id": "worker-3",
+    "processing_time": 0.2055,
+    "routed_to": "http://worker-3:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": true,
+    "latency": 0.31451040000047215,
+    "worker_id": "worker-1",
+    "processing_time": 0.2822,
+    "routed_to": "http://worker-1:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": true,
+    "latency": 0.2179305999998178,
+    "worker_id": "worker-3",
+    "processing_time": 0.1877,
+    "routed_to": "http://worker-3:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": true,
+    "latency": 0.1948469999997542,
+    "worker_id": "worker-1",
+    "processing_time": 0.1598,
+    "routed_to": "http://worker-1:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": true,
+    "latency": 0.1335882000003039,
+    "worker_id": "worker-1",
+    "processing_time": 0.1176,
+    "routed_to": "http://worker-1:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": true,
+    "latency": 0.2563097000002017,
+    "worker_id": "worker-1",
+    "processing_time": 0.2434,
+    "routed_to": "http://worker-1:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": true,
+    "latency": 0.21948079999947367,
+    "worker_id": "worker-1",
+    "processing_time": 0.2057,
+    "routed_to": "http://worker-1:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": true,
+    "latency": 0.1767165000001114,
+    "worker_id": "worker-1",
+    "processing_time": 0.1676,
+    "routed_to": "http://worker-1:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": true,
+    "latency": 0.1323512999997547,
+    "worker_id": "worker-3",
+    "processing_time": 0.1017,
+    "routed_to": "http://worker-3:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": true,
+    "latency": 0.25910279999970953,
+    "worker_id": "worker-3",
+    "processing_time": 0.2252,
+    "routed_to": "http://worker-3:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": true,
+    "latency": 0.3175520000004326,
+    "worker_id": "worker-1",
+    "processing_time": 0.2474,
+    "routed_to": "http://worker-1:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": true,
+    "latency": 0.20356340000034834,
+    "worker_id": "worker-1",
+    "processing_time": 0.1648,
+    "routed_to": "http://worker-1:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": true,
+    "latency": 0.1962032999999792,
+    "worker_id": "worker-3",
+    "processing_time": 0.1505,
+    "routed_to": "http://worker-3:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": true,
+    "latency": 0.2960432999998375,
+    "worker_id": "worker-3",
+    "processing_time": 0.2502,
+    "routed_to": "http://worker-3:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": true,
+    "latency": 0.17790510000031645,
+    "worker_id": "worker-1",
+    "processing_time": 0.1379,
+    "routed_to": "http://worker-1:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": true,
+    "latency": 0.16253810000034719,
+    "worker_id": "worker-1",
+    "processing_time": 0.121,
+    "routed_to": "http://worker-1:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": true,
+    "latency": 0.31760169999961363,
+    "worker_id": "worker-3",
+    "processing_time": 0.278,
+    "routed_to": "http://worker-3:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": true,
+    "latency": 0.20016740000028221,
+    "worker_id": "worker-1",
+    "processing_time": 0.1713,
+    "routed_to": "http://worker-1:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": true,
+    "latency": 0.20755129999997735,
+    "worker_id": "worker-3",
+    "processing_time": 0.1743,
+    "routed_to": "http://worker-3:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": true,
+    "latency": 0.32300579999991896,
+    "worker_id": "worker-1",
+    "processing_time": 0.2894,
+    "routed_to": "http://worker-1:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": true,
+    "latency": 0.32754620000014256,
+    "worker_id": "worker-3",
+    "processing_time": 0.2965,
+    "routed_to": "http://worker-3:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": true,
+    "latency": 0.19797360000029585,
+    "worker_id": "worker-1",
+    "processing_time": 0.174,
+    "routed_to": "http://worker-1:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": true,
+    "latency": 0.18946359999972628,
+    "worker_id": "worker-3",
+    "processing_time": 0.1543,
+    "routed_to": "http://worker-3:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": true,
+    "latency": 0.29134759999942617,
+    "worker_id": "worker-1",
+    "processing_time": 0.2519,
+    "routed_to": "http://worker-1:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": true,
+    "latency": 0.2917385999999169,
+    "worker_id": "worker-1",
+    "processing_time": 0.2565,
+    "routed_to": "http://worker-1:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": true,
+    "latency": 0.31840920000013284,
+    "worker_id": "worker-3",
+    "processing_time": 0.2861,
+    "routed_to": "http://worker-3:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": true,
+    "latency": 0.32891970000036963,
+    "worker_id": "worker-3",
+    "processing_time": 0.296,
+    "routed_to": "http://worker-3:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": true,
+    "latency": 0.3236375999995289,
+    "worker_id": "worker-1",
+    "processing_time": 0.2923,
+    "routed_to": "http://worker-1:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": true,
+    "latency": 0.14003069999944273,
+    "worker_id": "worker-3",
+    "processing_time": 0.112,
+    "routed_to": "http://worker-3:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": true,
+    "latency": 0.3039510999997219,
+    "worker_id": "worker-3",
+    "processing_time": 0.2799,
+    "routed_to": "http://worker-3:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": true,
+    "latency": 0.25750930000049266,
+    "worker_id": "worker-3",
+    "processing_time": 0.2373,
+    "routed_to": "http://worker-3:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": true,
+    "latency": 0.2160796999996819,
+    "worker_id": "worker-1",
+    "processing_time": 0.1994,
+    "routed_to": "http://worker-1:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": true,
+    "latency": 0.15613769999981741,
+    "worker_id": "worker-1",
+    "processing_time": 0.1494,
+    "routed_to": "http://worker-1:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": true,
+    "latency": 0.19137430000046152,
+    "worker_id": "worker-3",
+    "processing_time": 0.1817,
+    "routed_to": "http://worker-3:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": true,
+    "latency": 0.2927803999991738,
+    "worker_id": "worker-1",
+    "processing_time": 0.2791,
+    "routed_to": "http://worker-1:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": true,
+    "latency": 0.12966360000064014,
+    "worker_id": "worker-1",
+    "processing_time": 0.1241,
+    "routed_to": "http://worker-1:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": true,
+    "latency": 0.2703912000006312,
+    "worker_id": "worker-3",
+    "processing_time": 0.2572,
+    "routed_to": "http://worker-3:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": true,
+    "latency": 0.12660959999993793,
+    "worker_id": "worker-3",
+    "processing_time": 0.1196,
+    "routed_to": "http://worker-3:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": true,
+    "latency": 0.2761976000001596,
+    "worker_id": "worker-3",
+    "processing_time": 0.268,
+    "routed_to": "http://worker-3:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": true,
+    "latency": 0.22146350000002712,
+    "worker_id": "worker-1",
+    "processing_time": 0.2142,
+    "routed_to": "http://worker-1:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": true,
+    "latency": 0.15921830000024784,
+    "worker_id": "worker-1",
+    "processing_time": 0.1517,
+    "routed_to": "http://worker-1:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": true,
+    "latency": 0.14496390000022075,
+    "worker_id": "worker-1",
+    "processing_time": 0.1379,
+    "routed_to": "http://worker-1:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": true,
+    "latency": 0.2609573999998247,
+    "worker_id": "worker-1",
+    "processing_time": 0.2522,
+    "routed_to": "http://worker-1:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": true,
+    "latency": 0.18860600000061822,
+    "worker_id": "worker-3",
+    "processing_time": 0.1798,
+    "routed_to": "http://worker-3:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": true,
+    "latency": 0.18949630000042816,
+    "worker_id": "worker-1",
+    "processing_time": 0.1801,
+    "routed_to": "http://worker-1:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": true,
+    "latency": 0.11346809999940888,
+    "worker_id": "worker-3",
+    "processing_time": 0.1027,
+    "routed_to": "http://worker-3:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": true,
+    "latency": 0.1941034999999829,
+    "worker_id": "worker-3",
+    "processing_time": 0.1828,
+    "routed_to": "http://worker-3:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": true,
+    "latency": 0.13226920000033715,
+    "worker_id": "worker-1",
+    "processing_time": 0.1197,
+    "routed_to": "http://worker-1:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": true,
+    "latency": 0.2452078000005713,
+    "worker_id": "worker-1",
+    "processing_time": 0.2394,
+    "routed_to": "http://worker-1:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": true,
+    "latency": 0.20935479999934614,
+    "worker_id": "worker-3",
+    "processing_time": 0.1976,
+    "routed_to": "http://worker-3:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": true,
+    "latency": 0.19918390000020736,
+    "worker_id": "worker-3",
+    "processing_time": 0.1905,
+    "routed_to": "http://worker-3:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": true,
+    "latency": 0.25117369999952643,
+    "worker_id": "worker-1",
+    "processing_time": 0.2417,
+    "routed_to": "http://worker-1:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": true,
+    "latency": 0.20720350000010512,
+    "worker_id": "worker-1",
+    "processing_time": 0.1991,
+    "routed_to": "http://worker-1:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": true,
+    "latency": 0.24015539999982138,
+    "worker_id": "worker-1",
+    "processing_time": 0.2293,
+    "routed_to": "http://worker-1:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": true,
+    "latency": 0.13350030000037805,
+    "worker_id": "worker-3",
+    "processing_time": 0.1202,
+    "routed_to": "http://worker-3:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": true,
+    "latency": 0.19904610000048706,
+    "worker_id": "worker-1",
+    "processing_time": 0.1907,
+    "routed_to": "http://worker-1:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": true,
+    "latency": 0.23600249999981315,
+    "worker_id": "worker-3",
+    "processing_time": 0.2287,
+    "routed_to": "http://worker-3:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": true,
+    "latency": 0.12860820000059903,
+    "worker_id": "worker-1",
+    "processing_time": 0.1211,
+    "routed_to": "http://worker-1:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": true,
+    "latency": 0.1446207000008144,
+    "worker_id": "worker-3",
+    "processing_time": 0.1389,
+    "routed_to": "http://worker-3:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": true,
+    "latency": 0.19245890000001964,
+    "worker_id": "worker-1",
+    "processing_time": 0.1745,
+    "routed_to": "http://worker-1:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": true,
+    "latency": 0.26697579999927257,
+    "worker_id": "worker-3",
+    "processing_time": 0.2459,
+    "routed_to": "http://worker-3:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": true,
+    "latency": 0.1854485999992903,
+    "worker_id": "worker-3",
+    "processing_time": 0.1663,
+    "routed_to": "http://worker-3:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": true,
+    "latency": 0.14571590000014112,
+    "worker_id": "worker-1",
+    "processing_time": 0.1256,
+    "routed_to": "http://worker-1:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": true,
+    "latency": 0.3023966000000655,
+    "worker_id": "worker-3",
+    "processing_time": 0.2824,
+    "routed_to": "http://worker-3:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": true,
+    "latency": 0.15049529999942024,
+    "worker_id": "worker-1",
+    "processing_time": 0.1281,
+    "routed_to": "http://worker-1:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": true,
+    "latency": 0.18859929999962333,
+    "worker_id": "worker-1",
+    "processing_time": 0.1709,
+    "routed_to": "http://worker-1:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": true,
+    "latency": 0.29845019999993383,
+    "worker_id": "worker-1",
+    "processing_time": 0.2779,
+    "routed_to": "http://worker-1:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": true,
+    "latency": 0.14898360000006505,
+    "worker_id": "worker-3",
+    "processing_time": 0.1336,
+    "routed_to": "http://worker-3:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": true,
+    "latency": 0.1263211000004958,
+    "worker_id": "worker-1",
+    "processing_time": 0.1172,
+    "routed_to": "http://worker-1:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": true,
+    "latency": 0.25657069999942905,
+    "worker_id": "worker-3",
+    "processing_time": 0.2328,
+    "routed_to": "http://worker-3:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": true,
+    "latency": 0.22194519999993645,
+    "worker_id": "worker-3",
+    "processing_time": 0.2004,
+    "routed_to": "http://worker-3:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": true,
+    "latency": 0.16099489999942307,
+    "worker_id": "worker-1",
+    "processing_time": 0.1395,
+    "routed_to": "http://worker-1:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": true,
+    "latency": 0.2086275999999998,
+    "worker_id": "worker-3",
+    "processing_time": 0.1847,
+    "routed_to": "http://worker-3:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": true,
+    "latency": 0.3215517999997246,
+    "worker_id": "worker-1",
+    "processing_time": 0.2981,
+    "routed_to": "http://worker-1:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": true,
+    "latency": 0.24432040000010602,
+    "worker_id": "worker-3",
+    "processing_time": 0.2264,
+    "routed_to": "http://worker-3:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": true,
+    "latency": 0.1417450999997527,
+    "worker_id": "worker-3",
+    "processing_time": 0.1271,
+    "routed_to": "http://worker-3:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": true,
+    "latency": 0.14986399999997957,
+    "worker_id": "worker-1",
+    "processing_time": 0.1365,
+    "routed_to": "http://worker-1:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": true,
+    "latency": 0.2736359000000448,
+    "worker_id": "worker-3",
+    "processing_time": 0.2575,
+    "routed_to": "http://worker-3:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": true,
+    "latency": 0.14836110000032932,
+    "worker_id": "worker-3",
+    "processing_time": 0.1352,
+    "routed_to": "http://worker-3:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": true,
+    "latency": 0.16171880000001693,
+    "worker_id": "worker-1",
+    "processing_time": 0.1538,
+    "routed_to": "http://worker-1:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": true,
+    "latency": 0.23347370000010415,
+    "worker_id": "worker-3",
+    "processing_time": 0.2196,
+    "routed_to": "http://worker-3:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": true,
+    "latency": 0.1696150999996462,
+    "worker_id": "worker-1",
+    "processing_time": 0.1564,
+    "routed_to": "http://worker-1:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": true,
+    "latency": 0.11362259999987145,
+    "worker_id": "worker-3",
+    "processing_time": 0.1002,
+    "routed_to": "http://worker-3:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": true,
+    "latency": 0.117210200000045,
+    "worker_id": "worker-3",
+    "processing_time": 0.1067,
+    "routed_to": "http://worker-3:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": true,
+    "latency": 0.16041069999937463,
+    "worker_id": "worker-1",
+    "processing_time": 0.1519,
+    "routed_to": "http://worker-1:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": true,
+    "latency": 0.29926660000000993,
+    "worker_id": "worker-3",
+    "processing_time": 0.293,
+    "routed_to": "http://worker-3:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": true,
+    "latency": 0.30000939999990806,
+    "worker_id": "worker-1",
+    "processing_time": 0.2896,
+    "routed_to": "http://worker-1:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": true,
+    "latency": 0.12221729999964737,
+    "worker_id": "worker-1",
+    "processing_time": 0.1164,
+    "routed_to": "http://worker-1:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": true,
+    "latency": 0.17242580000038288,
+    "worker_id": "worker-1",
+    "processing_time": 0.1616,
+    "routed_to": "http://worker-1:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": true,
+    "latency": 0.1758168000005753,
+    "worker_id": "worker-1",
+    "processing_time": 0.1585,
+    "routed_to": "http://worker-1:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": true,
+    "latency": 0.18880910000007134,
+    "worker_id": "worker-1",
+    "processing_time": 0.1732,
+    "routed_to": "http://worker-1:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": true,
+    "latency": 0.25152799999978015,
+    "worker_id": "worker-1",
+    "processing_time": 0.2346,
+    "routed_to": "http://worker-1:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": true,
+    "latency": 0.16892280000047322,
+    "worker_id": "worker-1",
+    "processing_time": 0.1512,
+    "routed_to": "http://worker-1:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": true,
+    "latency": 0.2075689000002967,
+    "worker_id": "worker-1",
+    "processing_time": 0.1978,
+    "routed_to": "http://worker-1:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": true,
+    "latency": 0.11464590000014141,
+    "worker_id": "worker-3",
+    "processing_time": 0.108,
+    "routed_to": "http://worker-3:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": true,
+    "latency": 0.14287190000050032,
+    "worker_id": "worker-3",
+    "processing_time": 0.1323,
+    "routed_to": "http://worker-3:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": true,
+    "latency": 0.12607479999951465,
+    "worker_id": "worker-1",
+    "processing_time": 0.1189,
+    "routed_to": "http://worker-1:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": true,
+    "latency": 0.22765780000008817,
+    "worker_id": "worker-3",
+    "processing_time": 0.2163,
+    "routed_to": "http://worker-3:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": true,
+    "latency": 0.1774292999998579,
+    "worker_id": "worker-3",
+    "processing_time": 0.1693,
+    "routed_to": "http://worker-3:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": true,
+    "latency": 0.30113359999995737,
+    "worker_id": "worker-1",
+    "processing_time": 0.2966,
+    "routed_to": "http://worker-1:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": true,
+    "latency": 0.17506609999963985,
+    "worker_id": "worker-1",
+    "processing_time": 0.1663,
+    "routed_to": "http://worker-1:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": true,
+    "latency": 0.24143289999938133,
+    "worker_id": "worker-3",
+    "processing_time": 0.2339,
+    "routed_to": "http://worker-3:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": true,
+    "latency": 0.2722057000000859,
+    "worker_id": "worker-1",
+    "processing_time": 0.2616,
+    "routed_to": "http://worker-1:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": true,
+    "latency": 0.24464920000082202,
+    "worker_id": "worker-3",
+    "processing_time": 0.2314,
+    "routed_to": "http://worker-3:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": true,
+    "latency": 0.2527793000008387,
+    "worker_id": "worker-3",
+    "processing_time": 0.2445,
+    "routed_to": "http://worker-3:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": true,
+    "latency": 0.11323770000035438,
+    "worker_id": "worker-1",
+    "processing_time": 0.1085,
+    "routed_to": "http://worker-1:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": true,
+    "latency": 0.1354486000000179,
+    "worker_id": "worker-3",
+    "processing_time": 0.1269,
+    "routed_to": "http://worker-3:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": true,
+    "latency": 0.2005392999999458,
+    "worker_id": "worker-3",
+    "processing_time": 0.1909,
+    "routed_to": "http://worker-3:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": true,
+    "latency": 0.16004179999981716,
+    "worker_id": "worker-1",
+    "processing_time": 0.1508,
+    "routed_to": "http://worker-1:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": true,
+    "latency": 0.2454638999997769,
+    "worker_id": "worker-3",
+    "processing_time": 0.2337,
+    "routed_to": "http://worker-3:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": true,
+    "latency": 0.3039416000001438,
+    "worker_id": "worker-1",
+    "processing_time": 0.2937,
+    "routed_to": "http://worker-1:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": true,
+    "latency": 0.2436807999993107,
+    "worker_id": "worker-1",
+    "processing_time": 0.2358,
+    "routed_to": "http://worker-1:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": true,
+    "latency": 0.11567579999973532,
+    "worker_id": "worker-3",
+    "processing_time": 0.1095,
+    "routed_to": "http://worker-3:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": true,
+    "latency": 0.18026430000008986,
+    "worker_id": "worker-3",
+    "processing_time": 0.1643,
+    "routed_to": "http://worker-3:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": true,
+    "latency": 0.2111877999996068,
+    "worker_id": "worker-3",
+    "processing_time": 0.1909,
+    "routed_to": "http://worker-3:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": true,
+    "latency": 0.21217489999980899,
+    "worker_id": "worker-3",
+    "processing_time": 0.1912,
+    "routed_to": "http://worker-3:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": true,
+    "latency": 0.13802599999962695,
+    "worker_id": "worker-1",
+    "processing_time": 0.1183,
+    "routed_to": "http://worker-1:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": true,
+    "latency": 0.23831280000013066,
+    "worker_id": "worker-1",
+    "processing_time": 0.218,
+    "routed_to": "http://worker-1:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": true,
+    "latency": 0.1249376999994638,
+    "worker_id": "worker-1",
+    "processing_time": 0.1072,
+    "routed_to": "http://worker-1:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": true,
+    "latency": 0.2951698999995642,
+    "worker_id": "worker-1",
+    "processing_time": 0.2737,
+    "routed_to": "http://worker-1:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": true,
+    "latency": 0.13829640000039944,
+    "worker_id": "worker-3",
+    "processing_time": 0.1239,
+    "routed_to": "http://worker-3:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": true,
+    "latency": 0.1413404000004448,
+    "worker_id": "worker-3",
+    "processing_time": 0.129,
+    "routed_to": "http://worker-3:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": true,
+    "latency": 0.28252169999996113,
+    "worker_id": "worker-1",
+    "processing_time": 0.2613,
+    "routed_to": "http://worker-1:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": true,
+    "latency": 0.18932539999968867,
+    "worker_id": "worker-1",
+    "processing_time": 0.1832,
+    "routed_to": "http://worker-1:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": true,
+    "latency": 0.2185181000004377,
+    "worker_id": "worker-3",
+    "processing_time": 0.2112,
+    "routed_to": "http://worker-3:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": true,
+    "latency": 0.19379040000058012,
+    "worker_id": "worker-1",
+    "processing_time": 0.1882,
+    "routed_to": "http://worker-1:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": true,
+    "latency": 0.19710360000044602,
+    "worker_id": "worker-1",
+    "processing_time": 0.1889,
+    "routed_to": "http://worker-1:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": true,
+    "latency": 0.2895130999995672,
+    "worker_id": "worker-1",
+    "processing_time": 0.2808,
+    "routed_to": "http://worker-1:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": true,
+    "latency": 0.2581104000000778,
+    "worker_id": "worker-3",
+    "processing_time": 0.2479,
+    "routed_to": "http://worker-3:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": true,
+    "latency": 0.26166769999963435,
+    "worker_id": "worker-1",
+    "processing_time": 0.2474,
+    "routed_to": "http://worker-1:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": true,
+    "latency": 0.19134500000018306,
+    "worker_id": "worker-3",
+    "processing_time": 0.1849,
+    "routed_to": "http://worker-3:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": true,
+    "latency": 0.3035203999997975,
+    "worker_id": "worker-3",
+    "processing_time": 0.2937,
+    "routed_to": "http://worker-3:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": true,
+    "latency": 0.17501770000035322,
+    "worker_id": "worker-1",
+    "processing_time": 0.164,
+    "routed_to": "http://worker-1:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": true,
+    "latency": 0.12890640000023268,
+    "worker_id": "worker-3",
+    "processing_time": 0.1192,
+    "routed_to": "http://worker-3:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": true,
+    "latency": 0.19694249999975,
+    "worker_id": "worker-1",
+    "processing_time": 0.1789,
+    "routed_to": "http://worker-1:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": true,
+    "latency": 0.1490363000002617,
+    "worker_id": "worker-3",
+    "processing_time": 0.1391,
+    "routed_to": "http://worker-3:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": true,
+    "latency": 0.2898036000005959,
+    "worker_id": "worker-1",
+    "processing_time": 0.2816,
+    "routed_to": "http://worker-1:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": true,
+    "latency": 0.12169450000055804,
+    "worker_id": "worker-1",
+    "processing_time": 0.1157,
+    "routed_to": "http://worker-1:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": true,
+    "latency": 0.2838176999994175,
+    "worker_id": "worker-1",
+    "processing_time": 0.2783,
+    "routed_to": "http://worker-1:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": true,
+    "latency": 0.24496089999956894,
+    "worker_id": "worker-3",
+    "processing_time": 0.2355,
+    "routed_to": "http://worker-3:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": true,
+    "latency": 0.3102866000008362,
+    "worker_id": "worker-3",
+    "processing_time": 0.2967,
+    "routed_to": "http://worker-3:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": true,
+    "latency": 0.2232875999998214,
+    "worker_id": "worker-3",
+    "processing_time": 0.2118,
+    "routed_to": "http://worker-3:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": true,
+    "latency": 0.15633449999950244,
+    "worker_id": "worker-3",
+    "processing_time": 0.1356,
+    "routed_to": "http://worker-3:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": true,
+    "latency": 0.1883680999999342,
+    "worker_id": "worker-3",
+    "processing_time": 0.1738,
+    "routed_to": "http://worker-3:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": true,
+    "latency": 0.14972370000032242,
+    "worker_id": "worker-3",
+    "processing_time": 0.1389,
+    "routed_to": "http://worker-3:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": true,
+    "latency": 0.19930830000066635,
+    "worker_id": "worker-3",
+    "processing_time": 0.1928,
+    "routed_to": "http://worker-3:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": true,
+    "latency": 0.28043049999996583,
+    "worker_id": "worker-1",
+    "processing_time": 0.2716,
+    "routed_to": "http://worker-1:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": true,
+    "latency": 0.2788483999993332,
+    "worker_id": "worker-1",
+    "processing_time": 0.2709,
+    "routed_to": "http://worker-1:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": true,
+    "latency": 0.12098950000017794,
+    "worker_id": "worker-3",
+    "processing_time": 0.107,
+    "routed_to": "http://worker-3:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": true,
+    "latency": 0.253503300000375,
+    "worker_id": "worker-3",
+    "processing_time": 0.2396,
+    "routed_to": "http://worker-3:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": true,
+    "latency": 0.24424069999986386,
+    "worker_id": "worker-3",
+    "processing_time": 0.2351,
+    "routed_to": "http://worker-3:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": true,
+    "latency": 0.12735929999962536,
+    "worker_id": "worker-1",
+    "processing_time": 0.1122,
+    "routed_to": "http://worker-1:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": true,
+    "latency": 0.11939910000000964,
+    "worker_id": "worker-1",
+    "processing_time": 0.1104,
+    "routed_to": "http://worker-1:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": true,
+    "latency": 0.14714809999986755,
+    "worker_id": "worker-3",
+    "processing_time": 0.1397,
+    "routed_to": "http://worker-3:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": true,
+    "latency": 0.29801879999922676,
+    "worker_id": "worker-1",
+    "processing_time": 0.2827,
+    "routed_to": "http://worker-1:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": true,
+    "latency": 0.29442610000023706,
+    "worker_id": "worker-1",
+    "processing_time": 0.277,
+    "routed_to": "http://worker-1:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": true,
+    "latency": 0.2953950999999506,
+    "worker_id": "worker-1",
+    "processing_time": 0.2861,
+    "routed_to": "http://worker-1:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": true,
+    "latency": 0.21593720000055328,
+    "worker_id": "worker-3",
+    "processing_time": 0.2021,
+    "routed_to": "http://worker-3:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": true,
+    "latency": 0.16286639999998442,
+    "worker_id": "worker-1",
+    "processing_time": 0.1543,
+    "routed_to": "http://worker-1:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": true,
+    "latency": 0.1203894999998738,
+    "worker_id": "worker-3",
+    "processing_time": 0.1079,
+    "routed_to": "http://worker-3:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": true,
+    "latency": 0.23578689999976632,
+    "worker_id": "worker-1",
+    "processing_time": 0.2244,
+    "routed_to": "http://worker-1:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": true,
+    "latency": 0.263227100000222,
+    "worker_id": "worker-1",
+    "processing_time": 0.2487,
+    "routed_to": "http://worker-1:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": true,
+    "latency": 0.3223008999993908,
+    "worker_id": "worker-3",
+    "processing_time": 0.2873,
+    "routed_to": "http://worker-3:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": true,
+    "latency": 0.16641440000057628,
+    "worker_id": "worker-1",
+    "processing_time": 0.1383,
+    "routed_to": "http://worker-1:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": true,
+    "latency": 0.2201601999995546,
+    "worker_id": "worker-1",
+    "processing_time": 0.2019,
+    "routed_to": "http://worker-1:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": true,
+    "latency": 0.2898234999993292,
+    "worker_id": "worker-3",
+    "processing_time": 0.2725,
+    "routed_to": "http://worker-3:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": true,
+    "latency": 0.24329970000053436,
+    "worker_id": "worker-3",
+    "processing_time": 0.2298,
+    "routed_to": "http://worker-3:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": true,
+    "latency": 0.2005457999994178,
+    "worker_id": "worker-1",
+    "processing_time": 0.1801,
+    "routed_to": "http://worker-1:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": true,
+    "latency": 0.1756081000003178,
+    "worker_id": "worker-3",
+    "processing_time": 0.1542,
+    "routed_to": "http://worker-3:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": true,
+    "latency": 0.15351819999978034,
+    "worker_id": "worker-3",
+    "processing_time": 0.1346,
+    "routed_to": "http://worker-3:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": true,
+    "latency": 0.17132160000073782,
+    "worker_id": "worker-1",
+    "processing_time": 0.1543,
+    "routed_to": "http://worker-1:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": true,
+    "latency": 0.2274184999996578,
+    "worker_id": "worker-1",
+    "processing_time": 0.2083,
+    "routed_to": "http://worker-1:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": true,
+    "latency": 0.17943620000005467,
+    "worker_id": "worker-1",
+    "processing_time": 0.1634,
+    "routed_to": "http://worker-1:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": true,
+    "latency": 0.17798920000041107,
+    "worker_id": "worker-3",
+    "processing_time": 0.1678,
+    "routed_to": "http://worker-3:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": true,
+    "latency": 0.20396350000009988,
+    "worker_id": "worker-1",
+    "processing_time": 0.1969,
+    "routed_to": "http://worker-1:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": true,
+    "latency": 0.24301960000047984,
+    "worker_id": "worker-3",
+    "processing_time": 0.2355,
+    "routed_to": "http://worker-3:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": true,
+    "latency": 0.2567738999996436,
+    "worker_id": "worker-3",
+    "processing_time": 0.2514,
+    "routed_to": "http://worker-3:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": true,
+    "latency": 0.31688519999988785,
+    "worker_id": "worker-3",
+    "processing_time": 0.2998,
+    "routed_to": "http://worker-3:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": true,
+    "latency": 0.18404780000037135,
+    "worker_id": "worker-3",
+    "processing_time": 0.1702,
+    "routed_to": "http://worker-3:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": true,
+    "latency": 0.2870810000003985,
+    "worker_id": "worker-3",
+    "processing_time": 0.274,
+    "routed_to": "http://worker-3:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": true,
+    "latency": 0.14409400000022288,
+    "worker_id": "worker-3",
+    "processing_time": 0.1288,
+    "routed_to": "http://worker-3:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": true,
+    "latency": 0.15313239999977668,
+    "worker_id": "worker-1",
+    "processing_time": 0.1463,
+    "routed_to": "http://worker-1:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": true,
+    "latency": 0.12948379999943427,
+    "worker_id": "worker-1",
+    "processing_time": 0.1228,
+    "routed_to": "http://worker-1:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": true,
+    "latency": 0.2893221000003905,
+    "worker_id": "worker-1",
+    "processing_time": 0.2797,
+    "routed_to": "http://worker-1:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": true,
+    "latency": 0.19098229999963223,
+    "worker_id": "worker-3",
+    "processing_time": 0.1748,
+    "routed_to": "http://worker-3:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": true,
+    "latency": 0.13317559999995865,
+    "worker_id": "worker-3",
+    "processing_time": 0.1179,
+    "routed_to": "http://worker-3:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": true,
+    "latency": 0.23374340000009397,
+    "worker_id": "worker-3",
+    "processing_time": 0.2171,
+    "routed_to": "http://worker-3:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": true,
+    "latency": 0.2812463000000207,
+    "worker_id": "worker-1",
+    "processing_time": 0.2664,
+    "routed_to": "http://worker-1:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": true,
+    "latency": 0.2235117000000173,
+    "worker_id": "worker-3",
+    "processing_time": 0.2118,
+    "routed_to": "http://worker-3:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": true,
+    "latency": 0.15193189999990864,
+    "worker_id": "worker-1",
+    "processing_time": 0.1418,
+    "routed_to": "http://worker-1:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": true,
+    "latency": 0.2571024999997462,
+    "worker_id": "worker-1",
+    "processing_time": 0.25,
+    "routed_to": "http://worker-1:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": true,
+    "latency": 0.13243549999970128,
+    "worker_id": "worker-3",
+    "processing_time": 0.1271,
+    "routed_to": "http://worker-3:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": true,
+    "latency": 0.27026009999917733,
+    "worker_id": "worker-3",
+    "processing_time": 0.2605,
+    "routed_to": "http://worker-3:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": true,
+    "latency": 0.17111500000009983,
+    "worker_id": "worker-1",
+    "processing_time": 0.1635,
+    "routed_to": "http://worker-1:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": true,
+    "latency": 0.15424739999980375,
+    "worker_id": "worker-1",
+    "processing_time": 0.1472,
+    "routed_to": "http://worker-1:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": true,
+    "latency": 0.2093153000005259,
+    "worker_id": "worker-1",
+    "processing_time": 0.2005,
+    "routed_to": "http://worker-1:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": true,
+    "latency": 0.1941050000004907,
+    "worker_id": "worker-1",
+    "processing_time": 0.1861,
+    "routed_to": "http://worker-1:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": true,
+    "latency": 0.23906989999977668,
+    "worker_id": "worker-3",
+    "processing_time": 0.2226,
+    "routed_to": "http://worker-3:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": true,
+    "latency": 0.22355090000019118,
+    "worker_id": "worker-1",
+    "processing_time": 0.2052,
+    "routed_to": "http://worker-1:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": true,
+    "latency": 0.21974330000011832,
+    "worker_id": "worker-1",
+    "processing_time": 0.2049,
+    "routed_to": "http://worker-1:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": true,
+    "latency": 0.26888229999985924,
+    "worker_id": "worker-1",
+    "processing_time": 0.2576,
+    "routed_to": "http://worker-1:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": true,
+    "latency": 0.1297945999995136,
+    "worker_id": "worker-3",
+    "processing_time": 0.1192,
+    "routed_to": "http://worker-3:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": true,
+    "latency": 0.12373750000006112,
+    "worker_id": "worker-1",
+    "processing_time": 0.1131,
+    "routed_to": "http://worker-1:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": true,
+    "latency": 0.26894390000052226,
+    "worker_id": "worker-1",
+    "processing_time": 0.2641,
+    "routed_to": "http://worker-1:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": true,
+    "latency": 0.20478730000013456,
+    "worker_id": "worker-1",
+    "processing_time": 0.1979,
+    "routed_to": "http://worker-1:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": true,
+    "latency": 0.28306179999981396,
+    "worker_id": "worker-1",
+    "processing_time": 0.2712,
+    "routed_to": "http://worker-1:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": true,
+    "latency": 0.13687209999989136,
+    "worker_id": "worker-3",
+    "processing_time": 0.1248,
+    "routed_to": "http://worker-3:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": true,
+    "latency": 0.11860520000027464,
+    "worker_id": "worker-1",
+    "processing_time": 0.1035,
+    "routed_to": "http://worker-1:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": true,
+    "latency": 0.1416324000001623,
+    "worker_id": "worker-1",
+    "processing_time": 0.134,
+    "routed_to": "http://worker-1:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": true,
+    "latency": 0.29351839999981166,
+    "worker_id": "worker-3",
+    "processing_time": 0.2876,
+    "routed_to": "http://worker-3:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": true,
+    "latency": 0.15361959999972896,
+    "worker_id": "worker-3",
+    "processing_time": 0.1447,
+    "routed_to": "http://worker-3:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": true,
+    "latency": 0.11728490000041347,
+    "worker_id": "worker-3",
+    "processing_time": 0.1091,
+    "routed_to": "http://worker-3:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": true,
+    "latency": 0.18408249999993131,
+    "worker_id": "worker-3",
+    "processing_time": 0.178,
+    "routed_to": "http://worker-3:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": true,
+    "latency": 0.10866359999999986,
+    "worker_id": "worker-3",
+    "processing_time": 0.1008,
+    "routed_to": "http://worker-3:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": true,
+    "latency": 0.2793621999999232,
+    "worker_id": "worker-3",
+    "processing_time": 0.2721,
+    "routed_to": "http://worker-3:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": true,
+    "latency": 0.2620245000007344,
+    "worker_id": "worker-1",
+    "processing_time": 0.2548,
+    "routed_to": "http://worker-1:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": true,
+    "latency": 0.28959649999978865,
+    "worker_id": "worker-3",
+    "processing_time": 0.284,
+    "routed_to": "http://worker-3:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": true,
+    "latency": 0.15061819999937143,
+    "worker_id": "worker-3",
+    "processing_time": 0.1448,
+    "routed_to": "http://worker-3:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": true,
+    "latency": 0.24152389999926527,
+    "worker_id": "worker-1",
+    "processing_time": 0.2325,
+    "routed_to": "http://worker-1:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": true,
+    "latency": 0.13792749999993248,
+    "worker_id": "worker-1",
+    "processing_time": 0.1269,
+    "routed_to": "http://worker-1:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": true,
+    "latency": 0.2876790999998775,
+    "worker_id": "worker-3",
+    "processing_time": 0.2717,
+    "routed_to": "http://worker-3:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": true,
+    "latency": 0.29151550000005955,
+    "worker_id": "worker-1",
+    "processing_time": 0.2779,
+    "routed_to": "http://worker-1:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": true,
+    "latency": 0.23579239999980928,
+    "worker_id": "worker-3",
+    "processing_time": 0.2289,
+    "routed_to": "http://worker-3:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": true,
+    "latency": 0.2505768999999418,
+    "worker_id": "worker-1",
+    "processing_time": 0.2427,
+    "routed_to": "http://worker-1:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": true,
+    "latency": 0.26392649999979767,
+    "worker_id": "worker-3",
+    "processing_time": 0.249,
+    "routed_to": "http://worker-3:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": true,
+    "latency": 0.27661519999946904,
+    "worker_id": "worker-3",
+    "processing_time": 0.2553,
+    "routed_to": "http://worker-3:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": true,
+    "latency": 0.17330969999966328,
+    "worker_id": "worker-3",
+    "processing_time": 0.1614,
+    "routed_to": "http://worker-3:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": true,
+    "latency": 0.2870284000000538,
+    "worker_id": "worker-3",
+    "processing_time": 0.2698,
+    "routed_to": "http://worker-3:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": true,
+    "latency": 0.20151549999991403,
+    "worker_id": "worker-1",
+    "processing_time": 0.1909,
+    "routed_to": "http://worker-1:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": true,
+    "latency": 0.12849980000009964,
+    "worker_id": "worker-1",
+    "processing_time": 0.1111,
+    "routed_to": "http://worker-1:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": true,
+    "latency": 0.31259379999937664,
+    "worker_id": "worker-3",
+    "processing_time": 0.2917,
+    "routed_to": "http://worker-3:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": true,
+    "latency": 0.28412700000080804,
+    "worker_id": "worker-1",
+    "processing_time": 0.2615,
+    "routed_to": "http://worker-1:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": true,
+    "latency": 0.17161310000028607,
+    "worker_id": "worker-3",
+    "processing_time": 0.1614,
+    "routed_to": "http://worker-3:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": true,
+    "latency": 0.13317069999993691,
+    "worker_id": "worker-1",
+    "processing_time": 0.1262,
+    "routed_to": "http://worker-1:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": true,
+    "latency": 0.27390079999986483,
+    "worker_id": "worker-1",
+    "processing_time": 0.2638,
+    "routed_to": "http://worker-1:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": true,
+    "latency": 0.273408300000483,
+    "worker_id": "worker-1",
+    "processing_time": 0.2599,
+    "routed_to": "http://worker-1:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": true,
+    "latency": 0.22699640000064392,
+    "worker_id": "worker-3",
+    "processing_time": 0.2068,
+    "routed_to": "http://worker-3:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": true,
+    "latency": 0.18759140000020125,
+    "worker_id": "worker-1",
+    "processing_time": 0.1779,
+    "routed_to": "http://worker-1:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": true,
+    "latency": 0.2375996999999188,
+    "worker_id": "worker-1",
+    "processing_time": 0.2232,
+    "routed_to": "http://worker-1:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": true,
+    "latency": 0.2093855999992229,
+    "worker_id": "worker-1",
+    "processing_time": 0.1974,
+    "routed_to": "http://worker-1:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": true,
+    "latency": 0.2107624999998734,
+    "worker_id": "worker-3",
+    "processing_time": 0.1995,
+    "routed_to": "http://worker-3:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": true,
+    "latency": 0.17731350000030943,
+    "worker_id": "worker-3",
+    "processing_time": 0.1705,
+    "routed_to": "http://worker-3:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": true,
+    "latency": 0.21416799999951763,
+    "worker_id": "worker-3",
+    "processing_time": 0.1997,
+    "routed_to": "http://worker-3:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": true,
+    "latency": 0.14085999999952037,
+    "worker_id": "worker-3",
+    "processing_time": 0.1356,
+    "routed_to": "http://worker-3:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": true,
+    "latency": 0.23329150000063237,
+    "worker_id": "worker-1",
+    "processing_time": 0.2262,
+    "routed_to": "http://worker-1:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": true,
+    "latency": 0.2904754999999568,
+    "worker_id": "worker-1",
+    "processing_time": 0.2829,
+    "routed_to": "http://worker-1:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": true,
+    "latency": 0.25169280000045546,
+    "worker_id": "worker-1",
+    "processing_time": 0.2464,
+    "routed_to": "http://worker-1:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": true,
+    "latency": 0.17699929999980668,
+    "worker_id": "worker-1",
+    "processing_time": 0.1615,
+    "routed_to": "http://worker-1:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": true,
+    "latency": 0.11240760000055161,
+    "worker_id": "worker-1",
+    "processing_time": 0.1043,
+    "routed_to": "http://worker-1:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": true,
+    "latency": 0.27651349999996455,
+    "worker_id": "worker-3",
+    "processing_time": 0.2672,
+    "routed_to": "http://worker-3:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": true,
+    "latency": 0.2450662999999622,
+    "worker_id": "worker-1",
+    "processing_time": 0.2371,
+    "routed_to": "http://worker-1:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": true,
+    "latency": 0.21619490000011865,
+    "worker_id": "worker-3",
+    "processing_time": 0.2089,
+    "routed_to": "http://worker-3:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": true,
+    "latency": 0.2808558000006087,
+    "worker_id": "worker-1",
+    "processing_time": 0.2655,
+    "routed_to": "http://worker-1:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": true,
+    "latency": 0.12141799999972136,
+    "worker_id": "worker-3",
+    "processing_time": 0.1096,
+    "routed_to": "http://worker-3:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": true,
+    "latency": 0.27003440000044066,
+    "worker_id": "worker-3",
+    "processing_time": 0.2549,
+    "routed_to": "http://worker-3:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": true,
+    "latency": 0.26035740000043006,
+    "worker_id": "worker-1",
+    "processing_time": 0.2553,
+    "routed_to": "http://worker-1:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": true,
+    "latency": 0.18200829999932466,
+    "worker_id": "worker-1",
+    "processing_time": 0.1738,
+    "routed_to": "http://worker-1:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": true,
+    "latency": 0.2229194000001371,
+    "worker_id": "worker-3",
+    "processing_time": 0.217,
+    "routed_to": "http://worker-3:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": true,
+    "latency": 0.12193879999995261,
+    "worker_id": "worker-3",
+    "processing_time": 0.1166,
+    "routed_to": "http://worker-3:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": true,
+    "latency": 0.2547041000007084,
+    "worker_id": "worker-1",
+    "processing_time": 0.2296,
+    "routed_to": "http://worker-1:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": true,
+    "latency": 0.27885370000058174,
+    "worker_id": "worker-3",
+    "processing_time": 0.2434,
+    "routed_to": "http://worker-3:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": true,
+    "latency": 0.14494100000047183,
+    "worker_id": "worker-1",
+    "processing_time": 0.1366,
+    "routed_to": "http://worker-1:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": true,
+    "latency": 0.17954209999970772,
+    "worker_id": "worker-3",
+    "processing_time": 0.1706,
+    "routed_to": "http://worker-3:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": true,
+    "latency": 0.16218620000017836,
+    "worker_id": "worker-3",
+    "processing_time": 0.1422,
+    "routed_to": "http://worker-3:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": true,
+    "latency": 0.3040402999995422,
+    "worker_id": "worker-3",
+    "processing_time": 0.2636,
+    "routed_to": "http://worker-3:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": true,
+    "latency": 0.2959214999991673,
+    "worker_id": "worker-1",
+    "processing_time": 0.2458,
+    "routed_to": "http://worker-1:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": true,
+    "latency": 0.13742290000027424,
+    "worker_id": "worker-1",
+    "processing_time": 0.1126,
+    "routed_to": "http://worker-1:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": true,
+    "latency": 0.13974799999959941,
+    "worker_id": "worker-1",
+    "processing_time": 0.1137,
+    "routed_to": "http://worker-1:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": true,
+    "latency": 0.28089470000031724,
+    "worker_id": "worker-3",
+    "processing_time": 0.2256,
+    "routed_to": "http://worker-3:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": true,
+    "latency": 0.2812827000007019,
+    "worker_id": "worker-3",
+    "processing_time": 0.2224,
+    "routed_to": "http://worker-3:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": true,
+    "latency": 0.24395949999961886,
+    "worker_id": "worker-3",
+    "processing_time": 0.1838,
+    "routed_to": "http://worker-3:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": true,
+    "latency": 0.12904539999999542,
+    "worker_id": "worker-3",
+    "processing_time": 0.1027,
+    "routed_to": "http://worker-3:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": true,
+    "latency": 0.20108840000011696,
+    "worker_id": "worker-3",
+    "processing_time": 0.1563,
+    "routed_to": "http://worker-3:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": true,
+    "latency": 0.31811779999952705,
+    "worker_id": "worker-1",
+    "processing_time": 0.2912,
+    "routed_to": "http://worker-1:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": true,
+    "latency": 0.2545208999999886,
+    "worker_id": "worker-1",
+    "processing_time": 0.2004,
+    "routed_to": "http://worker-1:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": true,
+    "latency": 0.1379986000001736,
+    "worker_id": "worker-1",
+    "processing_time": 0.1135,
+    "routed_to": "http://worker-1:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": true,
+    "latency": 0.2496144999995522,
+    "worker_id": "worker-1",
+    "processing_time": 0.2098,
+    "routed_to": "http://worker-1:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": true,
+    "latency": 0.1962444000000687,
+    "worker_id": "worker-3",
+    "processing_time": 0.1496,
+    "routed_to": "http://worker-3:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": true,
+    "latency": 0.1927929999992557,
+    "worker_id": "worker-1",
+    "processing_time": 0.1505,
+    "routed_to": "http://worker-1:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": true,
+    "latency": 0.22519439999996393,
+    "worker_id": "worker-3",
+    "processing_time": 0.1835,
+    "routed_to": "http://worker-3:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": true,
+    "latency": 0.2007527999994636,
+    "worker_id": "worker-1",
+    "processing_time": 0.1753,
+    "routed_to": "http://worker-1:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": true,
+    "latency": 0.24208379999981844,
+    "worker_id": "worker-3",
+    "processing_time": 0.2371,
+    "routed_to": "http://worker-3:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": true,
+    "latency": 0.29374969999935274,
+    "worker_id": "worker-1",
+    "processing_time": 0.2884,
+    "routed_to": "http://worker-1:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": true,
+    "latency": 0.3075070000004416,
+    "worker_id": "worker-3",
+    "processing_time": 0.2988,
+    "routed_to": "http://worker-3:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": true,
+    "latency": 0.16821260000051552,
+    "worker_id": "worker-1",
+    "processing_time": 0.1345,
+    "routed_to": "http://worker-1:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": true,
+    "latency": 0.2600957999993625,
+    "worker_id": "worker-1",
+    "processing_time": 0.2452,
+    "routed_to": "http://worker-1:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": true,
+    "latency": 0.16268769999987853,
+    "worker_id": "worker-1",
+    "processing_time": 0.1285,
+    "routed_to": "http://worker-1:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": true,
+    "latency": 0.23138579999977082,
+    "worker_id": "worker-1",
+    "processing_time": 0.2216,
+    "routed_to": "http://worker-1:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": true,
+    "latency": 0.25153450000016164,
+    "worker_id": "worker-1",
+    "processing_time": 0.2423,
+    "routed_to": "http://worker-1:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": true,
+    "latency": 0.16896820000056323,
+    "worker_id": "worker-1",
+    "processing_time": 0.1422,
+    "routed_to": "http://worker-1:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": true,
+    "latency": 0.23109409999960917,
+    "worker_id": "worker-3",
+    "processing_time": 0.2228,
+    "routed_to": "http://worker-3:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": true,
+    "latency": 0.3044642000004387,
+    "worker_id": "worker-3",
+    "processing_time": 0.298,
+    "routed_to": "http://worker-3:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": true,
+    "latency": 0.16540850000001228,
+    "worker_id": "worker-3",
+    "processing_time": 0.1584,
+    "routed_to": "http://worker-3:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": true,
+    "latency": 0.28019379999932426,
+    "worker_id": "worker-3",
+    "processing_time": 0.2723,
+    "routed_to": "http://worker-3:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": true,
+    "latency": 0.2432940000007875,
+    "worker_id": "worker-3",
+    "processing_time": 0.2354,
+    "routed_to": "http://worker-3:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": true,
+    "latency": 0.26971250000042346,
+    "worker_id": "worker-1",
+    "processing_time": 0.2627,
+    "routed_to": "http://worker-1:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": true,
+    "latency": 0.34841010000036476,
+    "worker_id": "worker-1",
+    "processing_time": 0.2944,
+    "routed_to": "http://worker-1:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": true,
+    "latency": 0.3051206000000093,
+    "worker_id": "worker-3",
+    "processing_time": 0.2335,
+    "routed_to": "http://worker-3:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": true,
+    "latency": 0.31133870000030583,
+    "worker_id": "worker-1",
+    "processing_time": 0.243,
+    "routed_to": "http://worker-1:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": true,
+    "latency": 0.2022783000002164,
+    "worker_id": "worker-3",
+    "processing_time": 0.1292,
+    "routed_to": "http://worker-3:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": true,
+    "latency": 0.30414459999974497,
+    "worker_id": "worker-1",
+    "processing_time": 0.2216,
+    "routed_to": "http://worker-1:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": true,
+    "latency": 0.34545239999988553,
+    "worker_id": "worker-3",
+    "processing_time": 0.2769,
+    "routed_to": "http://worker-3:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": true,
+    "latency": 0.26070569999956206,
+    "worker_id": "worker-1",
+    "processing_time": 0.1919,
+    "routed_to": "http://worker-1:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": true,
+    "latency": 0.26460950000000594,
+    "worker_id": "worker-3",
+    "processing_time": 0.2016,
+    "routed_to": "http://worker-3:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": true,
+    "latency": 0.17785420000018348,
+    "worker_id": "worker-3",
+    "processing_time": 0.1148,
+    "routed_to": "http://worker-3:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": true,
+    "latency": 0.31936490000043705,
+    "worker_id": "worker-3",
+    "processing_time": 0.2662,
+    "routed_to": "http://worker-3:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": true,
+    "latency": 0.17649709999932384,
+    "worker_id": "worker-1",
+    "processing_time": 0.1387,
+    "routed_to": "http://worker-1:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": true,
+    "latency": 0.31390710000050603,
+    "worker_id": "worker-1",
+    "processing_time": 0.2741,
+    "routed_to": "http://worker-1:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": true,
+    "latency": 0.2381892000003063,
+    "worker_id": "worker-3",
+    "processing_time": 0.2007,
+    "routed_to": "http://worker-3:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": true,
+    "latency": 0.23514439999962633,
+    "worker_id": "worker-3",
+    "processing_time": 0.2003,
+    "routed_to": "http://worker-3:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": true,
+    "latency": 0.28972690000045986,
+    "worker_id": "worker-1",
+    "processing_time": 0.2584,
+    "routed_to": "http://worker-1:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": true,
+    "latency": 0.15180950000012672,
+    "worker_id": "worker-1",
+    "processing_time": 0.1202,
+    "routed_to": "http://worker-1:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": true,
+    "latency": 0.20243440000012924,
+    "worker_id": "worker-1",
+    "processing_time": 0.171,
+    "routed_to": "http://worker-1:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": true,
+    "latency": 0.13636750000023312,
+    "worker_id": "worker-3",
+    "processing_time": 0.1062,
+    "routed_to": "http://worker-3:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": true,
+    "latency": 0.18005710000034014,
+    "worker_id": "worker-1",
+    "processing_time": 0.1562,
+    "routed_to": "http://worker-1:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": true,
+    "latency": 0.2794334999998682,
+    "worker_id": "worker-1",
+    "processing_time": 0.267,
+    "routed_to": "http://worker-1:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": true,
+    "latency": 0.21686349999981758,
+    "worker_id": "worker-3",
+    "processing_time": 0.2079,
+    "routed_to": "http://worker-3:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": true,
+    "latency": 0.20471439999982977,
+    "worker_id": "worker-3",
+    "processing_time": 0.1947,
+    "routed_to": "http://worker-3:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": true,
+    "latency": 0.30626550000033603,
+    "worker_id": "worker-1",
+    "processing_time": 0.2976,
+    "routed_to": "http://worker-1:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": true,
+    "latency": 0.26476540000021487,
+    "worker_id": "worker-1",
+    "processing_time": 0.2577,
+    "routed_to": "http://worker-1:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": true,
+    "latency": 0.18133830000078888,
+    "worker_id": "worker-3",
+    "processing_time": 0.1753,
+    "routed_to": "http://worker-3:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": true,
+    "latency": 0.27652409999973315,
+    "worker_id": "worker-1",
+    "processing_time": 0.2666,
+    "routed_to": "http://worker-1:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": true,
+    "latency": 0.19942639999953826,
+    "worker_id": "worker-1",
+    "processing_time": 0.1923,
+    "routed_to": "http://worker-1:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": true,
+    "latency": 0.219702899999902,
+    "worker_id": "worker-1",
+    "processing_time": 0.2148,
+    "routed_to": "http://worker-1:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": true,
+    "latency": 0.15401079999992362,
+    "worker_id": "worker-3",
+    "processing_time": 0.1465,
+    "routed_to": "http://worker-3:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": true,
+    "latency": 0.2402369000001272,
+    "worker_id": "worker-3",
+    "processing_time": 0.2295,
+    "routed_to": "http://worker-3:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": true,
+    "latency": 0.12734129999989818,
+    "worker_id": "worker-3",
+    "processing_time": 0.118,
+    "routed_to": "http://worker-3:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": true,
+    "latency": 0.2931158999999752,
+    "worker_id": "worker-3",
+    "processing_time": 0.2846,
+    "routed_to": "http://worker-3:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": true,
+    "latency": 0.25296759999946516,
+    "worker_id": "worker-3",
+    "processing_time": 0.2454,
+    "routed_to": "http://worker-3:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": true,
+    "latency": 0.14217290000033245,
+    "worker_id": "worker-1",
+    "processing_time": 0.136,
+    "routed_to": "http://worker-1:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": true,
+    "latency": 0.22981909999998607,
+    "worker_id": "worker-3",
+    "processing_time": 0.2226,
+    "routed_to": "http://worker-3:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": true,
+    "latency": 0.1147054000002754,
+    "worker_id": "worker-1",
+    "processing_time": 0.1076,
+    "routed_to": "http://worker-1:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": true,
+    "latency": 0.21949080000013055,
+    "worker_id": "worker-3",
+    "processing_time": 0.2122,
+    "routed_to": "http://worker-3:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": true,
+    "latency": 0.13893839999946067,
+    "worker_id": "worker-1",
+    "processing_time": 0.1295,
+    "routed_to": "http://worker-1:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": true,
+    "latency": 0.25179579999985435,
+    "worker_id": "worker-1",
+    "processing_time": 0.2422,
+    "routed_to": "http://worker-1:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": true,
+    "latency": 0.29632349999974394,
+    "worker_id": "worker-1",
+    "processing_time": 0.2893,
+    "routed_to": "http://worker-1:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": true,
+    "latency": 0.249609500000588,
+    "worker_id": "worker-3",
+    "processing_time": 0.2395,
+    "routed_to": "http://worker-3:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": true,
+    "latency": 0.14658269999927143,
+    "worker_id": "worker-1",
+    "processing_time": 0.1354,
+    "routed_to": "http://worker-1:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": true,
+    "latency": 0.28649510000013834,
+    "worker_id": "worker-3",
+    "processing_time": 0.2762,
+    "routed_to": "http://worker-3:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": true,
+    "latency": 0.18271850000019185,
+    "worker_id": "worker-1",
+    "processing_time": 0.1668,
+    "routed_to": "http://worker-1:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": true,
+    "latency": 0.17879220000031637,
+    "worker_id": "worker-3",
+    "processing_time": 0.1653,
+    "routed_to": "http://worker-3:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": true,
+    "latency": 0.3016953000005742,
+    "worker_id": "worker-3",
+    "processing_time": 0.2896,
+    "routed_to": "http://worker-3:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": true,
+    "latency": 0.1825438000005306,
+    "worker_id": "worker-3",
+    "processing_time": 0.1739,
+    "routed_to": "http://worker-3:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": true,
+    "latency": 0.1700608999999531,
+    "worker_id": "worker-1",
+    "processing_time": 0.1597,
+    "routed_to": "http://worker-1:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": true,
+    "latency": 0.18445630000042001,
+    "worker_id": "worker-3",
+    "processing_time": 0.1763,
+    "routed_to": "http://worker-3:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": true,
+    "latency": 0.14760310000019672,
+    "worker_id": "worker-1",
+    "processing_time": 0.1421,
+    "routed_to": "http://worker-1:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": true,
+    "latency": 0.11840469999970082,
+    "worker_id": "worker-3",
+    "processing_time": 0.1116,
+    "routed_to": "http://worker-3:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": true,
+    "latency": 0.20185510000010254,
+    "worker_id": "worker-3",
+    "processing_time": 0.1951,
+    "routed_to": "http://worker-3:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": true,
+    "latency": 0.14063079999959882,
+    "worker_id": "worker-1",
+    "processing_time": 0.1316,
+    "routed_to": "http://worker-1:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": true,
+    "latency": 0.14392099999986385,
+    "worker_id": "worker-3",
+    "processing_time": 0.1368,
+    "routed_to": "http://worker-3:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": true,
+    "latency": 0.29012450000027457,
+    "worker_id": "worker-1",
+    "processing_time": 0.2799,
+    "routed_to": "http://worker-1:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": true,
+    "latency": 0.2272186000000147,
+    "worker_id": "worker-1",
+    "processing_time": 0.2182,
+    "routed_to": "http://worker-1:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": true,
+    "latency": 0.24383850000049279,
+    "worker_id": "worker-3",
+    "processing_time": 0.2282,
+    "routed_to": "http://worker-3:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": true,
+    "latency": 0.17380950000006123,
+    "worker_id": "worker-1",
+    "processing_time": 0.1585,
+    "routed_to": "http://worker-1:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": true,
+    "latency": 0.2748029000003953,
+    "worker_id": "worker-3",
+    "processing_time": 0.2566,
+    "routed_to": "http://worker-3:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": true,
+    "latency": 0.1338461000004827,
+    "worker_id": "worker-1",
+    "processing_time": 0.1158,
+    "routed_to": "http://worker-1:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": true,
+    "latency": 0.26663319999988744,
+    "worker_id": "worker-1",
+    "processing_time": 0.2541,
+    "routed_to": "http://worker-1:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": true,
+    "latency": 0.2762627000001885,
+    "worker_id": "worker-1",
+    "processing_time": 0.2618,
+    "routed_to": "http://worker-1:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": true,
+    "latency": 0.2415671000007933,
+    "worker_id": "worker-1",
+    "processing_time": 0.2353,
+    "routed_to": "http://worker-1:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": true,
+    "latency": 0.25068470000042,
+    "worker_id": "worker-1",
+    "processing_time": 0.239,
+    "routed_to": "http://worker-1:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": true,
+    "latency": 0.26737130000037723,
+    "worker_id": "worker-1",
+    "processing_time": 0.2569,
+    "routed_to": "http://worker-1:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": true,
+    "latency": 0.2742190999997547,
+    "worker_id": "worker-1",
+    "processing_time": 0.2631,
+    "routed_to": "http://worker-1:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": true,
+    "latency": 0.24462250000033237,
+    "worker_id": "worker-3",
+    "processing_time": 0.2359,
+    "routed_to": "http://worker-3:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": true,
+    "latency": 0.1579092000001765,
+    "worker_id": "worker-1",
+    "processing_time": 0.1486,
+    "routed_to": "http://worker-1:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": true,
+    "latency": 0.3050202000003992,
+    "worker_id": "worker-3",
+    "processing_time": 0.2964,
+    "routed_to": "http://worker-3:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": true,
+    "latency": 0.17161479999958829,
+    "worker_id": "worker-3",
+    "processing_time": 0.1651,
+    "routed_to": "http://worker-3:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": true,
+    "latency": 0.2953589999997348,
+    "worker_id": "worker-3",
+    "processing_time": 0.2864,
+    "routed_to": "http://worker-3:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": true,
+    "latency": 0.17244250000021566,
+    "worker_id": "worker-3",
+    "processing_time": 0.1636,
+    "routed_to": "http://worker-3:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": true,
+    "latency": 0.1464734999999564,
+    "worker_id": "worker-1",
+    "processing_time": 0.1323,
+    "routed_to": "http://worker-1:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": true,
+    "latency": 0.24107699999967735,
+    "worker_id": "worker-1",
+    "processing_time": 0.2296,
+    "routed_to": "http://worker-1:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": true,
+    "latency": 0.17803539999931672,
+    "worker_id": "worker-3",
+    "processing_time": 0.1626,
+    "routed_to": "http://worker-3:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": true,
+    "latency": 0.1707709000002069,
+    "worker_id": "worker-1",
+    "processing_time": 0.1545,
+    "routed_to": "http://worker-1:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": true,
+    "latency": 0.22433129999990342,
+    "worker_id": "worker-1",
+    "processing_time": 0.215,
+    "routed_to": "http://worker-1:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": true,
+    "latency": 0.20192060000044876,
+    "worker_id": "worker-3",
+    "processing_time": 0.1937,
+    "routed_to": "http://worker-3:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": true,
+    "latency": 0.1185367000007318,
+    "worker_id": "worker-3",
+    "processing_time": 0.1113,
+    "routed_to": "http://worker-3:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": true,
+    "latency": 0.206089699999211,
+    "worker_id": "worker-3",
+    "processing_time": 0.194,
+    "routed_to": "http://worker-3:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": true,
+    "latency": 0.26210509999964415,
+    "worker_id": "worker-3",
+    "processing_time": 0.2508,
+    "routed_to": "http://worker-3:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": true,
+    "latency": 0.2432320999996591,
+    "worker_id": "worker-1",
+    "processing_time": 0.2316,
+    "routed_to": "http://worker-1:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": true,
+    "latency": 0.30462029999944207,
+    "worker_id": "worker-1",
+    "processing_time": 0.2966,
+    "routed_to": "http://worker-1:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": true,
+    "latency": 0.26294159999997646,
+    "worker_id": "worker-3",
+    "processing_time": 0.2564,
+    "routed_to": "http://worker-3:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": true,
+    "latency": 0.2787339000005886,
+    "worker_id": "worker-3",
+    "processing_time": 0.2717,
+    "routed_to": "http://worker-3:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": true,
+    "latency": 0.16494909999983065,
+    "worker_id": "worker-1",
+    "processing_time": 0.1576,
+    "routed_to": "http://worker-1:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": true,
+    "latency": 0.18700749999970867,
+    "worker_id": "worker-1",
+    "processing_time": 0.1793,
+    "routed_to": "http://worker-1:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": true,
+    "latency": 0.2988861999992878,
+    "worker_id": "worker-3",
+    "processing_time": 0.2925,
+    "routed_to": "http://worker-3:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": true,
+    "latency": 0.15137419999973645,
+    "worker_id": "worker-1",
+    "processing_time": 0.1452,
+    "routed_to": "http://worker-1:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": true,
+    "latency": 0.29248660000030213,
+    "worker_id": "worker-1",
+    "processing_time": 0.2817,
+    "routed_to": "http://worker-1:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": true,
+    "latency": 0.25855779999983497,
+    "worker_id": "worker-3",
+    "processing_time": 0.2487,
+    "routed_to": "http://worker-3:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": true,
+    "latency": 0.1652580999998463,
+    "worker_id": "worker-3",
+    "processing_time": 0.1533,
+    "routed_to": "http://worker-3:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": true,
+    "latency": 0.19472459999997227,
+    "worker_id": "worker-3",
+    "processing_time": 0.183,
+    "routed_to": "http://worker-3:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": true,
+    "latency": 0.2508202999997593,
+    "worker_id": "worker-1",
+    "processing_time": 0.2437,
+    "routed_to": "http://worker-1:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": true,
+    "latency": 0.15128740000000107,
+    "worker_id": "worker-3",
+    "processing_time": 0.145,
+    "routed_to": "http://worker-3:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": true,
+    "latency": 0.13534440000057657,
+    "worker_id": "worker-3",
+    "processing_time": 0.128,
+    "routed_to": "http://worker-3:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": true,
+    "latency": 0.1998652000002039,
+    "worker_id": "worker-1",
+    "processing_time": 0.193,
+    "routed_to": "http://worker-1:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": true,
+    "latency": 0.24654689999988477,
+    "worker_id": "worker-1",
+    "processing_time": 0.2258,
+    "routed_to": "http://worker-1:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": true,
+    "latency": 0.28734760000043025,
+    "worker_id": "worker-3",
+    "processing_time": 0.2679,
+    "routed_to": "http://worker-3:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": true,
+    "latency": 0.2312105999999403,
+    "worker_id": "worker-1",
+    "processing_time": 0.2145,
+    "routed_to": "http://worker-1:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": true,
+    "latency": 0.20874410000033095,
+    "worker_id": "worker-1",
+    "processing_time": 0.1938,
+    "routed_to": "http://worker-1:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": true,
+    "latency": 0.29522779999933846,
+    "worker_id": "worker-1",
+    "processing_time": 0.282,
+    "routed_to": "http://worker-1:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": true,
+    "latency": 0.23631879999993544,
+    "worker_id": "worker-3",
+    "processing_time": 0.2249,
+    "routed_to": "http://worker-3:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": true,
+    "latency": 0.15950489999977435,
+    "worker_id": "worker-1",
+    "processing_time": 0.1504,
+    "routed_to": "http://worker-1:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": true,
+    "latency": 0.22774239999944257,
+    "worker_id": "worker-3",
+    "processing_time": 0.2217,
+    "routed_to": "http://worker-3:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": true,
+    "latency": 0.27468229999976757,
+    "worker_id": "worker-3",
+    "processing_time": 0.268,
+    "routed_to": "http://worker-3:8000",
+    "strategy": "lc"
+  },
+  {
+    "ok": true,
+    "latency": 0.15455999999994674,
+    "worker_id": "worker-1",
+    "processing_time": 0.1479,
+    "routed_to": "http://worker-1:8000",
+    "strategy": "lc"
+  }
+]
