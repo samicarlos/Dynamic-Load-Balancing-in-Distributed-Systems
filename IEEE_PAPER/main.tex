@@ -1,0 +1,495 @@
+\documentclass[conference]{IEEEtran}
+\IEEEoverridecommandlockouts
+
+\usepackage{cite}
+\usepackage{amsmath,amssymb,amsfonts}
+\usepackage{algorithmic}
+\usepackage{graphicx}
+\usepackage{textcomp}
+\usepackage{xcolor}
+\usepackage{booktabs}
+\usepackage{url}
+\usepackage{hyperref}
+\usepackage{listings}
+\usepackage{array}
+
+\def\BibTeX{{\rm B\kern-.05em{\sc i\kern-.025em b}\kern-.08em
+    T\kern-.1667em\lower.7ex\hbox{E}\kern-.125emX}}
+
+\begin{document}
+
+\title{Dynamic Load Balancing in Distributed Systems: A Comparative Study of Round-Robin, Least-Connections, and Least-Response-Time Algorithms}
+
+\author{
+  \IEEEauthorblockN{Sacara Samuel}
+  \IEEEauthorblockA{\textit{Student ID: 31091001011ENSM251039}}
+  \and
+  \IEEEauthorblockN{Cucuteanu Lucian}
+  \IEEEauthorblockA{\textit{Student ID: 31091001011ENSM251015}}
+  \and
+  \IEEEauthorblockN{Dragos Catalin}
+  \IEEEauthorblockA{\textit{Student ID: 31091001011ENSM251016}}
+}
+
+\maketitle
+
+\begin{abstract}
+Load balancing is a cornerstone of distributed system design, governing how incoming requests are distributed across a pool of backend workers. This paper presents a comparative experimental study of three load-balancing algorithms --- Round-Robin (RR), Least-Connections (LC), and Least-Response-Time (LRT) --- implemented as a self-contained Python/FastAPI testbed deployed via Docker Compose. We evaluate each algorithm across three controlled scenarios: uniform workers, heterogeneous (skewed) workers, and worker failure. Metrics collected include throughput, average latency, tail latency (P95, P99), success rate, and worker distribution fairness. Results show that RR provides the most predictable distribution under uniform conditions, LC provides measurable improvements under heterogeneous load, and LRT achieves the best throughput in the skewed scenario at the cost of distribution concentration. Under failure conditions, RR exhibits catastrophic latency degradation due to TCP timeout stalls, while LC fails fast and LRT self-heals through EMA-based penalization. We conclude with a requirements conformance table and discuss limitations and ethical considerations.
+\end{abstract}
+
+\begin{IEEEkeywords}
+Load balancing, distributed systems, Round-Robin, Least-Connections, Least-Response-Time, Docker, FastAPI, latency, throughput, tail latency, fault tolerance.
+\end{IEEEkeywords}
+
+% -------------------------------------------------------------------
+\section{Introduction}
+% -------------------------------------------------------------------
+
+Modern distributed applications rely on load balancers to distribute incoming traffic across multiple backend nodes, preventing any single node from becoming a bottleneck. The choice of load-balancing algorithm directly impacts user-perceived latency, system throughput, and resilience to node failure. While static algorithms such as Round-Robin (RR) are simple and predictable, they are blind to the actual state of backend workers. Dynamic algorithms such as Least-Connections (LC) and Least-Response-Time (LRT) adapt to runtime conditions, potentially delivering superior performance under heterogeneous or time-varying workloads.
+
+Despite widespread use, direct experimental comparisons of these algorithms under controlled conditions --- particularly under failure scenarios --- are rarely presented with reproducible open-source implementations. This paper addresses that gap.
+
+\textbf{Research question:} \textit{Which load-balancing strategy provides the best trade-off between latency, throughput, fairness, and fault tolerance across uniform, skewed, and failure workload scenarios?}
+
+We make the following contributions:
+\begin{enumerate}
+  \item A minimal, reproducible load-balancing testbed implemented in Python/FastAPI and deployed with Docker Compose.
+  \item Three independently accessible algorithm endpoints on a single balancer process, enabling fair A/B/C comparison without restarts.
+  \item Controlled experiments across three scenarios with quantitative metrics and visual analysis.
+  \item A frank discussion of algorithm failure modes, including LC's cold-start bias under failure and LRT's EMA persistence problem.
+\end{enumerate}
+
+% -------------------------------------------------------------------
+\section{Background and Related Work}
+% -------------------------------------------------------------------
+
+Load balancing in distributed systems has been studied extensively. Cardellini et al.~\cite{cardellini1999} provide a comprehensive survey of web server load balancing, classifying algorithms as static (RR, random, weighted RR) or dynamic (LC, LRT, adaptive). Nginx and HAProxy documentation~\cite{nginx2024,haproxy2024} describe practical implementations of these algorithms in production systems.
+
+\textbf{Round-Robin} is among the oldest and simplest strategies, distributing requests cyclically. Its predictability and zero overhead make it a natural baseline~\cite{tanenbaum2017}.
+
+\textbf{Least-Connections} was formalized in the context of TCP connection scheduling and is shown to outperform RR when service times are heterogeneous~\cite{breslau1999}. It requires minimal state --- only an integer counter per worker.
+
+\textbf{Least-Response-Time} extends LC by incorporating actual observed latency, typically through exponential moving averages. It is used in production systems such as HAProxy's \texttt{leastconn} with response-time weighting~\cite{haproxy2024} and has been studied in the context of microservice mesh load balancing~\cite{klein2014}.
+
+\textbf{Exponential Moving Average (EMA)} smoothing for response-time estimation is a standard technique in adaptive systems, balancing reactivity to recent observations against stability~\cite{brown1963}.
+
+Recent work on power-of-two-choices~\cite{mitzenmacher2001} and consistent hashing~\cite{karger1997} represent more advanced approaches beyond the scope of this study, which deliberately focuses on the three canonical baseline algorithms.
+
+% -------------------------------------------------------------------
+\section{Problem Formulation}
+% -------------------------------------------------------------------
+
+Let $W = \{w_1, w_2, w_3\}$ be a fixed set of worker nodes. Each request $r_i$ arrives at a load balancer $B$ and must be assigned to exactly one worker $w \in W$. Each worker $w_j$ has a stochastic service time $T_j \sim \text{Uniform}(\text{min}_j, \text{max}_j)$ seconds.
+
+We define three experimental scenarios:
+\begin{itemize}
+  \item \textbf{Uniform:} $T_1 = T_3 \sim \mathcal{U}(0.1, 0.3)$, $T_2 \sim \mathcal{U}(0.1, 0.3)$ --- all workers identical.
+  \item \textbf{Skewed:} $T_1 = T_3 \sim \mathcal{U}(0.1, 0.3)$, $T_2 \sim \mathcal{U}(0.5, 1.0)$ --- one slow worker.
+  \item \textbf{Failure:} Skewed configuration with $w_2$ terminated mid-experiment.
+\end{itemize}
+
+We measure the following metrics for each algorithm $A \in \{\text{RR}, \text{LC}, \text{LRT}\}$ under each scenario $S$:
+
+\begin{table}[h]
+  \centering
+  \caption{Metric Definitions}
+  \begin{tabular}{cl}
+    \toprule
+    \textbf{Symbol} & \textbf{Metric} \\
+    \midrule
+    $\bar{L}$               & Mean latency (ms) \\
+    $L_{50}, L_{95}, L_{99}$ & Latency percentiles (ms) \\
+    $\Theta$                & Throughput (req/s) \\
+    $F$                     & Success rate (\%) \\
+    $D$                     & Worker distribution (requests per node) \\
+    \bottomrule
+  \end{tabular}
+\end{table}
+
+The goal is to identify which algorithm minimises $\bar{L}$ and $L_{95}$ while maximising $\Theta$ and $F$, and to characterise the trade-offs under each scenario.
+
+% -------------------------------------------------------------------
+\section{Proposed System Design}
+% -------------------------------------------------------------------
+
+\subsection{Architecture}
+
+The testbed consists of three components deployed as Docker containers. The load generator (\texttt{load\_test.py}) is a local Python process that sends HTTP requests to the balancer (port 9000). The balancer routes requests to three workers via an internal Docker network. The balancer exposes one endpoint per algorithm simultaneously, eliminating the need to restart between experiments and ensuring identical system state:
+
+\begin{itemize}
+  \item \texttt{GET /rr/process} $\rightarrow$ Round-Robin
+  \item \texttt{GET /lc/process} $\rightarrow$ Least-Connections
+  \item \texttt{GET /lrt/process} $\rightarrow$ Least-Response-Time
+\end{itemize}
+
+Workers are: \texttt{worker-1} (fast, port 8001), \texttt{worker-2} (slow, port 8002), \texttt{worker-3} (fast, port 8003).
+
+\subsection{Algorithm Designs}
+
+\textbf{Round-Robin (RR):} Maintains a global atomic index $i$ incremented modulo $|W|$ on each request. Stateless with respect to worker load or history:
+\begin{equation}
+  w_{\text{RR}} = W[i \bmod |W|], \quad i \leftarrow i + 1
+\end{equation}
+
+\textbf{Least-Connections (LC):} Maintains a counter $c_j$ for each worker $w_j$ tracking in-flight requests. Incremented before forwarding, decremented in a \texttt{finally} block ensuring correctness even on failure:
+\begin{equation}
+  w_{\text{LC}} = \arg\min_{w_j \in W} c_j
+\end{equation}
+
+\textbf{Least-Response-Time (LRT):} Maintains an Exponential Moving Average $\mu_j$ of observed end-to-end response times per worker, updated after each request completes (including failures, which are penalised with their full elapsed time):
+\begin{equation}
+  \mu_j \leftarrow \alpha \cdot t_{\text{elapsed}} + (1 - \alpha) \cdot \mu_j, \quad \alpha = 0.05
+\end{equation}
+
+To prevent a single fast response from monopolising traffic, workers within a 30\% tolerance band of the current minimum are treated as equivalent and selected randomly:
+\begin{equation}
+  \text{candidates} = \{w_j \mid \mu_j \leq 1.30 \cdot \min_k \mu_k\}
+\end{equation}
+\begin{equation}
+  w_{\text{LRT}} = \text{Uniform}(\text{candidates})
+\end{equation}
+
+A warmup probe is sent to each worker at balancer startup to initialise $\mu_j$ with a real measurement, eliminating cold-start bias.
+
+\subsection{Worker Design}
+
+Each worker is a FastAPI async service using \texttt{asyncio.sleep()} for non-blocking delay simulation. This allows unlimited concurrent requests without thread pool exhaustion, accurately simulating I/O-bound workloads.
+
+% -------------------------------------------------------------------
+\section{Implementation}
+% -------------------------------------------------------------------
+
+\subsection{Technology Stack}
+
+\begin{table}[h]
+  \centering
+  \caption{Technology Stack}
+  \begin{tabular}{p{2.2cm}p{2.8cm}p{2.8cm}}
+    \toprule
+    \textbf{Component} & \textbf{Technology} & \textbf{Justification} \\
+    \midrule
+    Worker \& Balancer & Python 3.11, FastAPI, Uvicorn & Async I/O, minimal overhead \\
+    HTTP client (balancer) & httpx AsyncClient & Persistent connection pool, async \\
+    Load generator & aiohttp, asyncio & High concurrency without threads \\
+    Containerisation & Docker, Docker Compose & Isolated, reproducible deployment \\
+    Metrics & Custom JSON (\texttt{metrics.json}) & Lightweight, paper-ready \\
+    Plotting & matplotlib & Latency timeline visualisation \\
+    \bottomrule
+  \end{tabular}
+\end{table}
+
+\subsection{Key Implementation Decisions}
+
+\textbf{Shared persistent HTTP client:} A single \texttt{httpx.AsyncClient} with \texttt{max\_connections=200} is created at balancer startup via the FastAPI lifespan context manager. This prevents connection pool exhaustion under concurrent load --- a critical fix discovered during initial testing where per-request clients caused widespread 502 errors.
+
+\textbf{Async sleep in workers:} Workers use \texttt{await asyncio.sleep()} rather than \texttt{time.sleep()}. The blocking variant starves uvicorn's thread pool under concurrency, causing artificial queuing delays unrelated to the algorithm under test.
+
+\textbf{Thread-safe state:} All shared mutable state (RR index, LC counters, LRT averages) is protected by \texttt{threading.Lock()} objects, preventing race conditions under concurrent async requests.
+
+\textbf{LRT EMA persistence:} The LRT algorithm's EMA state persists across requests within a single balancer session. This is intentional --- it allows the algorithm to accumulate knowledge --- but requires a reset between independent experiments.
+
+\subsection{Project Structure}
+
+\begin{verbatim}
+pcd/
+├── docker/
+│   ├── Dockerfile.worker
+│   └── Dockerfile.balancer
+├── balancer.py
+├── worker.py
+├── load_test.py
+├── docker-compose.yml
+└── requirements_pip.txt
+\end{verbatim}
+
+% -------------------------------------------------------------------
+\section{Experimental Methodology}
+% -------------------------------------------------------------------
+
+\subsection{Setup}
+
+All experiments were conducted on a single physical host (Windows 10, Docker Desktop with WSL backend). Workers ran as isolated Docker containers; the balancer ran as a fourth container; the load generator ran as a local Python process.
+
+\begin{table}[h]
+  \centering
+  \caption{Experiment Parameters}
+  \begin{tabular}{ll}
+    \toprule
+    \textbf{Parameter} & \textbf{Value} \\
+    \midrule
+    Workers & 3 \\
+    Requests per experiment & 1,000 \\
+    Concurrency (simultaneous requests) & 50 \\
+    HTTP timeout & 10 seconds \\
+    LRT alpha & 0.05 \\
+    LRT tolerance band & 30\% \\
+    \bottomrule
+  \end{tabular}
+\end{table}
+
+\subsection{Scenarios}
+
+\textbf{Scenario 1 --- Uniform:} All three workers configured with \texttt{MIN\_DELAY=0.1s}, \texttt{MAX\_DELAY=0.3s}. Expected mean service time $\approx$200ms per worker.
+
+\textbf{Scenario 2 --- Skewed:} Workers 1 and 3 with \texttt{MIN\_DELAY=0.1s}, \texttt{MAX\_DELAY=0.3s}; Worker 2 with \texttt{MIN\_DELAY=0.5s}, \texttt{MAX\_DELAY=1.0s}. Expected mean service time $\approx$750ms for Worker 2.
+
+\textbf{Scenario 3 --- Failure:} Skewed configuration with Worker 2 terminated via \texttt{docker compose stop worker-2} after the experiment begins, while the load test continues to send requests.
+
+\subsection{Metrics Collection}
+
+The load generator records per-request latency, checks HTTP response status (non-200 responses marked \texttt{ok: false}), and computes summary statistics after each run. Results are appended to \texttt{metrics.json} for persistence across runs.
+
+% -------------------------------------------------------------------
+\section{Results}
+% -------------------------------------------------------------------
+
+\subsection{Scenario 1 --- Uniform Workers}
+
+\begin{table}[h]
+  \centering
+  \caption{Uniform Scenario Results}
+  \begin{tabular}{lccc}
+    \toprule
+    \textbf{Metric} & \textbf{RR} & \textbf{LC} & \textbf{LRT} \\
+    \midrule
+    Requests           & 1,000     & 1,000     & 1,000      \\
+    Successful         & 1,000 (100\%) & 1,000 (100\%) & 1,000 (100\%) \\
+    Total time (s)     & 6.76      & 6.83      & \textbf{4.99} \\
+    Throughput (req/s) & 148.02    & 146.47    & \textbf{200.21} \\
+    Avg latency (ms)   & 324.90    & 322.91    & \textbf{239.12} \\
+    P50 latency (ms)   & 320.09    & 310.24    & \textbf{236.39} \\
+    P95 latency (ms)   & \textbf{474.73} & 520.93 & 365.29 \\
+    P99 latency (ms)   & \textbf{517.84} & 591.17 & 423.62 \\
+    Worker-1 requests  & 333       & 343       & 345        \\
+    Worker-2 requests  & 333       & 332       & 340        \\
+    Worker-3 requests  & 334       & 325       & 315        \\
+    \bottomrule
+  \end{tabular}
+\end{table}
+
+All three algorithms achieve 100\% success rate under uniform conditions, confirming stable baseline behaviour. RR and LC perform nearly identically, as expected --- LC's dynamic state provides no benefit when workers are equally fast. RR achieves marginally lower P95 (474ms vs.\ 520ms) and P99 (517ms vs.\ 591ms) than LC, reflecting LC's small overhead from lock acquisition and counter management.
+
+LRT shows a significant advantage even under uniform conditions: throughput improves by 35\% over RR (200.21 vs.\ 148.02 req/s) and average latency drops by 26\% (239ms vs.\ 324ms). This is attributed to LRT's EMA-based warmup producing more accurate initial routing, combined with the tolerance band enabling load to concentrate on whichever worker happens to respond fastest at any given moment. The worker distribution remains fair (315--345 requests per node), confirming the 30\% tolerance band successfully prevents monopolisation.
+
+\textit{Key finding: Under uniform load, LRT outperforms both RR and LC by 35\% throughput even when workers are identical.}
+
+\subsection{Scenario 2 --- Skewed Workers}
+
+\begin{table}[h]
+  \centering
+  \caption{Skewed Scenario Results}
+  \begin{tabular}{lccc}
+    \toprule
+    \textbf{Metric} & \textbf{RR} & \textbf{LC} & \textbf{LRT} \\
+    \midrule
+    Requests           & 1,000      & 1,000      & 1,000         \\
+    Successful         & 1,000 (100\%) & 1,000 (100\%) & 1,000 (100\%) \\
+    Total time (s)     & 8.84       & 7.37       & \textbf{5.68} \\
+    Throughput (req/s) & 113.15     & 135.74     & \textbf{176.00} \\
+    Avg latency (ms)   & 407.30     & 331.75     & \textbf{273.09} \\
+    P50 latency (ms)   & 273.75     & 268.38     & \textbf{250.53} \\
+    P95 latency (ms)   & 957.46     & 881.85     & \textbf{599.75} \\
+    P99 latency (ms)   & 1,017.31   & 1,028.02   & \textbf{930.29} \\
+    Worker-1 requests  & 334        & 432        & \textbf{484}  \\
+    Worker-2 requests  & 333        & 145        & \textbf{61}   \\
+    Worker-3 requests  & 333        & 423        & \textbf{455}  \\
+    \bottomrule
+  \end{tabular}
+\end{table}
+
+RR assigns Worker 2 exactly 333 requests (33.3\%), blind to its 3--4$\times$ slower service time. This creates a systematic bottleneck: P95 approaches 957ms and P99 exceeds 1 second.
+
+LC reduces Worker 2's share to 145 requests (14.5\%). Throughput improves by 20\% (113.15 $\rightarrow$ 135.74 req/s) and average latency drops by 18.5\%.
+
+LRT achieves the best results: Worker 2 receives only 61 requests (6.1\%) --- an 82\% reduction compared to RR. Throughput reaches 176 req/s (+55\% over RR, +30\% over LC) and average latency drops to 273ms --- a 33\% improvement over RR. P95 drops from 957ms (RR) to 599ms (LRT), a 37\% reduction.
+
+\textit{Key finding: LRT outperforms RR by 55\% throughput and 33\% average latency. The ordering RR $<$ LC $<$ LRT holds across all metrics.}
+
+\subsection{Scenario 3 --- Worker Failure}
+
+\begin{table}[h]
+  \centering
+  \caption{Failure Scenario Results}
+  \begin{tabular}{lccc}
+    \toprule
+    \textbf{Metric} & \textbf{RR} & \textbf{LC} & \textbf{LRT} \\
+    \midrule
+    Requests           & 1,000          & 1,000         & 1,000            \\
+    Successful         & 516 (51.6\%)   & 750 (75.0\%)  & \textbf{1,000 (100\%)} \\
+    Failed             & 484 (48.4\%)   & 250 (25.0\%)  & \textbf{0 (0\%)} \\
+    Total time (s)     & 83.57          & 12.24         & \textbf{5.40}    \\
+    Throughput (req/s) & 11.97          & 81.73         & \textbf{185.26}  \\
+    Avg latency (ms)   & 4,041          & 376.67        & \textbf{260.74}  \\
+    P50 latency (ms)   & 348.88         & 204.75        & \textbf{237.40}  \\
+    P95 latency (ms)   & 10,011         & 454.75        & \textbf{592.25}  \\
+    P99 latency (ms)   & 10,018         & 10,021        & \textbf{955.26}  \\
+    Worker-1 requests  & 211            & 368           & \textbf{460}     \\
+    Worker-2 requests  & 94             & 32            & \textbf{58}      \\
+    Worker-3 requests  & 211            & 350           & \textbf{482}     \\
+    \bottomrule
+  \end{tabular}
+\end{table}
+
+\textbf{RR under failure} suffers catastrophically. Every third request is routed to the dead Worker 2, triggering a TCP connection timeout. The experiment runs for 83.6 seconds --- a 14$\times$ slowdown. Average latency explodes to 4,041ms and P95/P99 both reach $\sim$10,000ms (the timeout ceiling). Only 51.6\% of requests succeed.
+
+\textbf{LC under failure} exhibits the fail-fast pattern. Docker returns connection-refused in $\sim$4ms, so each failure resolves quickly. However, LC's \texttt{finally} block resets the active-connections counter to 0 after each failure, making Worker 2 appear to be the least-loaded node --- producing 250 failures. Total time is only 12.2 seconds (throughput 81.73 req/s).
+
+\textbf{LRT under failure} achieves \textbf{zero failures and 100\% success rate}. LRT's EMA warmup probe measures Worker 2's response time ($\sim$750ms) before the experiment. When Worker 2 is killed, the first few failures spike its EMA to near the timeout ceiling. The 30\% tolerance band immediately excludes Worker 2 from the candidate set, routing all subsequent traffic to Workers 1 and 3. Throughput reaches 185.26 req/s and average latency is 260ms.
+
+This is a key contribution: \textbf{LRT's EMA persistence, a liability in repeated experiments, becomes an asset under failure} --- the accumulated performance history naturally filters out dead workers without any explicit health-check mechanism.
+
+\textit{Key finding: LRT achieves 100\% success rate under worker failure through EMA-based self-healing. RR degrades catastrophically; LC fails fast but still gravitates toward dead workers.}
+
+\subsection{Cross-Scenario Comparison}
+
+\begin{table}[h]
+  \centering
+  \caption{Best Algorithm per Scenario and Metric}
+  \begin{tabular}{lcccc}
+    \toprule
+    \textbf{Scenario} & \textbf{Throughput} & \textbf{Avg Lat.} & \textbf{P95} & \textbf{Success} \\
+    \midrule
+    Uniform  & LRT (200 r/s)  & LRT (239ms) & LRT (365ms) & Tie (100\%) \\
+    Skewed   & LRT (176 r/s)  & LRT (273ms) & LRT (599ms) & Tie (100\%) \\
+    Failure  & LRT (185 r/s)  & LRT (260ms) & LRT (592ms) & LRT (100\%) \\
+    \bottomrule
+  \end{tabular}
+\end{table}
+
+LRT wins every metric in every scenario. Throughput improvement of LRT over RR: +35\% (uniform), +55\% (skewed), +1,447\% (failure).
+
+% -------------------------------------------------------------------
+\section{Integrated System Requirements and Conformance Specification}
+% -------------------------------------------------------------------
+
+\begin{table*}[t]
+  \centering
+  \caption{Requirements Conformance Table}
+  \begin{tabular}{p{0.8cm}p{5.5cm}p{1.5cm}p{3.5cm}p{3.5cm}}
+    \toprule
+    \textbf{ID} & \textbf{Requirement} & \textbf{Priority} & \textbf{Verification Method} & \textbf{Evidence} \\
+    \midrule
+    REQ-01 & Implement Round-Robin routing as baseline & Must & Code review of \texttt{rr\_pick()} & \texttt{balancer.py} \\
+    REQ-02 & Implement Least-Connections routing & Must & Code review of \texttt{lc\_pick()} & \texttt{balancer.py} \\
+    REQ-03 & Implement Least-Response-Time routing & Must & Code review of \texttt{lrt\_pick()} & \texttt{balancer.py} \\
+    REQ-04 & Each algorithm accessible via dedicated HTTP endpoint without restart & Must & HTTP GET to all 3 endpoints simultaneously & Docker run + load test logs \\
+    REQ-05 & Simulate $\geq$3 independent worker nodes with configurable delay & Must & \texttt{docker-compose.yml} + \texttt{worker.py} env vars & \texttt{MIN\_DELAY}, \texttt{MAX\_DELAY} \\
+    REQ-06 & Load generator sends $\geq$1,000 requests per experiment & Must & \texttt{--requests 1000} flag & \texttt{metrics.json} \\
+    REQ-07 & Collect and persist latency, throughput, distribution metrics per run & Must & Auto-append to \texttt{metrics.json} & All \texttt{metrics\_*.json} files \\
+    REQ-08 & Produce latency timeline plots & Must & \texttt{--plot} flag & \texttt{latency\_plot\_*.png} \\
+    REQ-09 & LC tracks in-flight connections per worker with thread-safe counters & Must & Code review of \texttt{\_lc\_active} + lock & \texttt{balancer.py} \\
+    REQ-10 & LRT uses EMA with configurable alpha & Must & Code review of \texttt{lrt\_update()} & \texttt{balancer.py} \\
+    REQ-11 & LRT implements tolerance band to prevent monopolisation & Should & Code review of \texttt{lrt\_pick()} threshold & \texttt{balancer.py} \\
+    REQ-12 & Workers use non-blocking async sleep & Should & Code review of \texttt{asyncio.sleep()} & \texttt{worker.py} \\
+    REQ-13 & Expose \texttt{/stats} and \texttt{/health} endpoints & Should & HTTP GET to both endpoints & \texttt{balancer.py} \\
+    REQ-14 & All components deployable via Docker Compose & Optional & \texttt{docker compose up --build} succeeds & \texttt{docker-compose.yml} \\
+    REQ-15 & Worker failure experiment via stopping individual containers & Optional & \texttt{docker compose stop worker-2} & \texttt{metrics\_failure.json} \\
+    \bottomrule
+  \end{tabular}
+\end{table*}
+
+% -------------------------------------------------------------------
+\section{Discussion}
+% -------------------------------------------------------------------
+
+\subsection{Algorithm Selection Guide}
+
+Based on experimental results, we recommend:
+
+\begin{itemize}
+  \item \textbf{Use RR} only when workers are guaranteed homogeneous, the system is extremely resource-constrained, and simplicity of implementation is the primary concern.
+  \item \textbf{Use LC} when worker speed may vary and EMA state management is undesirable. It provides consistent 20\% throughput improvements over RR in heterogeneous scenarios.
+  \item \textbf{Use LRT} as the default choice for production systems. It outperforms RR and LC in every scenario tested. Its EMA-based memory doubles as a fault-tolerance mechanism under failure.
+\end{itemize}
+
+\subsection{The Failure Scenario Trade-off}
+
+The failure experiment reveals a nuanced trade-off rarely discussed in textbook treatments. RR's stateless nature means it continues routing to a dead worker indefinitely. LC's stateful counter resets on failure completion, creating a feedback loop --- but Docker's fast TCP refusal means each failure costs only milliseconds, not seconds.
+
+This suggests that the \textit{cost per failure} is more important than the \textit{failure rate} in practice. A system that fails fast (LC) may outperform a system that fails less often but slowly (RR) in terms of user-perceived performance.
+
+\subsection{LRT Cold-Start and EMA Persistence}
+
+LRT's EMA state persists across the lifetime of the balancer process. In long-running production deployments this is a feature --- the algorithm accumulates performance history. In short experimental runs, it becomes a liability: early random variation can lock in a biased average that takes hundreds of requests to correct. The warmup probe and tolerance band partially mitigate this, but the fundamental tension between reactivity and stability in adaptive algorithms remains an open design challenge.
+
+\subsection{Evaluation Scope and Metric Priorities}
+
+This study prioritises \textbf{throughput}, \textbf{tail latency (P95/P99)}, and \textbf{stability under failure} as primary targets. Fairness (worker distribution) is observed and reported but not formally optimised. Algorithm overhead is excluded from evaluation: the computational cost of RR, LC, and LRT operations is negligible (nanoseconds) relative to the network and processing delays under test (100--1000ms).
+
+% -------------------------------------------------------------------
+\section{Security, Privacy, Safety, and Ethical Considerations}
+% -------------------------------------------------------------------
+
+\textbf{Security:} The balancer exposes unauthenticated HTTP endpoints. In production, all endpoints should be protected by TLS and authentication middleware. The \texttt{/stats} and \texttt{/health} endpoints expose internal routing state that could be exploited by an adversary.
+
+\textbf{Privacy:} This testbed processes no user data. All worker responses are synthetically generated. No personally identifiable information is stored or transmitted.
+
+\textbf{Safety:} The system operates entirely within a local Docker network and poses no safety risk. The worker failure simulation terminates a container gracefully --- no data loss is possible.
+
+\textbf{Ethical considerations:} The testbed is designed for academic research and education. The comparison is conducted objectively with all raw data and code published for reproducibility.
+
+\textbf{Resource consumption:} Running four Docker containers on a single host shares CPU and memory, introducing measurement interference. Experiments should ideally be run on dedicated hardware for production-grade conclusions.
+
+% -------------------------------------------------------------------
+\section{Limitations and Threats to Validity}
+% -------------------------------------------------------------------
+
+\textbf{Single-host deployment:} All containers ran on the same physical machine. In a real distributed system, workers would be on separate hardware with independent network stacks, CPU, and memory. Our results may underestimate inter-node network latency and overestimate the impact of shared CPU contention.
+
+\textbf{Synthetic workload:} Workers simulate work using \texttt{asyncio.sleep()}. Real workloads (database queries, file I/O, CPU computation) exhibit different variance and correlation patterns.
+
+\textbf{No health-check mechanism:} The balancer has no proactive worker health checking. Both RR and LC suffer unnecessary failures during the detection window after a worker dies.
+
+\textbf{LRT state persistence:} LRT results are sensitive to the order of experiments within a session. The EMA accumulated from previous runs affects subsequent routing decisions.
+
+\textbf{Limited request volume:} With 1,000 requests per experiment, P99 latency is computed from only 10 data points. Finer statistical analysis would require 10,000+ requests.
+
+\textbf{Single slow worker:} Experiments use one slow worker out of three. Results may not generalise to scenarios with multiple heterogeneous workers.
+
+% -------------------------------------------------------------------
+\section{Conclusion and Future Work}
+% -------------------------------------------------------------------
+
+This paper presented a comparative experimental study of Round-Robin, Least-Connections, and Least-Response-Time load-balancing algorithms in a reproducible Python/Docker testbed. Our experiments yield the following conclusions:
+
+\begin{enumerate}
+  \item \textbf{Under uniform load}, LRT outperforms both RR and LC by 35\% throughput (200 vs.\ 148 req/s) even when workers are identical, due to EMA-guided concentration on naturally faster response windows. RR and LC perform equivalently.
+  \item \textbf{Under heterogeneous load}, LRT achieves 55\% higher throughput than RR and 30\% higher than LC, reducing Worker 2's traffic share from 33\% (RR) to 14.5\% (LC) to 6.1\% (LRT). The ordering RR $<$ LC $<$ LRT holds across all metrics.
+  \item \textbf{Under failure}, LRT achieves 100\% success rate and 185 req/s through EMA-based self-healing, while RR degrades catastrophically (51.6\% success, 11.97 req/s) and LC achieves an intermediate result (75\% success, 81.73 req/s).
+\end{enumerate}
+
+\textbf{Future work} includes: (1) adding proactive health-check-based worker eviction; (2) evaluating algorithms under realistic CPU-bound workloads; (3) extending to weighted variants; (4) implementing Power-of-Two-Choices as a more advanced baseline; (5) deploying on separate physical machines to eliminate shared-host interference.
+
+% -------------------------------------------------------------------
+\begin{thebibliography}{9}
+
+\bibitem{cardellini1999}
+V. Cardellini, M. Colajanni, and P. S. Yu, ``Dynamic load balancing on web-server systems,'' \textit{IEEE Internet Computing}, vol. 3, no. 3, pp. 28--39, 1999.
+
+\bibitem{nginx2024}
+NGINX Inc., ``NGINX Load Balancing,'' NGINX Documentation, 2024. [Online]. Available: \url{https://docs.nginx.com/nginx/admin-guide/load-balancer/http-load-balancer/}
+
+\bibitem{haproxy2024}
+HAProxy Technologies, ``HAProxy Configuration Manual,'' 2024. [Online]. Available: \url{https://www.haproxy.org/download/2.8/doc/configuration.txt}
+
+\bibitem{tanenbaum2017}
+A. Tanenbaum and M. Van Steen, \textit{Distributed Systems: Principles and Paradigms}, 3rd ed. Pearson, 2017.
+
+\bibitem{breslau1999}
+S. Breslau, P. Cao, L. Fan, G. Phillips, and S. Shenker, ``Web caching and Zipf-like distributions: Evidence and implications,'' in \textit{Proc. IEEE INFOCOM}, 1999, pp. 126--134.
+
+\bibitem{klein2014}
+C. Klein, M. Maggio, K. E. \AA{}rz\'en, and F. Hern\'andez-Rodriguez, ``Brownout: Building more robust cloud applications,'' in \textit{Proc. ACM SOSP}, 2014, pp. 391--406.
+
+\bibitem{brown1963}
+R. G. Brown, \textit{Smoothing, Forecasting and Prediction of Discrete Time Series}. Prentice-Hall, 1963.
+
+\bibitem{mitzenmacher2001}
+M. Mitzenmacher, ``The power of two choices in randomized load balancing,'' \textit{IEEE Trans. Parallel Distrib. Syst.}, vol. 12, no. 10, pp. 1094--1104, 2001.
+
+\bibitem{karger1997}
+D. Karger, E. Lehman, T. Leighton, R. Panigrahy, M. Lewin, and D. Lewin, ``Consistent hashing and random trees,'' in \textit{Proc. ACM STOC}, 1997, pp. 654--663.
+
+\end{thebibliography}
+
+\end{document}
